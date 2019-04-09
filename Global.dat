@@ -1,0 +1,6 @@
+[Variables]
+' Cuanto cuesta?
+Oro=400
+' Cada cuantos segundos puede hablar?
+IntervaloGlobal=1
+SkillLiderazgo=10

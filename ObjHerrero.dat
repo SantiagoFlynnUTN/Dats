@@ -1,0 +1,168 @@
+[INIT]
+NumObjeto=55
+
+[Objeto1] ' ESCUDO DE TORTUGA
+Index=208
+
+[Objeto2] ' ESCUDO DE HIERRO
+Index=73
+
+[Objeto3] ' ESCUDO IMPERIAL
+Index=77
+
+[Objeto4] ' ESCUDO LEGIONARIO
+Index=362
+
+[Objeto5] ' ESCUDO DE LEON
+Index=361
+
+[Objeto6] ' ESCUDO ESPECTRAL
+Index=446
+
+[Objeto7] ' ESCUDO DEL AURA
+Index=359
+
+[Objeto8] ' ESCUDO CLERICAL
+Index=360
+
+[Objeto9] ' ESCUDO PENTAGONAL
+Index=448
+
+[Objeto10] ' ESCUDO GOTICO
+Index=444
+
+[Objeto11] ' CASCO DE HIERRO
+Index=76
+
+[Objeto12] ' CASCO DE PLATA 
+Index=209
+
+[Objeto13] ' CASCO TEMPLARIO
+Index=372
+
+[Objeto14] ' CASCO DE ACERO
+Index=453
+
+[Objeto15] ' YELMO LIRICO
+Index=454
+
+[Objeto16] ' CASCO IMPERIAL
+Index=451
+
+[Objeto17] ' CORONA OSCURA
+Index=367
+
+[Objeto18] ' CASCO MALIGNO
+Index=452
+
+[Objeto19] ' COTA DE MALLAS
+Index=182
+
+[Objeto20] ' COTA DE MALLAS BAJOS
+Index=339
+
+[Objeto21] ' ARMADURA DORADA
+Index=410
+
+[Objeto22] ' ARMADURA DORADA BAJOS
+Index=466
+
+[Objeto23] ' ARMADURA LEGENDARIA BAJOS
+Index=342
+
+[Objeto24] ' GUERRERO DEL PANTANO
+Index=411
+
+[Objeto25] ' GUERRERO DEL PANTANO BAJOS
+Index=465
+
+[Objeto26] ' ARMADURA DE DRAGON
+Index=251
+
+[Objeto27] ' ARMADURA DE DRAGON BAJOS
+Index=252
+
+[Objeto28] ' ARMADURA DE LA CIENAGA BAJOS
+Index=464
+
+[Objeto29] ' CORAZA CLERICAL
+Index=487
+
+[Objeto30] ' CORAZA CLERICAL BAJOS
+Index=201
+
+[Objeto31] ' ARMADURA NOCTURNA
+Index=420
+
+[Objeto32] ' ARMADURA NOCTURNA BAJOS
+Index=467
+
+[Objeto33] ' Anillo ESCENSIA MAGICA
+Index=355
+
+[Objeto34] ' Anillo ZAFIRO
+Index=356
+
+[Objeto35] 'ANILLO NEUTRO
+Index=357
+
+[Objeto36] ' Armadura de cazador
+Index=258
+
+[Objeto37] ' Armadura de cazador BAJOS
+Index=259
+
+[Objeto38] ' DAGA
+Index=12
+
+[Objeto39] ' DAGA MEJORADA 
+Index=185
+
+[Objeto40] ' DAGA QUODAR
+Index=391
+
+[Objeto41] ' ZAMAK
+Index=392
+
+[Objeto42] ' ESPADA CORTA
+Index=103
+
+[Objeto43] ' DOBLE HACHA BARBARA
+Index=375
+
+[Objeto44] ' HACHA GIGANTE
+Index=387
+
+[Objeto45] ' MARTILLO SAGRADO
+Index=437
+
+[Objeto46] ' ESPADA DE PLATA
+Index=207
+
+[Objeto47] ' ROMPECASCO
+Index=490
+
+[Objeto48] ' ESPADA DE HIELO
+Index=376
+
+[Objeto49] ' ESPADA GLACIAL
+Index=383
+
+[Objeto50] ' CIMITARRA
+Index=203
+
+[Objeto51] ' SABLE
+Index=71
+
+[Objeto52] ' MANOPLA
+Index=518
+
+[Objeto53] ' MANOPLA CON PUAS
+Index=519
+
+[Objeto54] ' MDS
+Index=206
+
+[Objeto55] ' ESPADA ENRRAIJADA
+Index=381
+

@@ -1,0 +1,74 @@
+[INIT]
+Num=7
+
+
+[1]
+Nombre=Espada Clero Agite
+Item=14
+Nivel=1
+Tipo=1
+Bronce=40
+Plata=50
+Oro=150
+Ver=2
+
+
+[2]
+Nombre=Espada Clero Agite
+Item=15
+Nivel=2
+Tipo=1
+Bronce=60
+Plata=70
+Oro=100
+Ver=1
+
+[3]
+Nombre=Espada Clero Agite
+Item=17
+Nivel=2
+Tipo=2
+Bronce=60
+Plata=75
+Oro=100
+Ver=1
+
+[4]
+Nombre=Espada Clero Agite
+Item=18
+Nivel=2
+Tipo=1
+Bronce=60
+Plata=76
+Oro=100
+Ver=1
+
+[5]
+Nombre=Espada Clero Agite
+Item=19
+Nivel=3
+Tipo=1
+Bronce=64
+Plata=76
+Oro=100
+Ver=1
+
+[6]
+Nombre=Espada Clero Agite
+Item=20
+Nivel=2
+Tipo=1
+Bronce=65
+Plata=76
+Oro=100
+Ver=1
+
+[7]
+Nombre=Espada Clero Agite
+Item=21
+Nivel=4
+Tipo=1
+Bronce=66
+Plata=76
+Oro=100
+Ver=1

@@ -1,0 +1,68 @@
+[INIT]
+Num=6
+
+
+[1]
+Nombre=Arco Caza Agite
+Item=12
+Nivel=1
+Tipo=3
+Madera=40
+Madera2=50
+Marfil=100
+Ver=1
+
+
+[2]
+Nombre=Arco Caza Agite
+Item=13
+Nivel=1
+Tipo=3
+Madera=42
+Madera2=50
+Marfil=100
+Ver=1
+
+[3]
+Nombre=Arco Caza Agite
+Item=26
+Nivel=1
+Tipo=3
+Madera=43
+Madera2=50
+Marfil=100
+Ver=1
+
+
+[4]
+Nombre=Arco Caza Agite
+Item=27
+Nivel=2
+Tipo=3
+Madera=44
+Madera2=50
+Marfil=100
+Ver=1
+
+
+[5]
+Nombre=Arco Caza Agite
+Item=37
+Nivel=1
+Tipo=3
+Madera=45
+Madera2=50
+Marfil=100
+Ver=2
+
+
+[6]
+Nombre=Arco Caza Agite
+Item=38
+Nivel=1
+Tipo=2
+Madera=46
+Madera2=50
+Marfil=100
+Ver=1
+

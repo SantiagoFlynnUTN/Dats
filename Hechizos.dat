@@ -1,0 +1,1121 @@
+'Tipos....
+'1 actuan sobre HP,MANA,STA,HAM y SED
+'2 actuan sobre los estados de los usuarios
+'3 invocacion
+'4 materializa
+'5 metamorfosis
+
+'Tagets....
+'1.....Usuario
+'2.....Npc
+'3.....Usuario Y Npc
+'4.....Terreno
+
+[INIT]
+NumeroHechizos=41
+
+[HECHIZO1]
+Nombre=Curar Veneno
+Desc=Cura cualquier tipo de envenenamiento.
+PalabrasMagicas=Nihil Ved
+HechizeroMsg=Has curado el envenenamiento a
+TargetMsg=te ha curado del envenenamiento.
+PropioMsg=Te has curado del envenenamiento.
+Tipo=2
+WAV=16
+FXgrh=13
+Loops=1
+CuraVeneno=1
+MinSkill=10
+ManaRequerido=12
+Target=1
+StaRequerido= 1
+Libro=1239
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO2]
+Nombre=Destello Mágico
+Desc=Hechizo ofensivo que provoca 1 a 5 puntos de daño a la víctima.
+PalabrasMagicas=Ohl Vor Pek
+HechizeroMsg=Has lanzado destello mágico sobre
+TargetMsg=lanzó destello mágico sobre vos.
+Tipo=1
+WAV=16
+FXgrh=35
+Loops=0
+SubeHP=2
+MinHP=1
+MaxHP=5
+MinSkill=0
+ManaRequerido=10
+Target=3
+StaRequerido= 1
+Libro=1211
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO3]
+Nombre=Curar Heridas Moderadas
+Desc=Hechizo de curacion moderado, restaura entre 20 y 25 puntos de salud.
+PalabrasMagicas=Cörp Sanc
+
+HechizeroMsg=Has sanado a
+TargetMsg=te ha curado algunas heridas moderadas.
+PropioMsg=Te has curado algunas heridas moderadas.
+
+Tipo=1
+WAV=18
+FXgrh=11
+
+SubeHP=1
+MinHP=20
+MaxHP=25
+    
+MinSkill=15
+ManaRequerido=10
+
+Target=3
+StaRequerido= 1
+Libro=1214
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO4]
+Nombre=Envenenar
+Desc=Envenenamiento, puedo provocar la muerte si no se contraresta a tiempo.
+PalabrasMagicas=Serp Xon In
+
+HechizeroMsg=Has envenenado a
+TargetMsg=te ha envenenado.
+PropioMsg=Te has envenenado.
+
+Tipo=2
+WAV=16
+FXgrh=36
+Loops=0
+
+Envenena=1
+MinSkill=20
+ManaRequerido=24
+
+Target=3
+StaRequerido= 3
+Libro=1238
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO5]
+Nombre=Curar Heridas Mortales
+Desc=Curar heridas mortales, restaura entre 100 y 200 puntos de salud.
+PalabrasMagicas=Sen Corpüs Sanctis
+
+HechizeroMsg=Has sanado a
+TargetMsg=te ha curado algunas heridas.
+PropioMsg=Te has curado algunas heridas.
+
+Tipo=1
+WAV=18
+FXgrh=11
+loops=0
+
+SubeHP=1
+MinHP=140
+MaxHP=150
+    
+MinSkill=100
+ManaRequerido=1600
+
+Target=3
+StaRequerido= 120
+Libro=1214
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO6]
+Nombre=Flecha Mágica
+Desc=Hechizo ofensivo magico que provoca de 7 a 14 puntos de daño a la victima.
+PalabrasMagicas=Vax Pe'r
+HechizeroMsg=Has lanzado flecha mágica sobre 
+TargetMsg=lanzó flecha mágica sobre vos.
+PropioMsg=Has lanzado flecha mágica sobre ti.
+Tipo=1
+WAV=19
+FXgrh=33
+SubeHP=2
+MinHP=7
+MaxHP=14
+    
+MinSkill=12
+ManaRequerido=20
+
+Target=3
+StaRequerido= 2
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO7]
+Nombre=Paralizar
+Desc=Dejas a la victima inmovil por 20 segundos.
+PalabrasMagicas=Hoax Vorp
+
+HechizeroMsg=Has paralizado a
+TargetMsg=te ha paralizado.
+PropioMsg=Te has paralizado.
+
+Tipo=5
+buff=7
+WAV=16
+FXgrh=5
+loops=0
+Paraliza=1
+
+MinSkill=60
+ManaRequerido=330
+
+Target=3
+StaRequerido= 65
+Libro=1225
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+[HECHIZO8]
+Nombre=Fuego Mágico
+Desc=Hechizo ofensivo magico que provoca de 29 a 33 puntos de daño a la victima.
+PalabrasMagicas=Vax In Tar
+HechizeroMsg=Has lanzado fuego mágico sobre
+TargetMsg=lanzó fuego mágico sobre vos.
+PropioMsg=Has lanzado fuego mágico sobre ti.
+Tipo=1
+WAV=16
+FXgrh=38
+loops=0
+SubeHP=2
+MinHP=29
+MaxHP=33
+MinSkill=38
+ManaRequerido=80
+Target=3
+StaRequerido= 6
+Libro=1240
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO9]
+Nombre=Inmovilizar
+Desc=Inmovilizas durante un corto periodo a la victima.
+PalabrasMagicas=Är Prop s'uo
+
+HechizeroMsg=Has paralizado a
+TargetMsg=te ha inmovilizado.
+PropioMsg=Te has inmovilizado.
+
+Tipo=5
+buff=8
+WAV=16
+FXgrh=30
+loops=0
+
+'Inmoviliza=1
+Paraliza=1
+
+MinSkill=60
+ManaRequerido=170
+
+Target=3
+StaRequerido= 65
+Libro=1208
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO10]
+Nombre=Remover parálisis
+Desc=Remueves cualquier impedimiento al movimiento que hayas sufrido
+PalabrasMagicas=An Hoax Vorp
+
+HechizeroMsg=Le has removido la parálisis a
+TargetMsg=te ha removido la parálisis.
+PropioMsg=Te has removido la parálisis.
+
+Tipo=2
+WAV=16
+FXgrh=34
+
+RemoverParalisis=1
+
+MinSkill=45
+ManaRequerido=350
+Libro=1226
+Target=3
+StaRequerido= 44
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO11]
+Nombre=Resucitar
+Desc=Vuelves a la vida a un espiritu caido.
+PalabrasMagicas=Ahil Knä Xär
+
+HechizeroMsg=Has resucitado a
+TargetMsg=te ha resucitado.
+PropioMsg=Te has resucitado.
+
+Tipo=2
+WAV=80
+FXgrh=0
+
+Revivir=1
+
+Invoca=0
+NumNpc=0
+
+materializa=0
+itemindex=0
+
+MinSkill=75
+ManaRequerido=700
+
+Target=1
+StaRequerido= 77
+NeedStaff=2
+Libro=1237
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO12]
+Nombre=Manto de hierro
+Desc=Liberas tu mana, la cual se condensa y adquiere la dureza del metal.
+PalabrasMagicas=NYEL AYAN ÑGOL
+HechizeroMsg=Has lanzado manto de hierro sobre 
+TargetMsg=te ha lanzado manto de hierro.
+PropioMsg=Te has lanzado manto de hierro.
+Tipo=5
+Wav=81
+FXgrh=1
+MinSkill=0
+ManaRequerido=10
+Target=1
+buff=3
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO13]
+Nombre=Regeneracion Clerical
+Desc=El sacerdote pide ayuda a su deidad para sanar sus heridas mas rapidamente.
+PalabrasMagicas=IrIvOy'i
+HechizeroMsg=Has lanzado Regeneracion clerical sobre
+TargetMsg=te ha lanzado Regeneracion clerical.
+PropioMsg=Te has lanzado Regeneracion clerical.
+Tipo=5
+Wav=82
+FXgrh=11
+MinSkill=0
+ManaRequerido=10
+Target=1
+buff=1
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO14]
+Nombre=Invisibilidad
+Desc=Te vuelves invisible al ojo de todos.
+HechizeroMsg=Has lanzado invisibilidad sobre
+TargetMsg=lanzó invisibilidad sobre vos.
+PropioMsg=Te has lanzado invisibilidad.
+Tipo=2
+WAV=77
+FXgrh=0
+
+Invisibilidad=1
+
+MinSkill=100
+ManaRequerido=500
+
+Target=1
+StaRequerido= 72
+Libro=1232
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO15]
+Nombre=Tormenta de Fuego
+Desc=Hechizo de daño que provoca de 35 a 41 puntos de daño
+PalabrasMagicas=En Vax On Tar
+HechizeroMsg=Has lanzado Tormenta de Fuego sobre
+TargetMsg=lanzó Tormenta de Fuego sobre vos.
+PropioMsg=Has lanzado Tormenta de fuego sobre ti.
+Tipo=1
+WAV=27
+FXgrh=6
+Loops=0
+
+SubeHP=2
+MinHP=35
+MaxHP=41
+    
+MinSkill=70
+ManaRequerido=250
+
+Target=3
+StaRequerido= 60
+Libro=1210
+
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[HECHIZO16]
+Nombre=Viento Huracanado
+Desc=Hechizo ofensivo que solo puede ser aprendido por bardos, causa de 80 a 83 puntos de daño a la victima
+PalabrasMagicas=Vorago Voragînîs
+HechizeroMsg=Has lanzado Viento Huracanado sobre
+TargetMsg=lanzó Viento Huracanado sobre vos.
+PropioMsg=Has lanzado Un Huracan sobre ti.
+Tipo=1
+WAV=67
+FXgrh=15
+
+SubeHP=2
+MinHP=80
+MaxHP=83
+MinSkill=100
+ManaRequerido=1050
+Target=3
+StaRequerido=80
+Libro=1223
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO17]
+Nombre=Insurrecion Sombria
+Desc=Hechizo ofensivo que solo puede ser aprendido por magos. Causa de 98 a 103 puntos de daño a la victima.
+PalabrasMagicas=Sombrüs Insurrect
+HechizeroMsg=Has lanzado Insurrecion Sombria sobre
+TargetMsg=lanzó Insurrecion Sombria sobre ti.
+PropioMsg=Has lanzado Insurrecion Sombria sobre ti.
+Tipo=1
+WAV=66
+FXgrh=19
+Loops=0
+
+SubeHP=2
+MinHP=98
+MaxHP=103
+MinSkill=100
+ManaRequerido=2300
+StaRequerido=200
+Target=3
+Libro=1221
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO18]
+Nombre=Celeridad
+Desc=Aumenta la agilidad del usuario que recibe el hechizo.
+PalabrasMagicas=Yup A'Inc
+HechizeroMsg=Has lanzado celeridad sobre 
+TargetMsg=ha lanzado celeridad sobre ti.
+PropioMsg=Has lanzado celeridad sobre ti.
+Tipo=1
+WAV=83
+FXgrh=0
+
+SubeAG=1
+MinAG=5
+MaxAG=5
+
+MinSkill=20
+ManaRequerido=80
+Target=1
+StaRequerido= 5
+Libro=1220
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO19]
+Nombre=Torpeza
+Desc=Reduce la agilidad de la victima.
+PalabrasMagicas=Async Yup A'Inc
+HechizeroMsg=Has lanzado torpeza sobre 
+TargetMsg=ha lanzado torpeza sobre ti.
+PropioMsg=Has lanzado torpeza sobre ti.
+Tipo=1
+WAV=17
+FXgrh=0
+
+SubeAG=2
+MinAG=2
+MaxAG=5
+
+MinSkill=20
+ManaRequerido=20
+Target=1
+StaRequerido= 2
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO20]
+Nombre=Fuerza
+Desc=Aumenta la fuerza del objetivo.
+PalabrasMagicas=Ar A'kron
+HechizeroMsg=Has lanzado fuerza sobre 
+TargetMsg=ha lanzado fuerza sobre ti.
+PropioMsg=Has lanzado fuerza sobre ti.
+Tipo=1
+WAV=17
+FXgrh=0
+
+SubeFU=1
+MinFU=5
+MaxFU=5
+
+MinSkill=30
+ManaRequerido=80
+Target=1
+StaRequerido= 6
+Libro=1219
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO21]
+Nombre=Debilidad
+Desc=Reduce la fuerza de la víctima.
+PalabrasMagicas=Xoom varp
+HechizeroMsg=Has lanzado Debilidad sobre 
+TargetMsg=ha lanzado Debilidad sobre ti.
+PropioMsg=Has lanzado Debilidad sobre ti.
+Tipo=1
+WAV=17
+FXgrh=0
+
+SubeFU=2
+MinFU=2
+MaxFU=5
+
+MinSkill=35
+ManaRequerido=45
+Target=1
+StaRequerido= 6
+
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO22] 
+Nombre=Ráfaga Ardiente
+Desc=Hechizo ofensivo que solo puede ser aprendido por clerigos. Causa 80 a 84 puntos de daño a la victima.
+PalabrasMagicas= PhIra EcRÄY
+HechizeroMsg=Has lanzado Rafaga Ardiente sobre
+TargetMsg=lanzó Rafaga Ardiente sobre ti.
+PropioMsg=Has lanzado Rafaga Ardiente sobre ti.
+Tipo=1
+WAV=74
+FXgrh=32
+Loops=0
+
+SubeHP=2
+MinHP=80
+MaxHP=84
+MinSkill=100
+ManaRequerido=1180
+StaRequerido= 100
+Target=3
+Libro=1230
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO23]
+Nombre=Descarga Eléctrica
+Desc=Hechizo de daño que provoca de 50 a 53 puntos de daño a la victima.
+PalabrasMagicas=T'HY KOOOL
+HechizeroMsg=Has lanzado Descarga Eléctrica sobre
+TargetMsg=lanzó Descarga Eléctrica sobre ti.
+PropioMsg=Has lanzado Descarga Eléctrica sobre ti.
+Tipo=1
+WAV=27
+FXgrh=39
+Loops=0
+
+SubeHP=2
+MinHP=50
+MaxHP=53
+Libro=1209
+MinSkill=85
+ManaRequerido=450
+
+Target=3
+StaRequerido= 80
+
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO24] 'No se usa
+Nombre=Prisión Gélida
+Desc=Hechizo ofensivo que solo puede ser aprendido por clerigos. Causa de 80 a 84 puntos de daño a la victima.
+PalabrasMagicas= Gelis Custödiaê
+HechizeroMsg=Has Congelado a
+TargetMsg=te aprisiono en hielo.
+PropioMsg=Te has congelado.
+Tipo=1
+WAV=72
+FXgrh=91
+Loops=0
+
+SubeHP=2
+MinHP=80
+MaxHP=84
+MinSkill=100
+ManaRequerido=1180
+StaRequerido= 100
+Target=3
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO25]
+Nombre=Apocalípsis
+Desc=Hechizo ofensivo que solo puede ser aprendido por magos. Causa de 78 a 83 puntos de daño a la victima.
+PalabrasMagicas=Rahma Nañarak O'al
+HechizeroMsg=Has lanzado Apocalípsis sobre
+TargetMsg=lanzó Apocalípsis sobre ti.
+PropioMsg=Has lanzado Apocalípsis sobre ti.
+Tipo=1
+WAV=27
+FXgrh=8
+Loops=0
+
+NeedStaff=2
+SubeHP=2
+MinHP=78
+MaxHP=83
+    
+MinSkill=100
+ManaRequerido=1200
+
+Target=3
+StaRequerido= 40
+Libro=1218
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[HECHIZO26]
+Nombre=Elemental de Fuego
+Desc=Invoca un elemental de fuego, que recibe y causa daño, solo puede ser aprendido por druidas.
+PalabrasMagicas=Fir Yur'rax
+HechizeroMsg=Has invocado un elemental de fuego.
+Tipo=4
+WAV=17
+FXgrh=4
+Invoca=1
+NumNpc=76
+Cant=1
+MinSkill=100
+ManaRequerido=800
+Target=4
+StaRequerido= 145
+NeedStaff=2
+Libro=1216
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[HECHIZO27]
+Nombre=Elemental de Agua
+Desc=Invoca un elemental de agua capas de curar tus heridas, solo puede ser aprendido por druidas.
+PalabrasMagicas=Wata Mantra'rax
+HechizeroMsg=Has invocado un elemental de agua.
+SubeHP=2
+MinHP=35
+MaxHP=60
+Tipo=4
+WAV=17
+FXgrh=4
+Invoca=1
+NumNpc=75
+Cant=1
+MinSkill=60
+ManaRequerido=700
+Target=4
+StaRequerido= 131
+Libro=1215
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO28]
+Nombre=Relampago
+Desc=Hechizo de daño causante de gran daño a la criatura.
+PalabrasMagicas=ArLa It
+HechizeroMsg=Has lanzado Relampago sobre
+TargetMsg=
+PropioMsg=
+Tipo=1
+WAV=68
+FXgrh=2
+Loops=0
+
+SubeHP=2
+MinHP=145
+MaxHP=160
+MinSkill=10
+ManaRequerido=140
+Target=2
+StaRequerido= 30
+Libro=1212
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[HECHIZO29]
+Nombre=Teletransportar Kahlimdor
+Desc=Crea un portal capas de transportante a la ciudad de Kahlimdor
+PalabrasMagicas=Warpus
+HechizeroMsg=Estas creando un portal a Kahlimdor
+TargetMsg=te ha transportado.
+PropioMsg=Te has transportado.
+Tipo=6
+WAV=16
+FXgrh=16
+CastingGrh=24
+CastingTime=40
+Duracion=80
+Teletransporta=1
+Mapa=27
+X=50
+Y=50
+Target=4
+MinSkill=90
+ManaRequerido=600
+Libro=1224
+
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO30]
+Nombre=Remover Invisibilidad
+Desc=Revela a todos los objetivos que no puede ser vistos.
+PalabrasMagicas=OHGK PATER BEX VISYBLI
+HechizeroMsg=Has lanzado remover invisibilidad
+TargetMsg=lanzó remover invisibilidad sobre vos.
+Tipo=2
+WAV=76
+FXgrh=0
+
+TilesAbarca=2
+QuitaInvi=1
+
+MinSkill=80
+ManaRequerido=300
+Libro=1231
+Target=4
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO31]
+Nombre=Teletransportar Anvilmar
+Desc=Crea un portal capas de transportante a la ciudad de Anvilmar.
+PalabrasMagicas=Warpus
+HechizeroMsg=Estas creando un portal a Anvilmar
+TargetMsg=te ha transportado.
+PropioMsg=Te has transportado.
+Tipo=6
+WAV=16
+FXgrh=17
+CastingGrh=25
+CastingTime=40
+Duracion=80
+Teletransporta=1
+Mapa=29
+X=50
+Y=83
+MinSkill=90
+ManaRequerido=600
+Target=4
+Libro=1224
+Particula=43
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+[HECHIZO32]
+Nombre=Llama de Dragón
+Desc=Solo puede ser aprendido por los divinos asesinos 90 a 95 puntos de daño a la victima.
+PalabrasMagicas=Draggar Flamius
+HechizeroMsg=Has lanzado Llama de Dragón sobre
+TargetMsg=lanzó Llama de Dragón sobre ti.
+PropioMsg=Has lanzado Llama de Dragón sobre ti.
+Tipo=1
+WAV=27
+FXgrh=9
+Loops=1
+
+SubeHP=2
+MinHP=85
+MaxHP=87
+MinSkill=85
+ManaRequerido=800
+Target=3
+PIJA=1
+StaRequerido= 67
+
+
+[HECHIZO33] 
+Nombre=Inferno
+Desc=Hechizo de daño que solo puede ser aprendido por asesinos, provoca de88 a 94 puntos de daño a la victima.
+PalabrasMagicas=Al in Fers
+HechizeroMsg=Has lanzado Inferno sobre
+TargetMsg=lanzó Inferno sobre ti.
+PropioMsg=Has lanzado Inferno sobre ti.
+Tipo=1
+WAV=65
+FXgrh=3
+Loops=0
+
+SubeHP=2
+MinHP=88
+MaxHP=94
+MinSkill=100
+ManaRequerido=800
+StaRequerido= 100
+Target=3
+Libro=1229
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+[HECHIZO34]
+Nombre=Mimetismo
+Desc=Asimila momentáneamente tu apariencia a la del usuario a quien se lo lances.
+PalabrasMagicas=Cimim Ux Maïo
+
+HechizeroMsg=Te has mimetizado con
+TargetMsg=se ha mimetizado contigo.
+PropioMsg=Generas una ilusión de tu apariencia actual.
+
+Tipo=2
+WAV=16
+FXgrh=4
+
+Mimetiza=1
+
+MinSkill=75
+ManaRequerido=800
+
+Target=1
+StaRequerido= 44
+Libro=1233
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+
+[HECHIZO35] 
+Nombre=Fuego Divino
+Desc=Hechizo de daño que solo puede ser aprendido por los paladines, causa de 85 a 93 puntos de daño a la victima.
+PalabrasMagicas= Sanctis Flemiu
+HechizeroMsg=Has lanzado Fuego Divino sobre
+TargetMsg=lanzó Fuego Divino sobre ti.
+PropioMsg=Has lanzado Fuego Divino sobre ti.
+Tipo=1
+WAV=75
+FXgrh=40
+
+SubeHP=2
+MinHP=70
+MaxHP=75
+MinSkill=100
+ManaRequerido=550
+StaRequerido= 75
+Target=3
+Libro=1217
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO36]
+Nombre=Maldición
+Desc=Maldice a la victima causandole perdida de fuerza como de agilidad
+PalabrasMagicas=Desmu Tempus
+HechizeroMsg=Has lanzado Maldición sobre 
+TargetMsg=ha lanzado Maldición sobre ti.
+PropioMsg=Has lanzado Maldición sobre ti.
+Tipo=1
+WAV=84
+FXgrh=37
+SubeFU=2
+MinFU=10
+MaxFU=10
+SubeAG=2
+MinAG=10
+MaxAG=10
+MinSkill=90
+ManaRequerido=500
+Target=1
+Libro=1222
+
+'Particula=49
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO37] 'Hechizo para Paladines y Asesinos
+Nombre=Grito de Guerra
+Desc=Aumenta al limite la fuerza y agilidad del objetivo
+PalabrasMagicas=Oahag Tempus
+HechizeroMsg=Has lanzado Grito de Guerra sobre 
+TargetMsg=ha lanzado Grito de Guerra sobre ti.
+PropioMsg=Has lanzado Grito de Guerra sobre ti.
+Tipo=1
+WAV=85
+FXgrh=21
+SubeFU=1
+MinFU=35
+MaxFU=35
+SubeAG=1
+MinAG=35
+MaxAG=35
+MinSkill=100
+ManaRequerido=300
+Target=1
+StaRequerido= 100
+PIJA=1
+Libro=1227
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO38]
+Nombre=Burbuja Defensiva
+Desc=Burbuja protectora capas de aumentar notablemente la defensa fisica del objetivo.
+PalabrasMagicas=Ümx P'trect Mà
+HechizeroMsg=Has lanzado Burbuja de Defensa sobre
+TargetMsg=lanzó Burbuja defensiva sobre ti.
+PropioMsg=Has lanzado Burbuja defensiva sobre ti.
+
+Tipo=5
+WAV=86
+FXgrh=1
+Loops=0
+buff=6
+MinSkill=90
+ManaRequerido=1000
+Target=1
+StaRequerido=300
+Libro=1213
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO39]
+Nombre=Ira de Fuego
+Desc=Hechizo de daño, que solo puede ser aprendido por magos, provoca de 90 a 93 puntos de daño a la victima.
+PalabrasMagicas=Ïgnis Fûr
+HechizeroMsg=Has lanzado Ira de Fuego sobre
+TargetMsg=lanzó Ira de Fuego sobre ti.
+PropioMsg=Has lanzado Ira de Fuego sobre ti.
+Tipo=1
+WAV=78
+FXgrh=10
+Loops=0
+
+NeedStaff=3
+SubeHP=2
+MinHP=90
+MaxHP=93
+    
+MinSkill=100
+ManaRequerido=1700
+Target=3
+
+Libro=1228
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO40]
+Nombre=Curar Heridas Elemental
+Desc=Curar heridas graves, restaura entre 12 y 35 puntos de salud.
+PalabrasMagicas=Wata' Cörp Sanctis
+
+HechizeroMsg=Has sanado a
+TargetMsg=te ha curado algunas heridas.
+PropioMsg=Te has curado algunas heridas.
+
+Tipo=1
+WAV=18
+FXgrh=11
+loops=0
+
+SubeHP=1
+MinHP=80
+MaxHP=110
+    
+MinSkill=0
+ManaRequerido=0
+
+Target=3
+StaRequerido= 5
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[HECHIZO41]
+Nombre=Tormenta de Fuego de Elemental
+Desc=Causa 30 a 45 puntos de daño
+PalabrasMagicas=Fir' En Vax On Tar
+HechizeroMsg=Has lanzado Tormenta de Fuego sobre
+TargetMsg=lanzó Tormenta de Fuego sobre vos.
+PropioMsg=Has lanzado Tormenta de fuego sobre ti.
+Tipo=1
+WAV=27
+FXgrh=6
+Loops=0
+
+
+SubeHP=2
+MinHP=70
+MaxHP=80
+    
+MinSkill=0
+ManaRequerido=0
+
+Target=3
+StaRequerido= 60
+IgnoraRM=1
+
+
+
+
+

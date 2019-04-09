@@ -1,0 +1,91 @@
+' Tipos de TipoEfecto
+	eAumentoOro = 1
+	eAumentoExp = 2
+	eAumentoDrop = 3
+	eRegeneracionVida = 4
+	eRegeneracionMana = 5
+	eDefFisica = 6
+	eDefMagica = 7
+	eVenenoGolpe = 8
+' Un objeto distinto puede tener el mismo tipo de efecto pero mas o menos PoderEfecto que otra gema
+' Por ejemplo, quizas la gema Naranja haga lo mismo que la Gema Amarilla, pero la Naranja sea mas fuerte
+
+
+' Duracion es en Segundos!!
+
+[INIT]
+CantGemas=8
+' EfectosSimultaneosUser debe ser mayor a 0 y menor o igual a CantGemas
+EfectosSimultaneosUser=1
+
+[Gema1]
+Nombre=Gema Plateada
+ObjIndex=210
+TipoEfecto=1
+PoderEfecto=25
+TickEfectoSegundo=0
+Descripcion=Aumenta la experiencia que otorgan las criaturas
+Duracion=180
+
+[Gema2]
+Nombre=Gema Azul
+ObjIndex=211
+TipoEfecto=2
+PoderEfecto=40
+TickEfectoSegundo=20
+Descripcion=Aumenta la regeneracion automatica de mana
+Duracion=180
+
+[Gema3]
+Nombre=Gema Naranja
+ObjIndex=212
+TipoEfecto=3
+PoderEfecto=15
+TickEfectoSegundo=0
+Descripcion=Aumenta el oro que otorgan las criaturas.
+Duracion=180
+
+[Gema4]
+Nombre=Gema Celeste
+ObjIndex=213
+TipoEfecto=4
+PoderEfecto=10
+TickEfectoSegundo=0
+Descripcion=Te da un bonus de defensa magica.
+Duracion=180
+
+[Gema5]
+Nombre=Gema Lila
+ObjIndex=214
+TipoEfecto=5
+PoderEfecto=7
+TickEfectoSegundo=0
+Descripcion=Aumenta las posibilidades de drop.
+Duracion=180
+
+[Gema6]
+Nombre=Gema Roja
+ObjIndex=215
+TipoEfecto=6
+PoderEfecto=40
+TickEfectoSegundo=5
+Descripcion=Aumenta la regeneracion automatica de vida.
+Duracion=180
+
+[Gema7]
+Nombre=Gema Verde
+ObjIndex=216
+TipoEfecto=7
+PoderEfecto=10
+TickEfectoSegundo=0
+Descripcion=Te da un bonus de defensa fisica
+Duracion=180
+
+[Gema8]
+Nombre=Gema Violeta
+ObjIndex=217
+TipoEfecto=8
+PoderEfecto=100
+TickEfectoSegundo=0
+Descripcion=Envenenas con el golpe
+Duracion=180

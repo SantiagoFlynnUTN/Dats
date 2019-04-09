@@ -1,0 +1,68 @@
+[INIT]
+NumItems=6
+
+[PREMIO1]
+Nombre=Daga de Hielo
+Info=Daga que utilizaban los antiguos asesinos de estas tierras.
+Valor_MM=70
+Valor_Gemas=20
+Descuento=0
+NumObjs=1
+OBJ1=108-1
+Tipo=1
+Version=1
+[PREMIO2]
+Nombre=Daga Envenenada
+Info=Daga empapada de veneno. Quien la posea podrá apuñalar y envenenar a su victima.
+Valor_MM=90
+Valor_Gemas=45
+Descuento=0
+NumObjs=1
+OBJ1=4-1
+Tipo=1
+Version=1
+[PREMIO3]
+Nombre=Daga Envenenada3
+Info=Daga empapada de veneno3. Quien la posea podrá apuñalar y envenenar a su victima.
+Valor_MM=95
+Valor_Gemas=22
+Descuento=0
+NumObjs=1
+OBJ1=104-1
+Tipo=1
+Version=1
+[PREMIO4]
+Nombre=Daga Envenenada4
+Info=Daga empapada de veneno4. Quien la posea podrá apuñalar y envenenar a su victima.
+Valor_MM=92
+Valor_Gemas=25
+Descuento=0
+NumObjs=1
+OBJ1=50-1
+Tipo=1
+Version=1
+
+[PREMIO5]
+Nombre=Daga Envenenada5
+Info=Daga empapada de veneno5. Quien la posea podrá apuñalar y envenenar a su victima.
+Valor_MM=92
+Valor_Gemas=0
+Descuento=0
+NumObjs=2
+OBJ1=55-10000
+OBJ2=57-10000
+Tipo=1
+Version=1
+[PREMIO6]
+Nombre=Daga Envenenada6
+Info=Daga empapada de veneno6. Quien la posea podrá apuñalar y envenenar a su victima.
+Valor_MM=0
+Valor_Gemas=99
+Descuento=0
+NumObjs=4
+OBJ1=55-10000
+OBJ2=57-10000
+OBJ3=53-10000
+OBJ4=59-10000
+Tipo=2
+Version=1

@@ -1,0 +1,16 @@
+[VARIABLES]
+Numero_Arenas=1
+Costo_Crear=5000
+Min_LVL=10
+Min_Pjs=4
+Max_Pjs=32
+Conteo_Limit=5
+Conteo=10
+Cuota_minimo=2000
+Cuota_Maximo=10000
+[ARENA1]
+Mapa=132
+Min_X=33
+Min_Y=52
+Max_x=67
+Max_Y=67

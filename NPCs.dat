@@ -1,0 +1,68 @@
+' TIPOS NPC
+'  Comun = 0
+'  Revividor = 1
+'  Guardia = 2
+'  Banquero = 3
+'  Noble = 4
+'  DRAGON = 5
+'  VendedorPasajes = 6
+'  Gobernador = 7
+'  RenunciadorFaccion = 8
+'  Cartero = 9
+'  BovedaClan = 10
+'  VendedorPropiedades = 11
+'  VendedorHechizos = 12
+'  OnlyQuestGiver = 13
+'  NpcReyCastillo = 14
+
+[INIT]
+NumNPCs=4
+
+[NPC1] 'NPC
+Name=Doroteo
+Desc=Hola, bienvenido a la cadena de finanzas Goliath.
+Head=5
+Body=11
+Heading=3
+Movement=1
+NpcType=3
+MenuIndex=6
+
+[NPC2] 'NPC
+Name=Argal
+Info=Provisiones
+Desc=¡Hola buen amigo! cuento con las mejores frutas de estas comarcas.
+Head=7
+Body=11
+Heading=3
+Movement=1
+Comercia=1
+ReSpawn=0
+TipoItems=1
+NROITEMS=1
+Obj1=1-100
+MenuIndex=3
+
+[NPC3] 'Quest de Inthak
+Name=Korgan
+Desc=Aventurero ¿Estas preparado?
+Head=8
+Body=11
+Heading=3
+MenuIndex=5
+NpcType=13
+Movement=1
+Attackable=0
+NumQuests=3
+Quests1=15
+Quests2=11
+Quests3=12
+
+[NPC4] ' Sacerdote
+Name=Padre Valyst
+NpcType=1
+Desc=Hola hijo mío, soy el Sacerdote de este pueblo.
+Head=14
+Body=11
+Heading=3
+Movement=1

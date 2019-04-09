@@ -1,0 +1,332 @@
+﻿' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+ePiedras = 1
+eArboles = 2
+eYacimientos = 3
+ePuertas = 4
+eCarteles = 5
+eYunque = 6
+eFragua = 7
+eTelar = 8
+eTallerCarpi = 9
+eTeleport = 10
+
+MaxHP=0					' Vida del objeto 
+Respawn=0				' Cada cuanto respawnea
+Value=0					' (Single) Multiplicador de importancia. Normal es 1
+DecorGrh=0-0-0-0-0		' Graficos
+Atacable=0				' Si se puede atacar
+Clave=0					' Puertas?
+Objeto=0				' Que objeto se desprende de la decor
+DecorType=0				' Que tipo de Decor es
+EstadoDefault=0			' Cual es el estado normal de esta decor
+PosAccion=0-0-0			' Posicion si tuviera que hacer algun tipo de accion
+TileH=0					' Dimension Y
+TileW=0					' Dimension X
+
+' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[INIT]
+NumDecors=21
+
+' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+[DECOR1] ' Teleport (Portal) Normal
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=0
+DecorType=10
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR2] ' Arbol Leña Ciudad 1
+Name=Arbol 
+MaxHP=0
+Respawn=0
+Value=1
+DecorGrh=3927-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=	' ### OBJINDEX_LEÑA ###
+DecorType=2
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR3] ' Arbol Leña Ciudad 2
+Name=Arbol
+MaxHP=0
+Respawn=0
+Value=1
+DecorGrh=900-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=	' ### OBJINDEX_LEÑA ###
+DecorType=2
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR4] ' Arbol Leña Ciudad 3
+Name=Arbol
+MaxHP=0
+Respawn=0
+Value=1
+DecorGrh=1316-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=	' ### OBJINDEX_LEÑA ###
+DecorType=2
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR5] ' Yacimiento Calidad Normal Hierro
+MaxHP=0
+Respawn=0
+Value=1
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_HIERRO_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR6] ' Yacimiento Calidad Buena Hierro
+MaxHP=0
+Respawn=0
+Value=1.5
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_HIERRO_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR7] ' Yacimiento Calidad Superior Hierro
+MaxHP=0
+Respawn=0
+Value=2
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_HIERRO_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR8] ' Yacimiento Calidad Normal Plata
+MaxHP=0
+Respawn=0
+Value=1
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_PLATA_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR9] ' Yacimiento Calidad Buena Plata
+MaxHP=0
+Respawn=0
+Value=1.5
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_PLATA_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR10] ' Yacimiento Calidad Superior Plata
+MaxHP=0
+Respawn=0
+Value=2
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_PLATA_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR11] ' Yacimiento Calidad Normal Oro
+MaxHP=0
+Respawn=0
+Value=1
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_ORO_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR12] ' Yacimiento Calidad Buena Oro
+MaxHP=0
+Respawn=0
+Value=1.5
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_ORO_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR13] ' Yacimiento Calidad Superior Oro
+MaxHP=0
+Respawn=0
+Value=2
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=' ### OBJINDEX_ORO_BRUTO ###
+DecorType=3
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR14] ' Puerta Normal 1 Sin Llave
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=0
+DecorType=4
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=2
+
+[DECOR15] ' Puerta Normal 2 Sin Llave
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=0
+DecorType=4
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=2
+
+[DECOR16] ' Puerta Normal 1 Con Llave
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=1
+Objeto=0
+DecorType=4
+EstadoDefault=2
+PosAccion=0-0-0
+TileH=1
+TileW=2
+
+[DECOR17] ' Puerta Normal 2 Con Llave
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=2
+Objeto=0
+DecorType=4
+EstadoDefault=2
+PosAccion=0-0-0
+TileH=1
+TileW=2
+
+[DECOR18] ' Yunque
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=0
+DecorType=6
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR19] ' Fragua
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=0
+DecorType=7
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR20] ' Telar
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=0
+DecorType=8
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1
+
+[DECOR21] ' Taller Carpi
+MaxHP=0
+Respawn=0
+Value=0
+DecorGrh=0-0-0-0-0
+Atacable=0
+Clave=0
+Objeto=0
+DecorType=9
+EstadoDefault=0
+PosAccion=0-0-0
+TileH=1
+TileW=1

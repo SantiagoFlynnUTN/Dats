@@ -1,0 +1,7 @@
+[INFO]
+' Subastas simultaneas
+CantidadSubastas=6
+DuracionMinimaSegundos=120
+DuracionMaximaSegundos=900
+MinimoOroIniciarSubasta=100
+NivelMinimo=40

@@ -1,0 +1,35 @@
+[INIT]
+NumRopas=11
+
+[Ropa1] ' SOMBRERO DE MAGO
+Index=335
+
+[Ropa2] ' TUNICA REFORZADA
+Index=144
+
+[Ropa3] ' TUNICA REFORZADA BAJOS
+Index=268
+
+[Ropa4] ' TUNICA DE DRUIDA
+Index=181
+
+[Ropa5] ' TUNICA DE DRUIDA BAJOS
+Index=269
+
+[Ropa6] ' GORRO DE CUERO
+Index=455
+
+[Ropa7] ' ROPAJE LIRICO
+Index=253
+
+[Ropa8] ' ROPAJE LIRICO BAJOS
+Index=488
+
+[Ropa9] ' Túnica Celestial
+Index=255
+
+[Ropa10] ' Túnica Ancestral
+Index=264
+
+[Ropa11] ' Tunica Negra (Altos)
+Index=457

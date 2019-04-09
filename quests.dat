@@ -1,0 +1,397 @@
+'TIPOS DE QUEST:
+0: CUSTOM
+1: MATA NPCS
+2: MATA USUARIOS
+3: TRAE ITEMS.
+
+ej: Tipo=X
+
+
+MATA NPCS Y MATA USUARIOS
+	numero_targets -> Cantidad de objetivos, si tiene q matar 2 tipo de npc esto valdria 2.
+	si tiene que matar 1 tipo no es necesario ponerle nada porq por default vale 1.
+	
+	target_tipoX -> donde x toma el valor del indice de target, este parametro describe el
+	tipo de target. Si es un npc, seria el numero de NPC si es un usuario
+	0: Indistinto, 1:Alianza(indistinto):2 alianza no enlistado 3:Alianza enlistado 4:Alianza noble
+	5:Horda indistinto 6:Horda no enlistada 7:Horda enlistada 8:Horda noble 9:Neutro indistinto 10:Neutro
+	11:Neutro noble. 12:Humanos 13:Elfos 14:EO 15:enanos 16:gnomos
+
+	target_cantx -> Donde x toma el valor del indice del target, este parametro define la 
+	cantidad de cada uno de los target.
+
+	Ejemplo: Si quisiera hacer una quest que pida matar 20 murcielagos y 30 serpientes seria:
+		Tipo=1
+		numero_targets=2
+		target_tipo1=500
+		target_cant1=20
+		target_tipo2=504
+		target_cant2=30
+
+	Si se quiere compartir la lista entre dos tipos distintos de target, lo que se hace es
+		
+		target_compartido1= numero de target_tipo que comparte.
+	Ejemplo si yo quisiera una quest en donde deba matar 20 murcielagos y 30 serpientes o lobos.
+		
+		numero_targets=3
+		
+		target_tipo1=500
+		target_cant1=20
+		
+		target_cant2=30
+		target_tipo2=504
+
+		
+		target_tipo3=501
+		target_compartido3=2
+
+	De esta manera el target3 queda sumado al 2.
+	Si en vez de esto a mi me fuera indistinto si mato lobos, serpientes o murcielagos
+	y solo quiero que en total mate 30, lo unico que tengo que hacer es poner
+	target_compartidos=1
+	Ej:
+	numero_targets=3
+
+	target_compartidos=1	
+	target_tipo1=500
+	target_tipo2=501
+	target_tipo3=504
+	target_cant1=30
+
+	hay_que_devolver=1 -> Para obtener la recompensa hay que volver a hblar con el npc q dio la quest.
+	hay_que_devolver=0 -> Al completar el objetivo automaticamente recibe la recompensa.
+
+_____________________________________________________
+Recompensas
+recompensa_tipo= 0 Custom 1 Oro 2 Items 3 Oro e Items 4 Solo EXP 5 puntos 6 oro y puntos
+recompensa_exp= Cuanta exp da.
+recompensa_oro = Cantidad de oro si es que da oro.
+recompensa_numero_items= Cantidad de items distintos de recompensa
+recompensa_item_tipoX= donde x marca el indice de item y esto se equivale al numero de objeto.
+recompensa_item_Cantx= bla bla cantidad del indice.
+recompensa_puntos= puntos
+
+
+[MAIN]
+NUMQUESTS=24
+
+
+[1]
+Tipo=2
+Desc=Asesina los usuarios que te pida y tendre una recompensa para ti.
+Nombre=Asesino Relampago
+numero_targets=1
+target_tipo1=0
+target_cant1=25
+recompensa_tipo=6
+recompensa_oro=10000
+recompensa_puntos=5
+hay_que_devolver=0
+
+
+[2]
+Tipo=2
+Desc=Asesina los usuarios que te pida y tendre una recompensa para ti.
+Nombre=Asesino en masa
+numero_targets=1
+target_tipo1=0
+target_cant1=50
+recompensa_tipo=6
+recompensa_oro=20000
+recompensa_puntos=10
+hay_que_devolver=0
+
+
+[3]
+Tipo=2
+Desc=Asesina los usuarios que te pida y tendre una recompensa para ti.
+Nombre=Asesino en serie
+numero_targets=1
+target_tipo1=0
+target_cant1=75
+recompensa_tipo=6
+recompensa_oro=25000
+recompensa_puntos=20
+hay_que_devolver=0
+
+[4]
+Tipo=2
+Desc=Asesina los usuarios que te pida y tendre una recompensa para ti.
+Nombre=Asesino a sangre fria
+numero_targets=1
+target_tipo1=0
+target_cant1=100
+recompensa_tipo=6
+recompensa_oro=35000
+recompensa_puntos=40
+hay_que_devolver=0
+
+
+[5]
+Tipo=1
+Desc=Desaste de la plaga aracnida.
+Nombre=Exterminador de arañas
+numero_targets=1
+target_tipo1=509
+target_cant1=30
+recompensa_tipo=1
+recompensa_oro=5000
+recompensa_puntos=0
+hay_que_devolver=0
+
+
+[6]
+Tipo=1
+Desc=Extermina a los Trolles Freneticos de la mina abandonada.
+Nombre=Guerrero de las minas.
+numero_targets=1
+target_tipo1=578
+target_cant1=10
+recompensa_tipo=6
+recompensa_oro=10000
+recompensa_puntos=5
+hay_que_devolver=0
+
+
+[7]
+Tipo=1
+Desc=Asesina a los trasgos guerreros que estan invadiendo el dungeon leric.
+Nombre=Asesino de Humanoides
+numero_targets=1
+target_tipo1=558
+target_cant1=12
+recompensa_tipo=6
+recompensa_oro=15000
+recompensa_puntos=5
+hay_que_devolver=0
+
+
+[8]
+Tipo=1
+Desc=Mata a los belholders que se encuentran asechando el polo.
+Nombre=Asesino del polo
+numero_targets=1
+target_tipo1=573
+target_cant1=10
+recompensa_tipo=6
+recompensa_oro=15000
+recompensa_puntos=5
+hay_que_devolver=0
+
+
+[9]
+Tipo=1
+Desc=Derrota a los yetis que se encuentran dentro del dungeon congelado.
+Nombre=Guerrero de la nieve
+numero_targets=1
+target_tipo1=542
+target_cant1=10
+recompensa_tipo=6
+recompensa_oro=10000
+recompensa_puntos=5
+hay_que_devolver=0
+
+
+[10]
+Tipo=1
+Desc=Combate y extermina las medusas que se esparcen por este mundo.
+Nombre=Guerrero Antiguo
+numero_targets=1
+target_tipo1=527
+target_cant1=5
+recompensa_tipo=6
+recompensa_oro=15000
+recompensa_puntos=5
+hay_que_devolver=0
+
+
+[11]
+Tipo=1
+Desc=Combate y extermina las medusas mas poderosas que se esparcen por este mundo
+Nombre=Guerrero Legendario
+numero_targets=1
+target_tipo1=557
+target_cant1=6
+recompensa_tipo=6
+recompensa_oro=30000
+recompensa_puntos=15
+hay_que_devolver=0
+
+
+[12]
+Tipo=1
+Desc=Derrota a los poderosos golems hechos de oro
+Nombre=Guerrero Medieval
+numero_targets=1
+target_tipo1=543
+target_cant1=5
+recompensa_tipo=6
+recompensa_oro=40000
+recompensa_puntos=20
+hay_que_devolver=0
+
+
+[13]
+Tipo=1
+Desc=Extermina las apariciones que estan naciendo en este mundo.
+Nombre=Asesino de lo desconocido
+numero_targets=1
+target_tipo1=538
+target_cant1=10
+recompensa_tipo=6
+recompensa_oro=20000
+recompensa_puntos=10
+hay_que_devolver=0
+
+
+[14]
+Tipo=1
+Desc=Derrota a los poderosos golems que se estan formando a apartir del agua.
+Nombre=Asesino Anfibio
+numero_targets=1
+target_tipo1=563
+target_cant1=5
+recompensa_tipo=6
+recompensa_oro=35000
+recompensa_puntos=15
+hay_que_devolver=0
+
+
+[15]
+Tipo=1
+Desc=Mata a estas Bestias Infernales que estan surgiendo desde el otro mundo.
+Nombre=Asesino Infernal
+numero_targets=1
+target_tipo1=579
+target_cant1=4
+recompensa_tipo=3
+recompensa_oro=40000
+recompensa_puntos=25
+hay_que_devolver=1
+recompensa_numero_items= 5
+recompensa_item_tipo1=2
+recompensa_item_Cant1= 550
+recompensa_item_tipo2=3
+recompensa_item_Cant2= 1550
+recompensa_item_tipo3=3
+recompensa_item_Cant3= 1551
+recompensa_item_tipo4=3
+recompensa_item_Cant4= 1552
+recompensa_item_tipo5=3
+recompensa_item_Cant5= 1553
+[16]
+Tipo=1
+Desc=Extermina a estos Dragones Plateado mitologicos que estan dominando el mundo.
+Nombre=Guerrero Mitologico
+numero_targets=1
+target_tipo1=544
+target_cant1=4
+recompensa_tipo=6
+recompensa_oro=45000
+recompensa_puntos=30
+hay_que_devolver=1
+
+
+[17]
+Tipo=1
+Desc=Extermina estos Dragones Rojos mitologicas que estan dominando el mundo
+Nombre=Guerrero Mitologico del infierno.
+numero_targets=1
+target_tipo1=522
+target_cant1=4
+recompensa_tipo=6
+recompensa_oro=40000
+recompensa_puntos=25
+hay_que_devolver=1
+
+
+[18]
+Tipo=1
+Desc=Vence a las abominaciones que dominan esta mina abandonada.
+Nombre=Guerrero de las minas.
+numero_targets=1
+target_tipo1=577
+target_cant1=5
+recompensa_tipo=6
+recompensa_oro=60000
+recompensa_puntos=20
+hay_que_devolver=1
+
+
+[19]
+Tipo=1
+Desc=Extermina a estos Dragones Oscuros mitologicos que estan dominando el mundo
+Nombre=Guerrero Mitologico
+numero_targets=1
+target_tipo1=545
+target_cant1=6
+recompensa_tipo=6
+recompensa_oro=80000
+recompensa_puntos=40
+hay_que_devolver=1
+
+
+[20]
+Tipo=1
+Desc=Derrota al poderoso Dios del Mar
+Nombre=Asesino de Dioses
+numero_targets=1
+target_tipo1=562
+target_cant1=4
+recompensa_tipo=6
+recompensa_oro=90000
+recompensa_puntos=35
+hay_que_devolver=1
+
+
+[21]
+Tipo=1
+Desc=Extermina la plaga de una de las arañas mas letales del mundo, la viudas negras.
+Nombre=Asesino Letal
+numero_targets=1
+target_tipo1=535
+target_cant1=8
+recompensa_tipo=6
+recompensa_oro=20000
+recompensa_puntos=10
+hay_que_devolver=0
+
+
+[22]
+Tipo=1
+Desc=Combate y mata a uno de los terrores mas peligrosos del mar, el leviatan.
+Nombre=Guerro Navegante
+numero_targets=1
+target_tipo1=524
+target_cant1=5
+recompensa_tipo=6
+recompensa_oro=25000
+recompensa_puntos=10
+hay_que_devolver=0
+
+
+[23]
+Tipo=1
+Desc=Destruye los barcos fantasmas que vagan a la deriba por estos mares.
+Nombre=Barcos sin tripulacion.
+numero_targets=1
+target_tipo1=550
+target_cant1=5
+recompensa_tipo=6
+recompensa_oro=20000
+recompensa_puntos=10
+hay_que_devolver=0
+
+
+[24]
+Tipo=1
+Desc=Derrota a los poderosos golems hechos de plata.
+Nombre=Guerrero Medieval
+numero_targets=1
+target_tipo1=540
+target_cant1=5
+recompensa_tipo=6
+recompensa_oro=30000
+recompensa_puntos=10
+hay_que_devolver=0
+

@@ -1,0 +1,2752 @@
+------------ OBJTYPES ------------
+otWeapon = 1
+otArmadura = 2
+otLlaves = 3
+otPociones = 4
+otESCUDO = 5
+otCASCO = 6
+otAnillo = 7
+otJoyas = 8
+otMinerales = 9
+otPergaminos = 10
+otInstrumentos = 11
+otBarcos = 12
+otFlechas = 13
+otGema = 14
+otConsumiblesPuntos = 15
+otMapa = 16
+otMaterialesTrabajo = 17
+otHerramientasTrabajo = 18
+otCualquiera = 255
+
+' Info
+"Name"
+"ObjType"
+
+' Logs
+"Log"
+"NoLog"
+
+' Graficos
+"GrhIndex"
+"AnimAlto"
+"AnimBajo"
+"AnimAltoM"
+"AnimBajoM"
+"AURA"
+
+' Flag
+"Newbie"
+"LVL"
+"GM"
+"MinSkill"
+"Agarrable"
+"NoVendible"
+"NoSeCae"
+"Crucial"
+
+' Trabajo
+"NoFundible"
+"LingH"
+"LingP"
+"LingO"
+"SkHerreria"
+"LingoteIndex"
+"MineralIndex"
+"Madera"
+"MaderaElfica"
+"Piedras"
+"SkillSastre"
+"PielL"
+"PielO"
+"PielB"
+"SkCarpinteria"
+
+' Stats
+"SumaFuerza"
+"SumaAgilidad"
+"SumaSuerte"
+"SumaConst"
+"SumaInt"
+"BonusDropGold"
+"BonusDropItem"
+
+' Faccion
+"AlianzaEnlistado"
+"HordaEnlistado"
+
+' Defensas
+"DefensaMagicaMax"
+"DefensaMagicaMin"
+"MINDEF"
+"MAXDEF"
+
+' Daños
+"Proyectil"
+"StaffPower"
+"StaffDamageBonus"
+"DanioSoloNPCs"
+"MinDañoMagico"
+"MaxDañoMagico"
+"MaxHIT"
+"MinHIT"
+"DosManos"
+
+' Daños Efectos
+"Apuñala"
+"Envenena"
+"Paraliza"
+
+' Pociones
+"TipoPocion"
+"MaxModificador"
+"MinModificador"
+"DuracionEfecto"
+
+' Sonido
+"SND1"
+"SND2"
+"SND3"
+
+' Llaves?
+"IndexAbierta"
+"IndexCerrada"
+"IndexCerradaLlave"
+
+' Hechizo
+"HechizoIndex"
+
+' Consumibles donacion
+"PuntosType"
+"PuntosCant"
+
+' Modificadores
+"MaxHP"
+"MinHP"
+"MinHam"
+"MinAgu"
+					  
+"Valor"
+	  
+' Clase/Genero/Raza prohibida
+"CP1"
+"CP2"
+"RP"
+"GP"
+
+[INIT]
+NumOBJs=221
+
+[OBJ1]
+Name=Báculo Mago Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+Madera=340
+Piedras=2
+SkCarpinteria=100
+StaffPower=3
+MinDañoMagico=35
+MaxDañoMagico=40
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=254
+CP2=3
+
+[OBJ2]
+Name=Vara Druida Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Madera=250
+Piedras=1
+SkCarpinteria=100
+StaffPower=2
+MinDañoMagico=35
+MaxDañoMagico=40
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ3]
+Name=Sable Druida Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=17
+MinHIT=16
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ4]
+Name=Espadita Bardo Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=40
+LingP=34
+LingO=29
+SkHerreria=12
+MaxHIT=17
+MinHIT=16
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ5]
+Name=Empuñadura Bardo Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=30
+LingP=25
+LingO=21
+SkHerreria=100
+MaxHIT=5
+MinHIT=4
+Apuñala=1
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ6]
+Name=Espada Clero Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=65
+LingP=55
+LingO=47
+SkHerreria=85
+MaxHIT=19
+MinHIT=18
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ7]
+Name=Empuñadura Ase Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=5
+MinHIT=4
+Apuñala=1
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ8]
+Name=Espada Pala Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LVL=45
+MaxHIT=19
+MinHIT=18
+Valor=1
+CP1=191
+CP2=3
+
+[OBJ9]
+Name=Espada Caza Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=65
+LingP=55
+LingO=47
+SkHerreria=85
+MaxHIT=19
+MinHIT=18
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ10]
+Name=Manopla Guerre Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingP=28
+LingO=23
+SkHerreria=100
+Paraliza=1
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ11]
+Name=Espada Guerre Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=19
+MinHIT=18
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ12]
+Name=Arco Caza Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Madera=450
+SkCarpinteria=100
+Proyectil=1
+MaxHIT=19
+MinHIT=18
+DosManos=1
+Valor=1
+CP1=127
+CP2=3
+Madera=10
+Madera2=20
+Marfil=254
+NivelProf=1
+TipoCraft=3
+
+[OBJ13]
+Name=Arco Guerre Agite
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LVL=40
+Madera=450
+SkCarpinteria=100
+Proyectil=1
+MaxHIT=19
+MinHIT=18
+DosManos=1
+Valor=1
+CP1=251
+CP2=3
+Madera=10
+Madera2=202
+Marfil=25
+NivelProf=1
+TipoCraft=3
+
+[OBJ14]
+Name=Daga Comun Newbie
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Newbie=1
+Soulbound=1
+MaxHIT=2
+MinHIT=1
+Valor=1
+
+[OBJ15]
+Name=Báculo Mago Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MinDañoMagico=55
+MaxDañoMagico=60
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=254
+CP2=3
+
+[OBJ16]
+Name=Vara Druida Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MinDañoMagico=55
+MaxDañoMagico=60
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ17]
+Name=Sable Druida Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=19
+MinHIT=18
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ18]
+Name=Espadita Bardo Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=19
+MinHIT=18
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ19]
+Name=Empuñadura Bardo Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+StaffPower=2
+MaxHIT=7
+MinHIT=6
+Apuñala=1
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ20]
+Name=Espada Clero Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+StaffPower=2
+MaxHIT=21
+MinHIT=20
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ21]
+Name=Empuñadura Ase Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=7
+MinHIT=6
+Apuñala=1
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ22]
+Name=Espada Pala Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=21
+MinHIT=20
+Valor=1
+CP1=191
+CP2=3
+NivelProf=1
+TipoCraft=1
+LingH=20
+LingP=30
+LingO=40
+
+[OBJ23]
+Name=Espada Caza Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=21
+MinHIT=20
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ24]
+Name=Manopla Guerre Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=3
+MinHIT=2
+Paraliza=1
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ25]
+Name=Espada Guerre
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=21
+MinHIT=20
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ26]
+Name=Arco Caza Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Proyectil=1
+MaxHIT=21
+MinHIT=20
+DosManos=1
+Valor=1
+CP1=127
+CP2=3
+Madera=103
+Madera2=203
+Marfil=253
+NivelProf=2
+TipoCraft=3
+
+[OBJ27]
+Name=Arco Guerre Torneo
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Proyectil=1
+MaxHIT=21
+MinHIT=20
+DosManos=1
+Valor=1
+CP1=251
+CP2=3
+Madera=103
+Madera2=203
+Marfil=252
+NivelProf=1
+TipoCraft=3
+
+[OBJ28]
+Name=Báculo pt1
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MinDañoMagico=2
+MaxDañoMagico=5
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ29]
+Name=Daga pt1
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MaxHIT=2
+MinHIT=1
+Apuñala=1
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ30]
+Name=Espada liviana pt1
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MaxHIT=13
+MinHIT=12
+Valor=1
+CP1=207
+
+[OBJ31]
+Name=Espada pesada pt1
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=15
+MinHIT=14
+Valor=1
+CP1=57
+CP2=3
+
+[OBJ32]
+Name=Arco pt1
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+Proyectil=1
+MaxHIT=15
+MinHIT=14
+DosManos=1
+Valor=1
+CP1=123
+CP2=3
+Madera=10
+Madera2=20
+Marfil=25
+NivelProf=1
+TipoCraft=3
+NoDecraft=1
+
+[OBJ33]
+Name=Báculo pt2
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MinDañoMagico=10
+MaxDañoMagico=15
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ34]
+Name=Daga pt2
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MaxHIT=3
+MinHIT=2
+Apuñala=1
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ35]
+Name=Espada liviana pt2
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MaxHIT=15
+MinHIT=14
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ36]
+Name=Espada pesada pt2
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MaxHIT=17
+MinHIT=16
+Valor=1
+CP1=57
+CP2=3
+
+[OBJ37]
+Name=Arco pt2
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+Proyectil=1
+MaxHIT=17
+MinHIT=16
+DosManos=1
+Valor=1
+CP1=123
+CP2=3
+Madera=30
+Madera2=50
+Marfil=30
+
+[OBJ38]
+Name=Espada Mata Bestias
+ObjType=1
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MaxHIT=2
+MinHIT=1
+Apuñala=1
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ39]
+Name=Tunica Mago Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=115
+MAXDEF=120
+Valor=1
+CP1=254
+CP2=3
+PielL=10
+PielO=10
+PielB=20
+NivelProf=1
+TipoCraft=2
+
+
+[OBJ40]
+Name=Tunica Druida Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=115
+MAXDEF=120
+Valor=1
+CP1=223
+CP2=3
+PielL=10
+PielO=10
+PielB=20
+NivelProf=1
+TipoCraft=2
+
+[OBJ41]
+Name=Armadura Bardo Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=155
+MAXDEF=160
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ42]
+Name=Armadura Clero Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=155
+MAXDEF=160
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ43]
+Name=Armadura Ase Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+LingH=64
+LingP=54
+LingO=46
+SkHerreria=76
+MINDEF=155
+MAXDEF=160
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ44]
+Name=Armadura Pala Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+LingH=64
+LingP=54
+LingO=46
+SkHerreria=76
+MINDEF=215
+MAXDEF=220
+Valor=1
+CP1=191
+CP2=3
+NivelProf=0
+TipoCraft=1
+
+[OBJ45]
+Name=Armadura Caza Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=215
+MAXDEF=220
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ46]
+Name=Armadura Guerre Agite
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=215
+MAXDEF=220
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ47]
+Name=Vestimenta Común Roja
+ObjType=2
+GrhIndex=619
+AnimAlto=23
+AnimBajo=25
+AnimAltoM=23
+AnimBajoM=25
+Valor=1
+
+[OBJ48]
+Name=Vestimenta Común Azul
+ObjType=2
+GrhIndex=619
+AnimAlto=27
+AnimBajo=28
+AnimAltoM=27
+AnimBajoM=28
+Valor=1
+
+[OBJ49]
+Name=Tunica Mago Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=145
+MAXDEF=150
+Valor=1
+CP1=254
+CP2=3
+NivelProf=1
+TipoCraft=2
+PielO=10
+PielL=11
+PielB=13
+
+[OBJ50]
+Name=Tunica Druida Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=145
+MAXDEF=150
+Valor=1
+CP1=223
+CP2=3
+NivelProf=1
+TipoCraft=2
+PielO=10
+PielL=41
+PielB=34
+
+
+[OBJ51]
+Name=Armadura Bardo Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=195
+MAXDEF=200
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ52]
+Name=Armadura Clero Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=195
+MAXDEF=200
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ53]
+Name=Armadura Ase Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=195
+MAXDEF=200
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ54]
+Name=Armadura Pala Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=265
+MAXDEF=270
+Valor=1
+CP1=191
+CP2=3
+
+[OBJ55]
+Name=Armadura Caza Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=265
+MAXDEF=270
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ56]
+Name=Armadura Guerre Torneo
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=265
+MAXDEF=270
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ57]
+Name=Tunica pt1
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+Crucial=1
+MINDEF=25
+MAXDEF=30
+Valor=1
+CP1=222
+CP2=3
+NivelProf=2
+TipoCraft=2
+PielO=100
+PielL=110
+PielB=13
+
+[OBJ58]
+Name=Armadura liviana pt1
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+Crucial=1
+MINDEF=60
+MAXDEF=65
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ59]
+Name=Armadura pesada pt1
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+Crucial=1
+MINDEF=105
+MAXDEF=110
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ60]
+Name=Tunica pt2
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+Crucial=1
+MINDEF=65
+MAXDEF=70
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ61]
+Name=Armadura liviana pt2
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+Crucial=1
+MINDEF=105
+MAXDEF=110
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ62]
+Name=Armadura pesada pt2
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+Crucial=1
+MINDEF=165
+MAXDEF=170
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ63]
+Name=Tunica Alianza 1ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=65
+MAXDEF=70
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ64]
+Name=Tunica Alianza 2da
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=85
+MAXDEF=90
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ65]
+Name=Tunica Alianza 3ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=100
+MAXDEF=105
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ66]
+Name=Tunica Alianza 4ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=115
+MAXDEF=120
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ67]
+Name=Tunica Alianza 5ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=130
+MAXDEF=135
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ68]
+Name=Armadura Liviana Alianza 1ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=105
+MAXDEF=110
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ69]
+Name=Armadura Liviana Alianza 2da
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=125
+MAXDEF=130
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ70]
+Name=Armadura Liviana Alianza 3ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=140
+MAXDEF=145
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ71]
+Name=Armadura Liviana Alianza 4ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=155
+MAXDEF=160
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ72]
+Name=Armadura Liviana Alianza 5ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=175
+MAXDEF=180
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ73]
+Name=Armadura Pesada Alianza 1ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=165
+MAXDEF=170
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ74]
+Name=Armadura Pesada Alianza 2da
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=185
+MAXDEF=190
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ75]
+Name=Armadura Pesada Alianza 3ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=200
+MAXDEF=205
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ76]
+Name=Armadura Pesada Alianza 4ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=215
+MAXDEF=220
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ77]
+Name=Armadura Pesada Alianza 5ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=240
+MAXDEF=245
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ78]
+Name=Tunica Horda 1ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=65
+MAXDEF=70
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ79]
+Name=Tunica Horda 2da
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=85
+MAXDEF=90
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ80]
+Name=Tunica Horda 3ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=100
+MAXDEF=105
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ81]
+Name=Tunica Horda 4ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=115
+MAXDEF=120
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ82]
+Name=Tunica Horda 5ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=130
+MAXDEF=135
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ83]
+Name=Armadura Liviana Horda 1ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=105
+MAXDEF=110
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ84]
+Name=Armadura Liviana Horda 2da
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=125
+MAXDEF=130
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ85]
+Name=Armadura Liviana Horda 3ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=140
+MAXDEF=145
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ86]
+Name=Armadura Liviana Horda 4ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=155
+MAXDEF=160
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ87]
+Name=Armadura Liviana Horda 5ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=175
+MAXDEF=180
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ88]
+Name=Armadura Pesada Horda 1ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=165
+MAXDEF=170
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ89]
+Name=Armadura Pesada Horda 2da
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=185
+MAXDEF=190
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ90]
+Name=Armadura Pesada Horda 3ra
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=200
+MAXDEF=205
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ91]
+Name=Armadura Pesada Horda 4ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=215
+MAXDEF=220
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ92]
+Name=Armadura Pesada Horda 5ta
+ObjType=2
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+MINDEF=240
+MAXDEF=245
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ93]
+Name=Vestimenta Común Roja Newbie
+ObjType=2
+GrhIndex=619
+AnimAlto=23
+AnimBajo=25
+AnimAltoM=23
+AnimBajoM=25
+Newbie=1
+Soulbound=1
+Valor=1
+
+[OBJ94]
+Name=Vestimenta Común Verde Newbie
+ObjType=2
+GrhIndex=619
+AnimAlto=24
+AnimBajo=26
+AnimAltoM=24
+AnimBajoM=26
+Newbie=1
+Soulbound=1
+Valor=1
+
+[OBJ95]
+Name=Vestimenta Común Azul Newbie
+ObjType=2
+GrhIndex=619
+AnimAlto=27
+AnimBajo=28
+AnimAltoM=27
+AnimBajoM=28
+Newbie=1
+Soulbound=1
+Valor=1
+
+[OBJ96]
+Name=Poción Amarilla
+NameP=Pociones Amarillas
+ObjType=4
+GrhIndex=681
+Crucial=1
+TipoPocion=1
+MaxModificador=5
+MinModificador=1
+DuracionEfecto=1200
+Valor=10
+
+[OBJ97]
+Name=Poción Azul
+NameP=Pociones Azules
+ObjType=4
+GrhIndex=679
+Crucial=1
+TipoPocion=4
+MaxModificador=20
+MinModificador=20
+Valor=4
+
+[OBJ98]
+Name=Poción Roja
+NameP=Poción Rojas
+ObjType=4
+GrhIndex=678
+Crucial=1
+TipoPocion=3
+MaxModificador=22
+MinModificador=18
+Valor=5
+
+[OBJ99]
+Name=Poción Verde
+NameP=Pociones Verdes
+ObjType=4
+GrhIndex=680
+Crucial=1
+TipoPocion=2
+MaxModificador=5
+MinModificador=1
+DuracionEfecto=1200
+Valor=12
+
+[OBJ100]
+Name=Poción Violeta
+NameP=Pociones Violetas
+ObjType=4
+GrhIndex=690
+Crucial=1
+TipoPocion=5
+Valor=16
+
+[OBJ101]
+Name=Poción Amarilla
+NameP=Pociones Amarillas
+ObjType=4
+GrhIndex=689
+Newbie=1
+Crucial=1
+Soulbound=1
+TipoPocion=1
+MaxModificador=5
+MinModificador=1
+DuracionEfecto=1200
+Valor=10
+
+[OBJ221]
+Name=Poción Verde
+NameP=Pociones Verdes
+ObjType=4
+GrhIndex=688
+SoulBound=1
+Newbie=1
+Crucial=1
+TipoPocion=2
+MaxModificador=5
+MinModificador=1
+DuracionEfecto=1200
+Valor=10
+
+[OBJ102]'NEWBIE
+Name=Poción Azul
+NameP=Pociones Azules
+ObjType=4
+GrhIndex=687
+Newbie=1
+Crucial=1
+Soulbound=1
+TipoPocion=4
+MaxModificador=20
+MinModificador=20
+Valor=4
+
+[OBJ103]'NEWBIE
+Name=Poción Roja
+NameP=Pociones Rojas
+ObjType=4
+GrhIndex=682
+Newbie=1
+Crucial=1
+Soulbound=1
+TipoPocion=3
+MaxModificador=22
+MinModificador=18
+Valor=5
+
+[OBJ104]
+Name=Escudo Tortuga
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Proyectil=1
+MaxHIT=2
+MinHIT=1
+DosManos=1
+Valor=1
+CP1=123
+
+[OBJ105]
+Name=Escudo Druida Agite
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ106]
+Name=Escudo Bardo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=18
+LingP=10
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ107]
+Name=Escudo Clero Agite
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=18
+LingP=10
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ108]
+Name=Escudo Ase Agite
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=18
+LingP=10
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ109]
+Name=Escudo Pala Agite
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=18
+LingP=10
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ110]
+Name=Escudo Caza Agite
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=18
+LingP=10
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ111]
+Name=Escudo Guerre Agite
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingH=18
+LingP=10
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ112]
+Name=Escudo Druida Torneo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ113]
+Name=Escudo Bardo Torneo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ114]
+Name=Escudo Clero Torneo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ115]
+Name=Escudo Ase Torneo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ116]
+Name=Escudo Pala Torneo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=191
+CP2=3
+
+[OBJ117]
+Name=Escudo Caza Torneo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ118]
+Name=Escudo Guerre Torneo
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ119]
+Name=Escudo liviano pt1
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ120]
+Name=Escudo pesado pt1
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ121]
+Name=Escudo liviano pt2
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ122]
+Name=Escudo pesado pt2
+ObjType=5
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ123]
+Name=Sombrero Mago Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LVL=32
+SkillSastre=90
+PielL=67
+PielO=58
+PielB=49
+MINDEF=95
+MAXDEF=100
+Valor=1
+CP1=254
+CP2=3
+
+[OBJ124]
+Name=Gorro Druida Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=105
+MAXDEF=110
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ125]
+Name=Casco Bardo Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=185
+MAXDEF=190
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ126]
+Name=Casco Clero Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingP=35
+LingO=30
+SkHerreria=80
+MINDEF=145
+MAXDEF=150
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ127]
+Name=Casco Ase Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingP=35
+LingO=30
+SkHerreria=80
+MINDEF=145
+MAXDEF=150
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ128]
+Name=Casco Pala Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+LingP=35
+LingO=30
+SkHerreria=80
+MINDEF=205
+MAXDEF=210
+Valor=1
+CP1=191
+CP2=3
+
+[OBJ129]
+Name=Casco Caza Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=205
+MAXDEF=210
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ130]
+Name=Casco Guerre Agite
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=205
+MAXDEF=210
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ131]
+Name=Sombrero Mago Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=125
+MAXDEF=130
+Valor=1
+CP1=254
+CP2=3
+
+[OBJ132]
+Name=Gorro Druida Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=135
+MAXDEF=140
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ133]
+Name=Casco Bardo Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=185
+MAXDEF=190
+Valor=1
+CP1=239
+CP2=3
+
+[OBJ134]
+Name=Casco Clero Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=185
+MAXDEF=190
+Valor=1
+CP1=253
+CP2=3
+
+[OBJ135]
+Name=Casco Ase Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=185
+MAXDEF=190
+Valor=1
+CP1=247
+CP2=3
+
+[OBJ136]
+Name=Casco Pala Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=255
+MAXDEF=260
+Valor=1
+CP1=191
+CP2=3
+
+[OBJ137]
+Name=Casco Caza Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=255
+MAXDEF=260
+Valor=1
+CP1=127
+CP2=3
+
+[OBJ138]
+Name=Casco Guerre Torneo
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+MINDEF=255
+MAXDEF=260
+Valor=1
+CP1=251
+CP2=3
+
+[OBJ139]
+Name=Gorro Druida pt1
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=25
+MAXDEF=30
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ140]
+Name=Casco liviano pt1
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=45
+MAXDEF=50
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ141]
+Name=Sombrero pt1
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=15
+MAXDEF=20
+Valor=1
+CP1=254
+CP2=3
+
+[OBJ142]
+Name=Casco pesado pt1
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=90
+MAXDEF=95
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ143]
+Name=Gorro Druida pt2
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=60
+MAXDEF=65
+Valor=1
+CP1=223
+CP2=3
+
+[OBJ144]
+Name=Casco liviano pt2
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=95
+MAXDEF=100
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ145]
+Name=Sombrero pt2
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=15
+MAXDEF=20
+Valor=1
+CP1=254
+CP2=3
+
+[OBJ146]
+Name=Casco pesado pt2
+ObjType=6
+GrhIndex=619
+AnimAlto=1
+AnimBajo=1
+Crucial=1
+MINDEF=145
+MAXDEF=150
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ147]
+Name=Anillo +3 Agite
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=250
+DefensaMagicaMin=245
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ148]
+Name=Anillo +2 Agite
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=200
+DefensaMagicaMin=195
+Valor=1
+CP1=196
+CP2=3
+
+[OBJ149]
+Name=Anillo +1 Agite
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=150
+DefensaMagicaMin=145
+Valor=1
+
+[OBJ150]
+Name=Anillo +3 Torneo
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=300
+DefensaMagicaMin=295
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ151]
+Name=Anillo +2 Torneo
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=250
+DefensaMagicaMin=245
+Valor=1
+CP1=229
+CP2=3
+
+[OBJ152]
+Name=Anillo +1 Torneo
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=200
+DefensaMagicaMin=195
+Valor=1
+CP1=59
+CP2=3
+
+[OBJ153]
+Name=Anillo +3 pt1
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=150
+DefensaMagicaMin=145
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ154]
+Name=Anillo +2 pt1
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=100
+DefensaMagicaMin=95
+Valor=1
+CP1=196
+CP2=3
+
+[OBJ155]
+Name=Anillo +1 pt1
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=50
+DefensaMagicaMin=45
+Valor=1
+
+[OBJ156]
+Name=Anillo +3 pt2
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=200
+DefensaMagicaMin=195
+Valor=1
+CP1=222
+CP2=3
+
+[OBJ157]
+Name=Anillo +2 pt2
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=150
+DefensaMagicaMin=145
+Valor=1
+CP1=196
+CP2=3
+
+[OBJ158]
+Name=Anillo +1 pt2
+ObjType=7
+GrhIndex=619
+DefensaMagicaMax=100
+DefensaMagicaMin=95
+Valor=1
+
+[OBJ159]
+Name=Copa de Oro
+NameP=Copas de oro
+ObjType=8
+Log=1
+GrhIndex=657
+
+[OBJ160]
+Name=Copa de Plata
+NameP=Copas de Plata
+ObjType=8
+Log=1
+GrhIndex=655
+
+[OBJ161]
+Name=Copa de Bronce
+NameP=Copas de Bronce
+ObjType=8
+Log=1
+GrhIndex=656
+
+[OBJ162]
+Name=Medalla de Oro
+NameP=Medallas de Oro
+ObjType=8
+Log=1
+GrhIndex=675
+
+[OBJ163]
+Name=Pergamino de la avaricia
+NameP=Pergaminos de la avaricia
+ObjType=8
+GrhIndex=693
+NoSeCae=1
+
+[OBJ164]
+Name=RECICLAR
+ObjType=
+Log=
+GrhIndex=
+NoSeCae=
+
+[OBJ165]
+Name=RECICLAR
+ObjType=
+Log=
+GrhIndex=
+NoSeCae=
+
+[OBJ166]
+Name=RECICLAR
+ObjType=
+Log=
+GrhIndex=
+NoSeCae=
+
+[OBJ167]
+Name=RECICLAR
+ObjType=
+Log=
+GrhIndex=
+NoSeCae=
+
+[OBJ168]
+Name=RECICLAR
+ObjType=
+Log=
+GrhIndex=
+NoSeCae=
+
+[OBJ169]
+Name=Cabeza Rey de la Alianza
+ObjType=8
+Log=1
+GrhIndex=619
+NoSeCae=1
+
+[OBJ170]
+Name=Cabeza Chief de la Horda
+ObjType=8
+Log=1
+GrhIndex=619
+NoSeCae=1
+
+[OBJ171]
+Name=Amuleto de Lider
+NameP=Amuletos de lider
+ObjType=8
+Log=1
+GrhIndex=4153
+NoSeCae=1
+
+[OBJ172]
+Name=Acta de Fundacion
+NameP=Actas de fundación
+ObjType=8
+Log=1
+GrhIndex=691
+NoSeCae=1
+
+[OBJ173]
+Name=Pergamino de Regreso
+NameP=Pergaminos de Regreso
+ObjType=8
+GrhIndex=692
+Crucial=1
+Valor=1
+
+[OBJ174]
+Name=Mineral de Hierro
+NameP=Minerales de Hierro
+ObjType=9
+GrhIndex=651
+LingoteIndex=256
+Valor=1
+
+[OBJ175]
+NameP=Minerales de Plata
+ObjType=9
+GrhIndex=650
+LingoteIndex=257
+Valor=1
+
+[OBJ176]
+Name=Mineral de Oro
+NameP=Minerales de Oro
+ObjType=9
+GrhIndex=652
+LingoteIndex=258
+Valor=1
+
+[OBJ177]
+Name=Barca
+ObjType=12
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+LVL=30
+NoSeCae=1
+SkCarpinteria=100
+MINDEF=20
+MAXDEF=15
+MaxHIT=2
+MinHIT=1
+Valor=1
+
+[OBJ178]
+Name=Galera
+ObjType=12
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+LVL=40
+NoSeCae=1
+SkCarpinteria=100
+MINDEF=50
+MAXDEF=45
+MaxHIT=3
+MinHIT=2
+Valor=1
+
+[OBJ179]
+Name=Galeón
+ObjType=12
+GrhIndex=619
+AnimAlto=11
+AnimBajo=11
+AnimAltoM=11
+AnimBajoM=11
+LVL=50
+NoSeCae=1
+SkCarpinteria=100
+MINDEF=75
+MAXDEF=70
+MaxHIT=4
+MinHIT=3
+Valor=1
+
+[OBJ180]
+Name=Flecha Agite
+ObjType=13
+GrhIndex=619
+Madera=3
+SkCarpinteria=30
+MaxHIT=2
+MinHIT=2
+Valor=1
+CP1=123
+CP2=3
+
+[OBJ181]
+Name=Flecha
+ObjType=13
+GrhIndex=619
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=123
+
+[OBJ182]
+Name=Flecha Torneo
+ObjType=13
+GrhIndex=619
+MaxHIT=3
+MinHIT=2
+Valor=1
+CP1=123
+CP2=3
+
+[OBJ183]
+Name=Flecha Comun
+ObjType=13
+GrhIndex=619
+Crucial=1
+Madera=3
+MaxHIT=1
+MinHIT=1
+Valor=1
+CP1=123
+CP2=3
+
+[OBJ184]
+Name=Flecha 
+ObjType=13
+GrhIndex=619
+Crucial=1
+Madera=3
+MaxHIT=2
+MinHIT=1
+Valor=1
+CP1=123
+CP2=3
+
+[OBJ185]
+Name=Gema Plateada
+ObjType=14
+GrhIndex=619
+
+[OBJ186]
+Name=Gema Azul
+ObjType=14
+GrhIndex=619
+
+[OBJ187]
+Name=Gema Naranja
+ObjType=14
+GrhIndex=619
+
+[OBJ188]
+Name=Gema Celeste
+ObjType=14
+GrhIndex=619
+
+[OBJ189]
+Name=Gema Lila
+ObjType=14
+GrhIndex=619
+
+[OBJ190]
+Name=Gema Roja
+ObjType=14
+GrhIndex=619
+
+[OBJ191]
+Name=Gema Verde
+ObjType=14
+GrhIndex=619
+
+[OBJ192]
+Name=Gema Violeta
+ObjType=14
+GrhIndex=619
+
+[OBJ193]
+Name=Gema Negra
+ObjType=14
+Log=1
+GrhIndex=619
+
+[OBJ194]
+Name=Gema Sagrada
+ObjType=14
+GrhIndex=619
+
+[OBJ195]
+Name=Mapa del Tesoro
+NameP=Mapas del tesoro
+ObjType=16
+GrhIndex=694
+Crucial=1
+
+[OBJ196]
+Name=Leña
+NameP=Leñas 
+ObjType=17
+GrhIndex=662
+Valor=1
+
+[OBJ197]
+Name=Leña 2
+NameP=Leñas 2
+ObjType=17
+GrhIndex=663
+Valor=1
+
+[OBJ198]
+Name=Lingote de hierro
+NameP=Lingotes de hierro
+ObjType=17
+GrhIndex=653
+
+[OBJ199]
+Name=Lingote de plata
+NameP=Lingotes de plata
+ObjType=17
+GrhIndex=649
+
+[OBJ200]
+Name=Lingote de oro
+NameP=Lingotes de oro
+ObjType=17
+GrhIndex=654
+
+[OBJ201]
+Name=Piel de lobo
+NameP=Pieles de lobo
+ObjType=17
+GrhIndex=658
+Valor=1
+
+[OBJ202]
+Name=Piel de Oso Pardo
+NameP=Pieles de Oso Pardo
+ObjType=17
+GrhIndex=659
+Valor=1
+
+[OBJ203]
+Name=Piel de Oso Polar
+NameP=Pieles de Oso Polar
+ObjType=17
+GrhIndex=660
+Valor=1
+
+[OBJ204]
+Name=Martillo de Herrero
+NameP=Martillos de Herrero
+ObjType=18
+GrhIndex=669
+Crucial=1
+Valor=1
+
+[OBJ205]
+Name=Piquete de Minero
+NameP=Piquetes de Minero
+ObjType=18
+GrhIndex=670
+Crucial=1
+Valor=1
+
+[OBJ206]
+Name=Serrucho
+NameP=Serruchos
+ObjType=18
+GrhIndex=667
+Crucial=1
+Valor=1
+
+[OBJ207]
+Name=Hacha de Leñador
+NameP=Hachas de Leñador
+ObjType=18
+GrhIndex=668
+Crucial=1
+MaxHIT=10
+MinHIT=4
+Valor=1
+
+[OBJ208]
+Name=Caña de Pescador
+NameP=Cañas de Pescador
+ObjType=18
+GrhIndex=666
+Crucial=1
+MaxHIT=10
+MinHIT=4
+Valor=1
+
+[OBJ209]
+Name=Red de Pesca
+NameP=Redes de Pesca
+ObjType=18
+GrhIndex=665
+Crucial=1
+MaxHIT=10
+MinHIT=4
+Valor=1
+
+[OBJ210]
+Name=Tijera
+NameP=Tijeras
+ObjType=18
+GrhIndex=661
+Crucial=1
+Valor=1
+
+[OBJ211]
+Name=Manzana Roja
+NameP=Manzanas Rojas
+ObjType=255
+GrhIndex=641
+Crucial=1
+Valor=1
+
+[OBJ212]
+Name=Banana
+NameP=Bananas
+ObjType=255
+GrhIndex=642
+Crucial=1
+Valor=1
+
+[OBJ213]
+Name=Pollo
+ObjType=255
+GrhIndex=643
+Crucial=1
+Valor=1
+
+[OBJ214]
+Name=Pescado
+NameP=Pescados
+ObjType=255
+GrhIndex=644
+Crucial=1
+Valor=1
+
+[OBJ215]
+Name=Corvina
+NameP=Corvinas
+ObjType=255
+GrhIndex=645
+Valor=1
+
+[OBJ216]
+Name=Pez Espada
+NameP=Peces Espada
+ObjType=255
+GrhIndex=646
+Valor=1
+
+[OBJ217]
+Name=Salmón
+NameP=Salmones
+ObjType=255
+GrhIndex=647
+Valor=1
+
+
+[OBJ218]
+Name=Bloque de Marfil
+NameP=Bloques de Marfil
+ObjType=17
+GrhIndex=664
+Valor=1
+
+[OBJ219]
+Name=Medalla de Plata
+NameP=Medallas de Plata
+ObjType=8
+Log=1
+GrhIndex=676
+
+[OBJ220]
+Name=Medalla de Bronce
+NameP=Medallas de Bronce
+ObjType=8
+Log=1
+GrhIndex=677

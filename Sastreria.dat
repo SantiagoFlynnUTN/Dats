@@ -1,0 +1,52 @@
+[INIT]
+Num=5
+
+
+[1]
+Nombre=Tunica mago Agite
+Item=39
+Nivel=1
+Tipo=1
+Piel1=40
+Piel2=50
+Piel3=100
+Ver=1
+
+[2]
+Nombre=Tunica mago Agite
+Item=40
+Nivel=1
+Tipo=1
+Piel1=40
+Piel2=50
+Piel3=150
+Ver=1
+
+[3]
+Nombre=Tunica mago Agite
+Item=49
+Nivel=1
+Tipo=1
+Piel1=40
+Piel2=50
+Piel3=200
+Ver=1
+[4]
+Nombre=Tunica mago Agite
+Item=50
+Nivel=1
+Tipo=1
+Piel1=140
+Piel2=50
+Piel3=100
+Ver=1
+
+[5]
+Nombre=Tunica mago Agite
+Item=57
+Nivel=2
+Tipo=1
+Piel1=40
+Piel2=150
+Piel3=150
+Ver=1
