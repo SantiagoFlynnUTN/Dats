@@ -81,19 +81,19 @@ otCualquiera = 255
 "MINDEF"
 "MAXDEF"
 
-' Daños
+' DaÃ±os
 "Proyectil"
 "StaffPower"
 "StaffDamageBonus"
 "DanioSoloNPCs"
-"MinDañoMagico"
-"MaxDañoMagico"
+"MinDaÃ±oMagico"
+"MaxDaÃ±oMagico"
 "MaxHIT"
 "MinHIT"
 "DosManos"
 
-' Daños Efectos
-"Apuñala"
+' DaÃ±os Efectos
+"ApuÃ±ala"
 "Envenena"
 "Paraliza"
 
@@ -138,7 +138,7 @@ otCualquiera = 255
 NumOBJs=221
 
 [OBJ1]
-Name=Báculo Mago Agite
+Name=BÃ¡culo Mago Agite
 ObjType=1
 GrhIndex=619
 AnimAlto=1
@@ -148,8 +148,8 @@ Madera=340
 Piedras=2
 SkCarpinteria=100
 StaffPower=3
-MinDañoMagico=35
-MaxDañoMagico=40
+MinDaÃ±oMagico=35
+MaxDaÃ±oMagico=40
 MaxHIT=1
 MinHIT=1
 Valor=1
@@ -166,8 +166,8 @@ Madera=250
 Piedras=1
 SkCarpinteria=100
 StaffPower=2
-MinDañoMagico=35
-MaxDañoMagico=40
+MinDaÃ±oMagico=35
+MaxDaÃ±oMagico=40
 MaxHIT=1
 MinHIT=1
 Valor=1
@@ -203,7 +203,7 @@ CP1=239
 CP2=3
 
 [OBJ5]
-Name=Empuñadura Bardo Agite
+Name=EmpuÃ±adura Bardo Agite
 ObjType=1
 GrhIndex=619
 AnimAlto=1
@@ -214,7 +214,7 @@ LingO=21
 SkHerreria=100
 MaxHIT=5
 MinHIT=4
-Apuñala=1
+ApuÃ±ala=1
 Valor=1
 CP1=239
 CP2=3
@@ -236,14 +236,14 @@ CP1=253
 CP2=3
 
 [OBJ7]
-Name=Empuñadura Ase Agite
+Name=EmpuÃ±adura Ase Agite
 ObjType=1
 GrhIndex=619
 AnimAlto=1
 AnimBajo=1
 MaxHIT=5
 MinHIT=4
-Apuñala=1
+ApuÃ±ala=1
 Valor=1
 CP1=247
 CP2=3
@@ -359,13 +359,13 @@ MinHIT=1
 Valor=1
 
 [OBJ15]
-Name=Báculo Mago Torneo
+Name=BÃ¡culo Mago Torneo
 ObjType=1
 GrhIndex=619
 AnimAlto=1
 AnimBajo=1
-MinDañoMagico=55
-MaxDañoMagico=60
+MinDaÃ±oMagico=55
+MaxDaÃ±oMagico=60
 MaxHIT=1
 MinHIT=1
 Valor=1
@@ -378,8 +378,8 @@ ObjType=1
 GrhIndex=619
 AnimAlto=1
 AnimBajo=1
-MinDañoMagico=55
-MaxDañoMagico=60
+MinDaÃ±oMagico=55
+MaxDaÃ±oMagico=60
 MaxHIT=1
 MinHIT=1
 Valor=1
@@ -411,7 +411,7 @@ CP1=239
 CP2=3
 
 [OBJ19]
-Name=Empuñadura Bardo Torneo
+Name=EmpuÃ±adura Bardo Torneo
 ObjType=1
 GrhIndex=619
 AnimAlto=1
@@ -419,7 +419,7 @@ AnimBajo=1
 StaffPower=2
 MaxHIT=7
 MinHIT=6
-Apuñala=1
+ApuÃ±ala=1
 Valor=1
 CP1=239
 CP2=3
@@ -438,14 +438,14 @@ CP1=253
 CP2=3
 
 [OBJ21]
-Name=Empuñadura Ase Torneo
+Name=EmpuÃ±adura Ase Torneo
 ObjType=1
 GrhIndex=619
 AnimAlto=1
 AnimBajo=1
 MaxHIT=7
 MinHIT=6
-Apuñala=1
+ApuÃ±ala=1
 Valor=1
 CP1=247
 CP2=3
@@ -543,14 +543,14 @@ NivelProf=1
 TipoCraft=3
 
 [OBJ28]
-Name=Báculo pt1
+Name=BÃ¡culo pt1
 ObjType=1
 GrhIndex=619
 AnimAlto=1
 AnimBajo=1
 Crucial=1
-MinDañoMagico=2
-MaxDañoMagico=5
+MinDaÃ±oMagico=2
+MaxDaÃ±oMagico=5
 MaxHIT=1
 MinHIT=1
 Valor=1
@@ -566,7 +566,7 @@ AnimBajo=1
 Crucial=1
 MaxHIT=2
 MinHIT=1
-Apuñala=1
+ApuÃ±ala=1
 Valor=1
 CP1=247
 CP2=3
@@ -617,14 +617,14 @@ TipoCraft=3
 NoDecraft=1
 
 [OBJ33]
-Name=Báculo pt2
+Name=BÃ¡culo pt2
 ObjType=1
 GrhIndex=619
 AnimAlto=1
 AnimBajo=1
 Crucial=1
-MinDañoMagico=10
-MaxDañoMagico=15
+MinDaÃ±oMagico=10
+MaxDaÃ±oMagico=15
 MaxHIT=1
 MinHIT=1
 Valor=1
@@ -640,7 +640,7 @@ AnimBajo=1
 Crucial=1
 MaxHIT=3
 MinHIT=2
-Apuñala=1
+ApuÃ±ala=1
 Valor=1
 CP1=247
 CP2=3
@@ -697,7 +697,7 @@ AnimBajo=1
 Crucial=1
 MaxHIT=2
 MinHIT=1
-Apuñala=1
+ApuÃ±ala=1
 Valor=1
 CP1=247
 CP2=3
@@ -720,7 +720,6 @@ PielO=10
 PielB=20
 NivelProf=1
 TipoCraft=2
-
 
 [OBJ40]
 Name=Tunica Druida Agite
@@ -836,7 +835,7 @@ CP1=251
 CP2=3
 
 [OBJ47]
-Name=Vestimenta Común Roja
+Name=Vestimenta ComÃºn Roja
 ObjType=2
 GrhIndex=619
 AnimAlto=23
@@ -846,7 +845,7 @@ AnimBajoM=25
 Valor=1
 
 [OBJ48]
-Name=Vestimenta Común Azul
+Name=Vestimenta ComÃºn Azul
 ObjType=2
 GrhIndex=619
 AnimAlto=27
@@ -892,7 +891,6 @@ TipoCraft=2
 PielO=10
 PielL=41
 PielB=34
-
 
 [OBJ51]
 Name=Armadura Bardo Torneo
@@ -1494,7 +1492,7 @@ CP1=59
 CP2=3
 
 [OBJ93]
-Name=Vestimenta Común Roja Newbie
+Name=Vestimenta ComÃºn Roja Newbie
 ObjType=2
 GrhIndex=619
 AnimAlto=23
@@ -1506,7 +1504,7 @@ Soulbound=1
 Valor=1
 
 [OBJ94]
-Name=Vestimenta Común Verde Newbie
+Name=Vestimenta ComÃºn Verde Newbie
 ObjType=2
 GrhIndex=619
 AnimAlto=24
@@ -1518,7 +1516,7 @@ Soulbound=1
 Valor=1
 
 [OBJ95]
-Name=Vestimenta Común Azul Newbie
+Name=Vestimenta ComÃºn Azul Newbie
 ObjType=2
 GrhIndex=619
 AnimAlto=27
@@ -1530,7 +1528,7 @@ Soulbound=1
 Valor=1
 
 [OBJ96]
-Name=Poción Amarilla
+Name=PociÃ³n Amarilla
 NameP=Pociones Amarillas
 ObjType=4
 GrhIndex=681
@@ -1542,7 +1540,7 @@ DuracionEfecto=1200
 Valor=10
 
 [OBJ97]
-Name=Poción Azul
+Name=PociÃ³n Azul
 NameP=Pociones Azules
 ObjType=4
 GrhIndex=679
@@ -1553,8 +1551,8 @@ MinModificador=20
 Valor=4
 
 [OBJ98]
-Name=Poción Roja
-NameP=Poción Rojas
+Name=PociÃ³n Roja
+NameP=PociÃ³n Rojas
 ObjType=4
 GrhIndex=678
 Crucial=1
@@ -1564,7 +1562,7 @@ MinModificador=18
 Valor=5
 
 [OBJ99]
-Name=Poción Verde
+Name=PociÃ³n Verde
 NameP=Pociones Verdes
 ObjType=4
 GrhIndex=680
@@ -1576,7 +1574,7 @@ DuracionEfecto=1200
 Valor=12
 
 [OBJ100]
-Name=Poción Violeta
+Name=PociÃ³n Violeta
 NameP=Pociones Violetas
 ObjType=4
 GrhIndex=690
@@ -1585,7 +1583,7 @@ TipoPocion=5
 Valor=16
 
 [OBJ101]
-Name=Poción Amarilla
+Name=PociÃ³n Amarilla
 NameP=Pociones Amarillas
 ObjType=4
 GrhIndex=689
@@ -1599,7 +1597,7 @@ DuracionEfecto=1200
 Valor=10
 
 [OBJ221]
-Name=Poción Verde
+Name=PociÃ³n Verde
 NameP=Pociones Verdes
 ObjType=4
 GrhIndex=688
@@ -1613,7 +1611,7 @@ DuracionEfecto=1200
 Valor=10
 
 [OBJ102]'NEWBIE
-Name=Poción Azul
+Name=PociÃ³n Azul
 NameP=Pociones Azules
 ObjType=4
 GrhIndex=687
@@ -1626,7 +1624,7 @@ MinModificador=20
 Valor=4
 
 [OBJ103]'NEWBIE
-Name=Poción Roja
+Name=PociÃ³n Roja
 NameP=Pociones Rojas
 ObjType=4
 GrhIndex=682
@@ -2365,7 +2363,7 @@ NoSeCae=1
 
 [OBJ172]
 Name=Acta de Fundacion
-NameP=Actas de fundación
+NameP=Actas de fundaciÃ³n
 ObjType=8
 Log=1
 GrhIndex=691
@@ -2433,7 +2431,7 @@ MinHIT=2
 Valor=1
 
 [OBJ179]
-Name=Galeón
+Name=GaleÃ³n
 ObjType=12
 GrhIndex=619
 AnimAlto=11
@@ -2563,15 +2561,15 @@ GrhIndex=694
 Crucial=1
 
 [OBJ196]
-Name=Leña
-NameP=Leñas 
+Name=LeÃ±a
+NameP=LeÃ±as 
 ObjType=17
 GrhIndex=662
 Valor=1
 
 [OBJ197]
-Name=Leña 2
-NameP=Leñas 2
+Name=LeÃ±a 2
+NameP=LeÃ±as 2
 ObjType=17
 GrhIndex=663
 Valor=1
@@ -2640,8 +2638,8 @@ Crucial=1
 Valor=1
 
 [OBJ207]
-Name=Hacha de Leñador
-NameP=Hachas de Leñador
+Name=Hacha de LeÃ±ador
+NameP=Hachas de LeÃ±ador
 ObjType=18
 GrhIndex=668
 Crucial=1
@@ -2650,8 +2648,8 @@ MinHIT=4
 Valor=1
 
 [OBJ208]
-Name=Caña de Pescador
-NameP=Cañas de Pescador
+Name=CaÃ±a de Pescador
+NameP=CaÃ±as de Pescador
 ObjType=18
 GrhIndex=666
 Crucial=1
@@ -2723,12 +2721,11 @@ GrhIndex=646
 Valor=1
 
 [OBJ217]
-Name=Salmón
+Name=SalmÃ³n
 NameP=Salmones
 ObjType=255
 GrhIndex=647
 Valor=1
-
 
 [OBJ218]
 Name=Bloque de Marfil
@@ -2750,3 +2747,4 @@ NameP=Medallas de Bronce
 ObjType=8
 Log=1
 GrhIndex=677
+

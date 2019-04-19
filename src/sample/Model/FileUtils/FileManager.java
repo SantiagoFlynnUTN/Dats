@@ -86,7 +86,7 @@ public class FileManager {
                 .concat(objects.stream().map(o -> o.verbose).collect(Collectors.joining()));
 
         System.out.println(fileData);
-        FileOutputStream fos = new FileOutputStream("obj.txt");
+        FileOutputStream fos = new FileOutputStream("Obj.dat");
         fos.write(fileData.getBytes());
         fos.flush();
         fos.close();
