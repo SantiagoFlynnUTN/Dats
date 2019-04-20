@@ -27,7 +27,7 @@ public class FileManager {
 
         currentFileName = filename;
         records = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), StandardCharsets.ISO_8859_1));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), StandardCharsets.UTF_8));
         String line;
         while ((line = reader.readLine()) != null)
         {
@@ -64,7 +64,7 @@ public class FileManager {
                     line = i < records.size() ? records.get(i): "'endOfFile";
                 }
 
-                object.verbose = object.verbose.concat("\n\n");
+                object.verbose = object.verbose.concat("\n");
 
                 objects.add(object);
 
