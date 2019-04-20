@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Menu?>
@@ -35,16 +34,15 @@
         </menus>
       </MenuBar>
       <ListView fx:id="datsListView" layoutY="29.0" prefHeight="669.0" prefWidth="183.0" />
-      <Label fx:id="labelTest" alignment="TOP_LEFT" layoutX="300.0" layoutY="78.0" prefHeight="53.0" prefWidth="237.0" text="NombreItem" />
-      <TextField fx:id="searchTextField" layoutX="327.0" layoutY="29.0" prefHeight="27.0" prefWidth="251.0" />
-      <ComboBox layoutX="200.0" layoutY="29.0" prefHeight="27.0" prefWidth="127.0" promptText="Filtrar por:" />
-       <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="200.0" layoutY="78.0">
+      <Label fx:id="labelTest" alignment="TOP_LEFT" layoutX="200.0" layoutY="46.0" prefHeight="20.0" prefWidth="80.0" text="Filtrar por: " />
+      <TextField fx:id="searchTextField" layoutX="278.0" layoutY="43.0" prefHeight="27.0" prefWidth="300.0" />
+       <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="200.0" layoutY="91.0">
          <image>
             <Image backgroundLoading="true" url="https://tierrasdelsur.cc/imgmanual/bardo.JPG" />
          </image></ImageView>
-
-       <Button layoutX="580.0" layoutY="29.0" mnemonicParsing="false" text="SIguiente" />
       <TextArea fx:id="objectsTextArea" layoutX="200.0" layoutY="187.0" prefHeight="511.0" prefWidth="456.0" />
-      <Button layoutX="679.0" layoutY="187.0" mnemonicParsing="false" text="Nuevo Item" fx:id="addNewItemButton"/>
+      <Button fx:id="addNewItemButton" layoutX="679.0" layoutY="187.0" mnemonicParsing="false" text="Nuevo Item" />
+      <Label fx:id="labelTest1" alignment="TOP_LEFT" layoutX="293.0" layoutY="91.0" prefHeight="20.0" prefWidth="88.0" text="NombreItem" />
+      <Label fx:id="resultsQtyLabel" alignment="TOP_LEFT" layoutX="388.0" layoutY="161.0" prefHeight="20.0" prefWidth="80.0"/>
    </children>
 </Pane>

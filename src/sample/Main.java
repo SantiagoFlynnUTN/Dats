@@ -4,13 +4,13 @@ import javafx.application.Application;
 import javafx.beans.Observable;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import sample.Controllers.AddNewObjectButtonController;
 import sample.Model.ContextGenerator;
 import sample.Model.FileUtils.FileParser;
 import sample.Model.IndexedObj;
@@ -40,8 +40,6 @@ public class Main extends Application {
     public void start(Stage primaryStage){
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Dats Workshop");
-
-        fileParser = FileParser.getInstance();
 
         initRootLayout();
 
@@ -79,11 +77,12 @@ public class Main extends Application {
 
     private void initVisualComponents() {
 
+        fileParser = FileParser.getInstance();
         searchTextField = (TextField) rootLayout.lookup("#searchTextField");
         objectsTextArea = (TextArea) rootLayout.lookup("#objectsTextArea");
         datsListView = (ListView<String>) rootLayout.lookup("#datsListView");
 
-        searchTextField.setOnKeyReleased(this::onTextAreaKeyPressedEvent);
+        searchTextField.setOnKeyReleased(this::onSearchTextEvent);
         objectsTextArea.setOnKeyReleased(this::onObjectsAreaChangeEvent);
         datsListView.getSelectionModel().selectedItemProperty().addListener(this::onDatsListItemClick);
     }
@@ -129,13 +128,16 @@ public class Main extends Application {
         }
     }
 
-    private void onTextAreaKeyPressedEvent(KeyEvent event){
+    private void onSearchTextEvent(KeyEvent event){
 
-        TextField searchTextField = (TextField) rootLayout.lookup("#searchTextField");
-
-        objectsTextArea.setText(fileParser.getObjects().stream()
+        Stream<String> filteredObjects = fileParser.getObjects()
+                .stream()
                 .map(o -> o.verbose)
-                .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText()))
+                .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText()));
+
+        ((Label) rootLayout.lookup("#resultsQtyLabel")).setText(filteredObjects.collect(Collectors.toList()).size() + " resultados:");
+
+        objectsTextArea.setText(filteredObjects
                 .collect(Collectors.joining()));
     }
 

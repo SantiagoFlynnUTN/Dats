@@ -39,16 +39,19 @@ public class ContextGenerator {
 
         int objQty = FileParser.getInstance().getObjects().size() - 1;
 
-        String newObj = "\n[OBJ" + objQty + "]\n"
-                + "Name=\n";
+        String newObj = "[OBJ" + objQty + "]\n"
+                + "Name=\n\n";
 
         FileParser.getInstance().getObjects().get(0).verbose = "[INIT]\nNumOBJs=" + objQty + "\n\n";
 
         try {
             FileManager.getInstance().addToEndOfFile(newObj, OBJECTS);
             //reload text area
-            ((TextArea) root.lookup("#objectsTextArea")).setText(FileParser.getInstance().getObjects()
+            TextArea objectsArea = (TextArea) root.lookup("#objectsTextArea");
+            objectsArea.setText(FileParser.getInstance().getObjects()
                     .stream().map(o -> o.verbose).collect(Collectors.joining()));
+
+            objectsArea.positionCaret(objectsArea.getText().length());
 
         } catch (IOException e) {
             e.printStackTrace();
