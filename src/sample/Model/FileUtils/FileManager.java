@@ -56,12 +56,12 @@ public class FileManager {
                 IndexedObj object = new IndexedObj();
                 object.verbose = line;
                 i++;
-                line = i < records.size() ? records.get(i): "";
+                line = i < records.size() ? records.get(i): "'endOfFile";
 
-                while(!line.contains("[") && !"".equals(line)){
+                while(!line.contains("[") && !"'endOfFile".equals(line)){
                     object.verbose = object.verbose.concat("\n" + line);
                     i++;
-                    line = i < records.size() ? records.get(i): "";
+                    line = i < records.size() ? records.get(i): "'endOfFile";
                 }
 
                 object.verbose = object.verbose.concat("\n\n");
@@ -71,10 +71,10 @@ public class FileManager {
             } else if(isReadingHeader){
                 fileHead.add(line + "\n");
                 i++;
-                line = i < records.size() ? records.get(i): "";
+                line = i < records.size() ? records.get(i): "'endOfFile";
             } else {
                 i++;
-                line = i < records.size() ? records.get(i): "";
+                line = i < records.size() ? records.get(i): "'endOfFile";
             }
         }
 
