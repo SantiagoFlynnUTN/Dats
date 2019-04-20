@@ -2,7 +2,7 @@
 NumItems=24
 
 [PREMIO1]
-Info=Túnica promocional limitada por el lanzamiento de la 6.0 para humanos elfos y elfos Oscuros. Esta túnica SOLO va a estar disponible durante los primeros dias de la versión 5.0
+Info=Tï¿½nica promocional limitada por el lanzamiento de la 6.0 para humanos elfos y elfos Oscuros. Esta tï¿½nica SOLO va a estar disponible durante los primeros dias de la versiï¿½n 5.0
 Nombre=Tunica de Lanzamiento 5.0 (Altos)
 Valor=80
 Descuento=0
@@ -10,7 +10,7 @@ NumObjs=1
 Obj1=529-1-0
 
 [PREMIO2]
-Info=Túnica promocional limitada por el lanzamiento de la 6.0 para enanos y gnomos. Esta túnica SOLO va a estar disponible durante los primeros dias de la versión 5.0
+Info=Tï¿½nica promocional limitada por el lanzamiento de la 6.0 para enanos y gnomos. Esta tï¿½nica SOLO va a estar disponible durante los primeros dias de la versiï¿½n 5.0
 Nombre=Tunica de Lanzamiento 5.0 (Bajos)
 Valor=80
 Descuento=0
@@ -18,7 +18,7 @@ NumObjs=1
 Obj1=530-1
 
 [PREMIO3]
-Info=El Pack de los Campeones incluye una Túnica de los Campeones (H/E/EO) 3 pendientes del sacrificio y 150 puntos de Torneo.
+Info=El Pack de los Campeones incluye una Tï¿½nica de los Campeones (H/E/EO) 3 pendientes del sacrificio y 150 puntos de Torneo.
 Nombre=Pack de los Campeones (Altos)
 Valor=30
 Descuento=0
@@ -28,7 +28,7 @@ Obj2=478-3
 Obj3=593-1
 
 [PREMIO4]
-Info=El Pack de los Campeones incluye una Túnica de los Campeones (E/G) 3 pendientes del sacrificio y 150 puntos de Torneo.
+Info=El Pack de los Campeones incluye una Tï¿½nica de los Campeones (E/G) 3 pendientes del sacrificio y 150 puntos de Torneo.
 Nombre=Pack de los Campeones (Bajos)
 Valor=30
 Descuento=0
@@ -38,7 +38,7 @@ Obj2=478-3
 Obj3=593-1
 
 [PREMIO5]
-Info=El Pack de los Heroes incluye una Túnica de los Heroes (Altos) 5 pendientes del sacrificio y 250 puntos de Torneo.
+Info=El Pack de los Heroes incluye una Tï¿½nica de los Heroes (Altos) 5 pendientes del sacrificio y 250 puntos de Torneo.
 Nombre=Pack de los Heroes (Altos)
 Valor=40
 Descuento=0
@@ -48,7 +48,7 @@ Obj2=478-5
 Obj3=594-1
 
 [PREMIO6]
-Info=El Pack de los Heroes incluye una Túnica de los Heroes (Bajos) 5 pendientes del sacrificio y 250 puntos de Torneo.
+Info=El Pack de los Heroes incluye una Tï¿½nica de los Heroes (Bajos) 5 pendientes del sacrificio y 250 puntos de Torneo.
 Nombre=Pack de los Heroes (Bajos)
 Valor=40
 Descuento=0
@@ -80,7 +80,7 @@ Obj2=478-10
 Obj3=595-1
 
 [PREMIO9]
-Info=El set de mago incluye el siguiente equipo: 10 Túnicas de Magos 10 Báculos Ancestrales 10 Anillos Neutros 10 Sombreros Mágicos 10 Coronas Oscuras
+Info=El set de mago incluye el siguiente equipo: 10 Tï¿½nicas de Magos 10 Bï¿½culos Ancestrales 10 Anillos Neutros 10 Sombreros Mï¿½gicos 10 Coronas Oscuras
 Nombre=Set de Mago (Altos)
 Valor=10
 Descuento=0
@@ -92,8 +92,8 @@ Obj4=394-10
 Obj5=367-10
 
 [PREMIO10]
-Info=El set de clérigo incluye el siguiente equipo: 10 Corazas Clericales 10 Cascos Imperiales 10 Escudos Clericales 10 Espadas Glaciales 10 Anillos Neutros
-Nombre=Set de Clérigo (Altos)
+Info=El set de clï¿½rigo incluye el siguiente equipo: 10 Corazas Clericales 10 Cascos Imperiales 10 Escudos Clericales 10 Espadas Glaciales 10 Anillos Neutros
+Nombre=Set de Clï¿½rigo (Altos)
 Valor=10
 Descuento=0
 NumObjs=5
@@ -104,7 +104,7 @@ Obj4=383-10
 Obj5=357-10
 
 [PREMIO11]
-Info=El set de bardo incluye el siguiente equipo: 10 Armaduras Guerrero del Pantano 10 Yelmos Líricos 10 Anillos Neutros 10 Escudos de Aura 10 Espadas Corta
+Info=El set de bardo incluye el siguiente equipo: 10 Armaduras Guerrero del Pantano 10 Yelmos Lï¿½ricos 10 Anillos Neutros 10 Escudos de Aura 10 Espadas Corta
 Nombre=Set de Bardo (Altos)
 Valor=10
 Descuento=0
@@ -116,8 +116,8 @@ Obj4=103-10
 Obj5=357-10
 
 [PREMIO12]
-Info=El set de paladín incluye el siguiente equipo: 10 Armaduras Antiguas de Platino 10 Cascos Templarios 10 Anillos de Escencia Mágica 10 Escudos de León 10 Espadas de Plata
-Nombre=Set de Paladín (Altos)
+Info=El set de paladï¿½n incluye el siguiente equipo: 10 Armaduras Antiguas de Platino 10 Cascos Templarios 10 Anillos de Escencia Mï¿½gica 10 Escudos de Leï¿½n 10 Espadas de Plata
+Nombre=Set de Paladï¿½n (Altos)
 Valor=10
 Descuento=0
 NumObjs=5
@@ -128,7 +128,7 @@ Obj4=207-10
 Obj5=357-10
 
 [PREMIO13]
-Info=El set de druida incluye el siguiente equipo: 10 Túnicas de Druida 10 Gorros de Cuero 10 Anillos Neutros 10 Escudos de Tortuga 10 Sables
+Info=El set de druida incluye el siguiente equipo: 10 Tï¿½nicas de Druida 10 Gorros de Cuero 10 Anillos Neutros 10 Escudos de Tortuga 10 Sables
 Nombre=Set de Druida (Altos)
 Valor=10
 Descuento=0
@@ -140,7 +140,7 @@ Obj4=71-10
 Obj5=264-10
 
 [PREMIO14]
-Info=El set de asesino incluye el siguiente equipo: 10 Armaduras Nocturna 10 Cascos Maligno 10 Anillos Neutros 10 Escudos Gótico 10 Empuñadura de Zamak
+Info=El set de asesino incluye el siguiente equipo: 10 Armaduras Nocturna 10 Cascos Maligno 10 Anillos Neutros 10 Escudos Gï¿½tico 10 Empuï¿½adura de Zamak
 Nombre=Set de Asesino (Altos)
 Valor=10
 Descuento=0
@@ -152,7 +152,7 @@ Obj4=392-10
 Obj5=357-10
 
 [PREMIO15]
-Info=El set de guerrero incluye el siguiente equipo: 10 Armaduras de Dragón 10 Cascos de Acero 10 Anillos Zafiro 10 Escudos de León 10 Rompecascos
+Info=El set de guerrero incluye el siguiente equipo: 10 Armaduras de Dragï¿½n 10 Cascos de Acero 10 Anillos Zafiro 10 Escudos de Leï¿½n 10 Rompecascos
 Nombre=Set de Guerrero (Altos)
 Valor=10
 Descuento=0
@@ -176,7 +176,7 @@ Obj4=258-10
 Obj5=289-10
 
 [PREMIO17]
-Info=El set de mago incluye el siguiente equipo: 10 Túnicas de Magos 10 Báculos Ancestrales 10 Anillos Neutros 10 Sombreros Mágicos 10 Coronas Oscuras
+Info=El set de mago incluye el siguiente equipo: 10 Tï¿½nicas de Magos 10 Bï¿½culos Ancestrales 10 Anillos Neutros 10 Sombreros Mï¿½gicos 10 Coronas Oscuras
 Nombre=Set de Mago (Bajos)
 Valor=10
 Descuento=0
@@ -188,8 +188,8 @@ Obj4=335-10
 Obj5=367-10
 
 [PREMIO18]
-Info=El set de clérigo incluye el siguiente equipo: 10 Corazas Clericales 10 Cascos Imperiales 10 Escudos Clericales 10 Espadas Glaciales 10 Anillos Neutros
-Nombre=Set de Clérigo (Bajos)
+Info=El set de clï¿½rigo incluye el siguiente equipo: 10 Corazas Clericales 10 Cascos Imperiales 10 Escudos Clericales 10 Espadas Glaciales 10 Anillos Neutros
+Nombre=Set de Clï¿½rigo (Bajos)
 Valor=10
 Descuento=0
 NumObjs=5
@@ -200,7 +200,7 @@ Obj4=383-10
 Obj5=357-10
 
 [PREMIO19]
-Info=El set de bardo incluye el siguiente equipo: 10 Armaduras Guerrero del Pantano 10 Yelmos Líricos 10 Anillos Neutros 10 Escudos de Aura 10 Espadas Corta
+Info=El set de bardo incluye el siguiente equipo: 10 Armaduras Guerrero del Pantano 10 Yelmos Lï¿½ricos 10 Anillos Neutros 10 Escudos de Aura 10 Espadas Corta
 Nombre=Set de Bardo (Bajos)
 Valor=10
 Descuento=0
@@ -212,8 +212,8 @@ Obj4=359-10
 Obj5=103-10
 
 [PREMIO20]
-Info=El set de paladín incluye el siguiente equipo: 10 Armaduras Legendarias 10 Cascos Templarios 10 Anillos de Escencia Mágica 10 Escudos de León 10 Espadas de Plata
-Nombre=Set de Paladín (Bajos)
+Info=El set de paladï¿½n incluye el siguiente equipo: 10 Armaduras Legendarias 10 Cascos Templarios 10 Anillos de Escencia Mï¿½gica 10 Escudos de Leï¿½n 10 Espadas de Plata
+Nombre=Set de Paladï¿½n (Bajos)
 Valor=10
 Descuento=0
 NumObjs=5
@@ -224,7 +224,7 @@ Obj4=361-10
 Obj5=207-10
 
 [PREMIO21]
-Info=El set de druida incluye el siguiente equipo: 10 Túnicas de Druida 10 Gorros de Cuero 10 Anillos Neutros 10 Escudos de Tortuga 10 Sables
+Info=El set de druida incluye el siguiente equipo: 10 Tï¿½nicas de Druida 10 Gorros de Cuero 10 Anillos Neutros 10 Escudos de Tortuga 10 Sables
 Nombre=Set de Druida (Bajos)
 Valor=10
 Descuento=0
@@ -236,7 +236,7 @@ Obj4=208-10
 Obj5=71-10
 
 [PREMIO22]
-Info=El set de asesino incluye el siguiente equipo: 10 Armaduras Nocturna 10 Cascos Maligno 10 Anillos Neutros 10 Escudos Gótico 10 Empuñadura de Zamak
+Info=El set de asesino incluye el siguiente equipo: 10 Armaduras Nocturna 10 Cascos Maligno 10 Anillos Neutros 10 Escudos Gï¿½tico 10 Empuï¿½adura de Zamak
 Nombre=Set de Asesino (Bajos)
 Valor=10
 Descuento=0
@@ -248,7 +248,7 @@ Obj4=444-10
 Obj5=392-10
 
 [PREMIO23]
-Info=El set de guerrero incluye el siguiente equipo: 10 Armaduras de Dragón 10 Cascos de Acero 10 Anillos Zafiro 10 Escudos de León 10 Rompecascos
+Info=El set de guerrero incluye el siguiente equipo: 10 Armaduras de Dragï¿½n 10 Cascos de Acero 10 Anillos Zafiro 10 Escudos de Leï¿½n 10 Rompecascos
 Nombre=Set de Guerrero (Bajos)
 Valor=10
 Descuento=0
