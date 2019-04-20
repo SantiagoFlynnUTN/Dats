@@ -130,14 +130,15 @@ public class Main extends Application {
 
     private void onSearchTextEvent(KeyEvent event){
 
-        Stream<String> filteredObjects = fileParser.getObjects()
+        ((Label) rootLayout.lookup("#resultsQtyLabel")).setText(fileParser.getObjects()
                 .stream()
                 .map(o -> o.verbose)
-                .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText()));
+                .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText())).collect(Collectors.toList()).size() + " resultados:");
 
-        ((Label) rootLayout.lookup("#resultsQtyLabel")).setText(filteredObjects.collect(Collectors.toList()).size() + " resultados:");
-
-        objectsTextArea.setText(filteredObjects
+        objectsTextArea.setText(fileParser.getObjects()
+                .stream()
+                .map(o -> o.verbose)
+                .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText()))
                 .collect(Collectors.joining()));
     }
 

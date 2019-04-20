@@ -39,8 +39,8 @@ public class ContextGenerator {
 
         int objQty = FileParser.getInstance().getObjects().size() - 1;
 
-        String newObj = "[OBJ" + objQty + "]\n"
-                + "Name=\n\n";
+        String newObj = "\n[OBJ" + objQty + "]\n"
+                + "Name=\n";
 
         FileParser.getInstance().getObjects().get(0).verbose = "[INIT]\nNumOBJs=" + objQty + "\n\n";
 

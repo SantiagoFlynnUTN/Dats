@@ -43,6 +43,6 @@
       <TextArea fx:id="objectsTextArea" layoutX="200.0" layoutY="187.0" prefHeight="511.0" prefWidth="456.0" />
       <Button fx:id="addNewItemButton" layoutX="679.0" layoutY="187.0" mnemonicParsing="false" text="Nuevo Item" />
       <Label fx:id="labelTest1" alignment="TOP_LEFT" layoutX="293.0" layoutY="91.0" prefHeight="20.0" prefWidth="88.0" text="NombreItem" />
-      <Label fx:id="resultsQtyLabel" alignment="TOP_LEFT" layoutX="388.0" layoutY="161.0" prefHeight="20.0" prefWidth="80.0"/>
+      <Label fx:id="resultsQtyLabel" alignment="TOP_LEFT" layoutX="377.0" layoutY="161.0" prefHeight="20.0" prefWidth="102.0" />
    </children>
 </Pane>
