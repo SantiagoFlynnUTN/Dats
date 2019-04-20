@@ -1,7 +1,6 @@
 [INIT]
 Num=7
 
-
 [1]
 Nombre=Espada Clero Agite
 Item=14
@@ -11,7 +10,6 @@ Bronce=40
 Plata=50
 Oro=150
 Ver=2
-
 
 [2]
 Nombre=Espada Clero Agite
@@ -72,3 +70,4 @@ Bronce=66
 Plata=76
 Oro=100
 Ver=1
+

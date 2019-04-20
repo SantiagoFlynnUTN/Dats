@@ -75,7 +75,6 @@ recompensa_puntos= puntos
 [MAIN]
 NUMQUESTS=24
 
-
 [1]
 Tipo=2
 Desc=Asesina los usuarios que te pida y tendre una recompensa para ti.
@@ -88,7 +87,6 @@ recompensa_oro=10000
 recompensa_puntos=5
 hay_que_devolver=0
 
-
 [2]
 Tipo=2
 Desc=Asesina los usuarios que te pida y tendre una recompensa para ti.
@@ -100,7 +98,6 @@ recompensa_tipo=6
 recompensa_oro=20000
 recompensa_puntos=10
 hay_que_devolver=0
-
 
 [3]
 Tipo=2
@@ -126,7 +123,6 @@ recompensa_oro=35000
 recompensa_puntos=40
 hay_que_devolver=0
 
-
 [5]
 Tipo=1
 Desc=Desaste de la plaga aracnida.
@@ -138,7 +134,6 @@ recompensa_tipo=1
 recompensa_oro=5000
 recompensa_puntos=0
 hay_que_devolver=0
-
 
 [6]
 Tipo=1
@@ -152,7 +147,6 @@ recompensa_oro=10000
 recompensa_puntos=5
 hay_que_devolver=0
 
-
 [7]
 Tipo=1
 Desc=Asesina a los trasgos guerreros que estan invadiendo el dungeon leric.
@@ -164,7 +158,6 @@ recompensa_tipo=6
 recompensa_oro=15000
 recompensa_puntos=5
 hay_que_devolver=0
-
 
 [8]
 Tipo=1
@@ -178,7 +171,6 @@ recompensa_oro=15000
 recompensa_puntos=5
 hay_que_devolver=0
 
-
 [9]
 Tipo=1
 Desc=Derrota a los yetis que se encuentran dentro del dungeon congelado.
@@ -190,7 +182,6 @@ recompensa_tipo=6
 recompensa_oro=10000
 recompensa_puntos=5
 hay_que_devolver=0
-
 
 [10]
 Tipo=1
@@ -204,7 +195,6 @@ recompensa_oro=15000
 recompensa_puntos=5
 hay_que_devolver=0
 
-
 [11]
 Tipo=1
 Desc=Combate y extermina las medusas mas poderosas que se esparcen por este mundo
@@ -216,7 +206,6 @@ recompensa_tipo=6
 recompensa_oro=30000
 recompensa_puntos=15
 hay_que_devolver=0
-
 
 [12]
 Tipo=1
@@ -230,7 +219,6 @@ recompensa_oro=40000
 recompensa_puntos=20
 hay_que_devolver=0
 
-
 [13]
 Tipo=1
 Desc=Extermina las apariciones que estan naciendo en este mundo.
@@ -243,7 +231,6 @@ recompensa_oro=20000
 recompensa_puntos=10
 hay_que_devolver=0
 
-
 [14]
 Tipo=1
 Desc=Derrota a los poderosos golems que se estan formando a apartir del agua.
@@ -255,7 +242,6 @@ recompensa_tipo=6
 recompensa_oro=35000
 recompensa_puntos=15
 hay_que_devolver=0
-
 
 [15]
 Tipo=1
@@ -279,6 +265,7 @@ recompensa_item_tipo4=3
 recompensa_item_Cant4= 1552
 recompensa_item_tipo5=3
 recompensa_item_Cant5= 1553
+
 [16]
 Tipo=1
 Desc=Extermina a estos Dragones Plateado mitologicos que estan dominando el mundo.
@@ -290,7 +277,6 @@ recompensa_tipo=6
 recompensa_oro=45000
 recompensa_puntos=30
 hay_que_devolver=1
-
 
 [17]
 Tipo=1
@@ -304,7 +290,6 @@ recompensa_oro=40000
 recompensa_puntos=25
 hay_que_devolver=1
 
-
 [18]
 Tipo=1
 Desc=Vence a las abominaciones que dominan esta mina abandonada.
@@ -316,7 +301,6 @@ recompensa_tipo=6
 recompensa_oro=60000
 recompensa_puntos=20
 hay_que_devolver=1
-
 
 [19]
 Tipo=1
@@ -330,7 +314,6 @@ recompensa_oro=80000
 recompensa_puntos=40
 hay_que_devolver=1
 
-
 [20]
 Tipo=1
 Desc=Derrota al poderoso Dios del Mar
@@ -342,7 +325,6 @@ recompensa_tipo=6
 recompensa_oro=90000
 recompensa_puntos=35
 hay_que_devolver=1
-
 
 [21]
 Tipo=1
@@ -356,7 +338,6 @@ recompensa_oro=20000
 recompensa_puntos=10
 hay_que_devolver=0
 
-
 [22]
 Tipo=1
 Desc=Combate y mata a uno de los terrores mas peligrosos del mar, el leviatan.
@@ -369,7 +350,6 @@ recompensa_oro=25000
 recompensa_puntos=10
 hay_que_devolver=0
 
-
 [23]
 Tipo=1
 Desc=Destruye los barcos fantasmas que vagan a la deriba por estos mares.
@@ -381,7 +361,6 @@ recompensa_tipo=6
 recompensa_oro=20000
 recompensa_puntos=10
 hay_que_devolver=0
-
 
 [24]
 Tipo=1

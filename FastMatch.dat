@@ -3,8 +3,6 @@ CuotaPartidaRapida=20000
 PeticionTimeOut=20
 Num_Arenas=2
 
-Max_POPUP=20
-
 [ARENA1]
 Mapa=106
 x_a=41
@@ -18,3 +16,4 @@ x_a=41
 y_a=56
 x_b=62
 y_b=41
+

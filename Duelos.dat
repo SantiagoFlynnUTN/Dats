@@ -2,18 +2,11 @@
 ' Segundos
 PeticionTimeOut=15
 
-CantidadAreas=3
-CantidadMinimaOro=1500
-DuracionMinutosDuelo=8
-
 [AreaDuelo1]
 DueloMode=1
 Mapa=71
 CharAX=47
 CharAY=58
-
-CharBX=62
-CharBY=44
 
 [AreaDuelo2]
 DueloMode=1
@@ -21,14 +14,9 @@ Mapa=164
 CharAX=48
 CharAY=57
 
-CharBX=63
-CharBY=44
-
 [AreaDuelo3]
 DueloMode=2
 Mapa=165
 CharAX=47
 CharAY=55
 
-CharBX=64
-CharBY=42

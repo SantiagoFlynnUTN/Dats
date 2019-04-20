@@ -71,7 +71,6 @@ Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del dañ
 se_va_al_morir=1
 Efecto=29
 
-
 [7]
 Nombre=Paralizar
 Tipo=9

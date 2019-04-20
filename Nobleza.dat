@@ -42,7 +42,6 @@ Cantidad8=1
 ObjIndex9=511
 Cantidad9=1
 
-
 [Espada]
 ObjIndexRecompensa=514
 CantItem=10
@@ -85,11 +84,8 @@ Cantidad6=1
 ObjIndex7=511
 Cantidad7=1
 
-
-
 [VARIOS]
 bonificador_atributo_suerte=8
-
 
 [Mapas]
 Ciudad_Noble=26
@@ -99,3 +95,4 @@ Mapa1=132
 [NPC]
 ' NPC HOSTIL
 Numero=559
+

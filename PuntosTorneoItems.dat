@@ -65,7 +65,6 @@ Descuento=0
 NumObjs=1
 OBJ1=370-1
 
-
 [PREMIO9]
 Nombre=Corona
 Info=Corona utilizada por los dioses en épocas remotas. Posee un enorme poder de resistencia mágica.
@@ -98,7 +97,6 @@ Descuento=0
 NumObjs=1
 OBJ1=395-1
 
-
 [PREMIO13]
 Nombre=Anillo de los Dioses
 Info=Anillo forjado por los dioses en tiempos remotos que le dará a quien lo posee una increíble resistencia a los ataques mágicos.
@@ -106,7 +104,6 @@ Valor=180
 Descuento=0
 NumObjs=1
 OBJ1=358-1
-
 
 [PREMIO14]
 Nombre=Armadura de Dragón Oscuro (Altos)
@@ -116,7 +113,6 @@ Descuento=0
 NumObjs=1
 OBJ1=416-1
 
-
 [PREMIO15]
 Nombre=Armadura de Dragón Oscuro (Bajos)
 Info=Armadura construida con las escamas del Gran Dragón de la Oscuridad. Defenderá a quien la use de casi cualquier ataque físico.
@@ -124,7 +120,6 @@ Valor=160
 Descuento=0
 NumObjs=1
 OBJ1=469-1
-
 
 [PREMIO16]
 Nombre=Arco Argentum
@@ -134,7 +129,6 @@ Descuento=0
 NumObjs=1
 OBJ1=384-1
 
-
 [PREMIO17]
 Nombre=Túnica de Apocalipsis (Altos)
 Info=La túnica mas poderosa que la clase mágica pueda usar.
@@ -142,7 +136,6 @@ Valor=200
 Descuento=0
 NumObjs=1
 OBJ1=407-1
-
 
 [PREMIO18]
 Nombre=Túnica de Apocalípsis (Bajos)
@@ -152,7 +145,6 @@ Descuento=0
 NumObjs=1
 OBJ1=408-1
 
-
 [PREMIO19]
 Nombre=Manto Alado (Altos)
 Info=Túnica forjada por los dioses en tiempos antiguos. Se dice que el que la use sera invencible.
@@ -160,7 +152,6 @@ Valor=230
 Descuento=0
 NumObjs=1
 OBJ1=459-1
-
 
 [PREMIO20]
 Nombre=Manto Alado (Bajos)
@@ -170,7 +161,6 @@ Descuento=0
 NumObjs=1
 OBJ1=474-1
 
-
 [PREMIO21]
 Nombre=Pergamino del Regreso
 Info=Este pergamino contiene un hechizo que al usarlo te permitira regresar a tu ciudad de origen. Sólo se puede utilizar una vez.
@@ -179,7 +169,6 @@ Descuento=0
 NumObjs=1
 OBJ1=517-1
 
-
 [PREMIO22]
 Nombre=Laud Mágico
 Info=Este legendario Laud Mágico potencia los ataques de los Bardos.
@@ -187,7 +176,6 @@ Valor=65
 Descuento=0
 NumObjs=1
 OBJ1=492-1
-
 
 [PREMIO23]
 Nombre=Pendiente del Sacrificio
@@ -220,5 +208,4 @@ Valor=100
 Descuento=0
 NumObjs=1
 OBJ1=281-1
-
 

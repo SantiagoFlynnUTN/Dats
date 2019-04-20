@@ -1,7 +1,6 @@
 [INIT]
 Num=5
 
-
 [1]
 Nombre=Tunica mago Agite
 Item=39
@@ -31,6 +30,7 @@ Piel1=40
 Piel2=50
 Piel3=200
 Ver=1
+
 [4]
 Nombre=Tunica mago Agite
 Item=50
@@ -50,3 +50,4 @@ Piel1=40
 Piel2=150
 Piel3=150
 Ver=1
+

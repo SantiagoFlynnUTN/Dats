@@ -1,7 +1,6 @@
 [Info]
 NivelMaximoClan=5
 
-
 [Nivel1]
 Experiencia=1000
 
@@ -16,3 +15,4 @@ Experiencia=4000
 
 [Nivel5]
 Experiencia=5000
+
