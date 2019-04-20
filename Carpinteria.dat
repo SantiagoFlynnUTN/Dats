@@ -1,7 +1,6 @@
 [INIT]
 Num=6
 
-
 [1]
 Nombre=Arco Caza Agite
 Item=12
@@ -11,7 +10,6 @@ Madera=40
 Madera2=50
 Marfil=100
 Ver=1
-
 
 [2]
 Nombre=Arco Caza Agite
@@ -33,7 +31,6 @@ Madera2=50
 Marfil=100
 Ver=1
 
-
 [4]
 Nombre=Arco Caza Agite
 Item=27
@@ -44,7 +41,6 @@ Madera2=50
 Marfil=100
 Ver=1
 
-
 [5]
 Nombre=Arco Caza Agite
 Item=37
@@ -54,7 +50,6 @@ Madera=45
 Madera2=50
 Marfil=100
 Ver=2
-
 
 [6]
 Nombre=Arco Caza Agite

@@ -295,7 +295,6 @@ PoderEvasion=80
 Drop1=216-1-1000
 Drop2=376-1-5000
 
-
 [NPC515]
 Name=Golem de Oro
 Body=52
@@ -341,7 +340,6 @@ Sp1=32
 Sp2=9
 Drop1=210-1-1000
 Drop2=383-1-5000
-
 
 [NPC517] 'Rey
 Name=Aran Ancalagon
@@ -487,7 +485,6 @@ AfectaParalisis=1
 PosOrig=1
 Drop1=312-1-1000
 
-
 [NPC523]
 Name=Soldado Imperial
 Head=8
@@ -507,7 +504,6 @@ DEF=10
 PoderAtaque=200
 PoderEvasion=20
 AfectaParalisis=1
-
 
 [NPC524] 'Rata
 Name=Rata Gigante
@@ -623,3 +619,4 @@ MinHIT=1
 DEF=8
 PoderAtaque=80
 PoderEvasion=25
+

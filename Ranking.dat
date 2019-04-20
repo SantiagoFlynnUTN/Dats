@@ -40,8 +40,6 @@ Cant=0
 Nombre=
 Cant=0
 
-' CLANES
-
 [ClanCastillosTiempo]
 Nombre=
 Cant=0
@@ -57,8 +55,6 @@ Cant=0
 [ClanRepu]
 Nombre=
 Cant=0
-
-' DUELOS
 
 [Duelo1v1]
 Nombre=
@@ -80,13 +76,9 @@ Cant=0
 Nombre=
 Cant=0
 
-' FM
-
 [FastMatch2v2]
 Nombre=
 Cant=0
-
-' EVENTOS
 
 [EventosAutomaticos]
 Nombre=
@@ -100,8 +92,7 @@ Cant=0
 Nombre=
 Cant=0
 
-' FRAGS
-
 [Frags]
 Nombre=
 Cant=0
+

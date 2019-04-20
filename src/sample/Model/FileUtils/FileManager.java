@@ -89,7 +89,7 @@ public class FileManager {
 
         System.out.println(fileData);
 
-        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(currentFileName), StandardCharsets.UTF_8));
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(currentFileName), StandardCharsets.ISO_8859_1));
 
         bf.write(fileData);
         bf.flush();

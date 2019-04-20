@@ -11,17 +11,6 @@ ChancesOro=600
 ChancesSets=300
 ChancesObj=100
 
-MinOro=35000
-MaxOro=45000
-
-MinPuntosTorneo=5
-MaxPuntosTorneo=15
-
-Objetoindex=459
-
-MaxSets=2
-MinSets=1
-
 [CAZADOR]
 CantItems=5
 Item1=394
@@ -46,7 +35,6 @@ Item3=208
 Item4=71
 Item5=264
 
-
 [CLERIGO]
 CantItems=5
 Item1=360
@@ -54,7 +42,6 @@ Item2=487
 Item3=367
 Item4=383
 Item5=357
-
 
 [PALADIN]
 CantItems=5
@@ -64,7 +51,6 @@ Item3=361
 Item4=207
 Item5=357
 
-
 [MAGO]
 CantItems=5
 Item1=335
@@ -72,7 +58,6 @@ Item2=181
 Item3=357
 Item4=394
 Item5=367
-
 
 [ASESINO]
 CantItems=5
@@ -82,7 +67,6 @@ Item3=444
 Item4=392
 Item5=357
 
-
 [BARDO]
 CantItems=5
 Item1=411
@@ -90,7 +74,6 @@ Item2=359
 Item3=454
 Item4=103
 Item5=357
-
 
 [RECOLECTOR]
 CantItems=6
@@ -109,3 +92,4 @@ Item3=420
 item4=181
 item5=71
 item6=103
+

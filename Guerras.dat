@@ -5,15 +5,6 @@ GuerrasAuto=1
 NpcRey=105
 NpcDemonio=106
 
-NPCHordaPosicion=27-78-47
-NPCAlianzaPosicion=29-77-50
-
-GuerraHordaSpawnAlianza=1-26-26
-GuerraHordaSpawnHorda=27-20-53 
-
-GuerraAlianzaSpawnAlianza=20-50-83
-GuerraAlianzaSpawnHorda=41-50-24
-
 [Duracion]
 ' Minutos
 TiempoEntreGuerra=120
@@ -27,3 +18,4 @@ PuntosParticipar=5
 [Record]
 VictoriaAlianza=1
 VictoriaHorda=1
+

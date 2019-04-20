@@ -11,6 +11,7 @@ NumObjs=1
 OBJ1=108-1
 Tipo=1
 Version=1
+
 [PREMIO2]
 Nombre=Daga Envenenada
 Info=Daga empapada de veneno. Quien la posea podrá apuñalar y envenenar a su victima.
@@ -21,6 +22,7 @@ NumObjs=1
 OBJ1=4-1
 Tipo=1
 Version=1
+
 [PREMIO3]
 Nombre=Daga Envenenada3
 Info=Daga empapada de veneno3. Quien la posea podrá apuñalar y envenenar a su victima.
@@ -31,6 +33,7 @@ NumObjs=1
 OBJ1=104-1
 Tipo=1
 Version=1
+
 [PREMIO4]
 Nombre=Daga Envenenada4
 Info=Daga empapada de veneno4. Quien la posea podrá apuñalar y envenenar a su victima.
@@ -53,6 +56,7 @@ OBJ1=55-10000
 OBJ2=57-10000
 Tipo=1
 Version=1
+
 [PREMIO6]
 Nombre=Daga Envenenada6
 Info=Daga empapada de veneno6. Quien la posea podrá apuñalar y envenenar a su victima.
@@ -66,3 +70,4 @@ OBJ3=53-10000
 OBJ4=59-10000
 Tipo=2
 Version=1
+

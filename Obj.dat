@@ -721,7 +721,6 @@ PielB=20
 NivelProf=1
 TipoCraft=2
 
-
 [OBJ40]
 Name=Tunica Druida Agite
 ObjType=2
@@ -892,7 +891,6 @@ TipoCraft=2
 PielO=10
 PielL=41
 PielB=34
-
 
 [OBJ51]
 Name=Armadura Bardo Torneo
@@ -2729,7 +2727,6 @@ ObjType=255
 GrhIndex=647
 Valor=1
 
-
 [OBJ218]
 Name=Bloque de Marfil
 NameP=Bloques de Marfil
@@ -2750,3 +2747,4 @@ NameP=Medallas de Bronce
 ObjType=8
 Log=1
 GrhIndex=677
+

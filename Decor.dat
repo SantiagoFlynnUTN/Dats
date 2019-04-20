@@ -32,8 +32,6 @@ TileW=0					' Dimension X
 [INIT]
 NumDecors=21
 
-' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 [DECOR1] ' Teleport (Portal) Normal
 MaxHP=0
 Respawn=0
@@ -330,3 +328,4 @@ EstadoDefault=0
 PosAccion=0-0-0
 TileH=1
 TileW=1
+
