@@ -130,7 +130,7 @@ hay_que_devolver=0
 [5]
 Tipo=1
 Desc=Desaste de la plaga aracnida.
-Nombre=Exterminador de arañas
+Nombre=Exterminador de araÃ±as
 numero_targets=1
 target_tipo1=509
 target_cant1=30
@@ -346,7 +346,7 @@ hay_que_devolver=1
 
 [21]
 Tipo=1
-Desc=Extermina la plaga de una de las arañas mas letales del mundo, la viudas negras.
+Desc=Extermina la plaga de una de las araÃ±as mas letales del mundo, la viudas negras.
 Nombre=Asesino Letal
 numero_targets=1
 target_tipo1=535

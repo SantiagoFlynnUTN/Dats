@@ -91,8 +91,8 @@ PoderAtaque=80
 PoderEvasion=25
 Drop1=218-10-7000
 
-[NPC505] 'Ara馻 gigante
-Name=Ara馻 Gigante
+[NPC505] 'Ara帽a gigante
+Name=Ara帽a Gigante
 Body=33
 Heading=3
 Movement=2
@@ -232,7 +232,7 @@ PoderAtaque=250
 PoderEvasion=100
 
 [NPC512]
-Name=Aparici髇
+Name=Aparici贸n
 Body=45
 Heading=3
 Movement=2
@@ -461,8 +461,8 @@ ReSpawn=1
 NROITEMS=1
 Obj1=533-1
 
-[NPC522] ' Poseid髇
-Name=Poseid髇
+[NPC522] ' Poseid贸n
+Name=Poseid贸n
 Body=1
 Heading=3
 Movement=2
@@ -565,7 +565,7 @@ PoderAtaque=250
 PoderEvasion=100
 
 [NPC527]
-Name=Abominaci髇 de las Minas
+Name=Abominaci贸n de las Minas
 Body=44
 Heading=3
 Movement=2
@@ -585,7 +585,7 @@ LanzaSpells=1
 Sp1=17
 
 [NPC528]
-Name=Troll Fren閠ico
+Name=Troll Fren茅tico
 Body=43
 oldbody=1
 Heading=3

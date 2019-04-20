@@ -13,7 +13,7 @@ Tipo=1
 Version=1
 [PREMIO2]
 Nombre=Daga Envenenada
-Info=Daga empapada de veneno. Quien la posea podr· apuÒalar y envenenar a su victima.
+Info=Daga empapada de veneno. Quien la posea podr√° apu√±alar y envenenar a su victima.
 Valor_MM=90
 Valor_Gemas=45
 Descuento=0
@@ -23,7 +23,7 @@ Tipo=1
 Version=1
 [PREMIO3]
 Nombre=Daga Envenenada3
-Info=Daga empapada de veneno3. Quien la posea podr· apuÒalar y envenenar a su victima.
+Info=Daga empapada de veneno3. Quien la posea podr√° apu√±alar y envenenar a su victima.
 Valor_MM=95
 Valor_Gemas=22
 Descuento=0
@@ -33,7 +33,7 @@ Tipo=1
 Version=1
 [PREMIO4]
 Nombre=Daga Envenenada4
-Info=Daga empapada de veneno4. Quien la posea podr· apuÒalar y envenenar a su victima.
+Info=Daga empapada de veneno4. Quien la posea podr√° apu√±alar y envenenar a su victima.
 Valor_MM=92
 Valor_Gemas=25
 Descuento=0
@@ -44,7 +44,7 @@ Version=1
 
 [PREMIO5]
 Nombre=Daga Envenenada5
-Info=Daga empapada de veneno5. Quien la posea podr· apuÒalar y envenenar a su victima.
+Info=Daga empapada de veneno5. Quien la posea podr√° apu√±alar y envenenar a su victima.
 Valor_MM=92
 Valor_Gemas=0
 Descuento=0
@@ -55,7 +55,7 @@ Tipo=1
 Version=1
 [PREMIO6]
 Nombre=Daga Envenenada6
-Info=Daga empapada de veneno6. Quien la posea podr· apuÒalar y envenenar a su victima.
+Info=Daga empapada de veneno6. Quien la posea podr√° apu√±alar y envenenar a su victima.
 Valor_MM=0
 Valor_Gemas=99
 Descuento=0
