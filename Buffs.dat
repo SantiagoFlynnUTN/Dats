@@ -1,7 +1,7 @@
 Public Enum eBUFFS
-    DamagePuro = 1 ' No se resta daño
+    DamagePuro = 1 ' No se resta daÃ±o
     Heal = 2 'Cura
-    DamageFisico = 3 'Daño que se le resta la armadura.
+    DamageFisico = 3 'DaÃ±o que se le resta la armadura.
 End Enum
 
 [MAIN]
@@ -13,9 +13,9 @@ Tipo=2
 MinModificador='Rango
 MaxModificador='Rango
 LoneModificador=15
-Intervalo=25'cada cuanto count hace daño
+Intervalo=25'cada cuanto count hace daÃ±o
 Duracion=250'duracion total, el 0 es infinito.
-Stackeable=201'100 Se suma, 201 reemplaza el timer, 1-99 se suma un porcentaje del daño.101-199 reemplaza timer  suma 0 no pasa nada.
+Stackeable=201'100 Se suma, 201 reemplaza el timer, 1-99 se suma un porcentaje del daÃ±o.101-199 reemplaza timer  suma 0 no pasa nada.
 Fx=11
 Efecto=11
 se_va_al_morir=1
@@ -26,9 +26,9 @@ Tipo=1
 MinModificador=5
 MaxModificador=25
 LoneModificador=0
-Intervalo=25'cada cuanto count hace daño
+Intervalo=25'cada cuanto count hace daÃ±o
 Duracion=5000'duracion total, el 0 es infinito.
-Stackeable=0'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daño. 0 no pasa nada.
+Stackeable=0'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daÃ±o. 0 no pasa nada.
 se_va_al_morir=1
 
 [3]
@@ -37,26 +37,26 @@ Tipo=5
 MinModificador=20
 MaxModificador=25
 LoneModificador=0
-Intervalo=0'cada cuanto count hace daño
+Intervalo=0'cada cuanto count hace daÃ±o
 Duracion=900'duracion total, el 0 es infinito.
-Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daño. 0 no pasa nada.
+Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daÃ±o. 0 no pasa nada.
 se_va_al_morir=1
 Efecto=29
 
 [4]
 Nombre=Silencio
 Tipo=7
-Intervalo=0'cada cuanto count hace daño
+Intervalo=0'cada cuanto count hace daÃ±o
 Duracion=12'duracion total, el 0 es infinito.
-Stackeable=0'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daño. 0 no pasa nada.
+Stackeable=0'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daÃ±o. 0 no pasa nada.
 se_va_al_morir=1
 
 [5]
 Nombre=Aturdir
 Tipo=8
-Intervalo=0'cada cuanto count hace daño
+Intervalo=0'cada cuanto count hace daÃ±o
 Duracion=12'duracion total, el 0 es infinito.
-Stackeable=0'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daño. 0 no pasa nada.
+Stackeable=0'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daÃ±o. 0 no pasa nada.
 se_va_al_morir=1
 
 [6]
@@ -65,9 +65,9 @@ Tipo=5
 MinModificador=10
 MaxModificador=15
 LoneModificador=0
-Intervalo=0'cada cuanto count hace daño
+Intervalo=0'cada cuanto count hace daÃ±o
 Duracion=900'duracion total, el 0 es infinito.
-Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daño. 0 no pasa nada.
+Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daÃ±o. 0 no pasa nada.
 se_va_al_morir=1
 Efecto=29
 
@@ -75,9 +75,9 @@ Efecto=29
 [7]
 Nombre=Paralizar
 Tipo=9
-Intervalo=0'cada cuanto count hace daño
+Intervalo=0'cada cuanto count hace daÃ±o
 Duracion=80'duracion total, el 0 es infinito.
-Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daño. 0 no pasa nada.
+Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daÃ±o. 0 no pasa nada.
 se_va_al_morir=1
 Fx=5
 Efecto=31
@@ -85,9 +85,9 @@ Efecto=31
 [8]
 Nombre=Inmovilizar
 Tipo=9
-Intervalo=0'cada cuanto count hace daño
+Intervalo=0'cada cuanto count hace daÃ±o
 Duracion=80'duracion total, el 0 es infinito.
-Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daño. 0 no pasa nada.
+Stackeable=201'100 Se suma, 102 se reemplaza, 1-99 se suma un porcentaje del daÃ±o. 0 no pasa nada.
 se_va_al_morir=1
 Fx=30
 Efecto=31

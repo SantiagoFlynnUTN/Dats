@@ -31,7 +31,7 @@ MenuIndex=6
 [NPC2] 'NPC
 Name=Argal
 Info=Provisiones
-Desc=¡Hola buen amigo! cuento con las mejores frutas de estas comarcas.
+Desc=Â¡Hola buen amigo! cuento con las mejores frutas de estas comarcas.
 Head=7
 Body=11
 Heading=3
@@ -45,7 +45,7 @@ MenuIndex=3
 
 [NPC3] 'Quest de Inthak
 Name=Korgan
-Desc=Aventurero ¿Estas preparado?
+Desc=Aventurero Â¿Estas preparado?
 Head=8
 Body=11
 Heading=3
@@ -61,7 +61,7 @@ Quests3=12
 [NPC4] ' Sacerdote
 Name=Padre Valyst
 NpcType=1
-Desc=Hola hijo mío, soy el Sacerdote de este pueblo.
+Desc=Hola hijo mÃ­o, soy el Sacerdote de este pueblo.
 Head=14
 Body=11
 Heading=3
