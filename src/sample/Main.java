@@ -73,7 +73,6 @@ public class Main extends Application {
                 .collect(Collectors.joining()));
     }
 
-
     private void initVisualComponents() {
 
         searchTextField = (TextField) rootLayout.lookup("#searchTextField");

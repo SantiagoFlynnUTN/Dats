@@ -11,6 +11,7 @@ public class FileManager {
     private List<IndexedObj> objects;
     private List<String> records;
     private List<String> fileHead;
+    private String currentFileName;
 
     public class IndexedObj{
         public String verbose;
@@ -23,6 +24,8 @@ public class FileManager {
      */
     public List<String> readFileAsListOfStrings(String filename) throws Exception
     {
+
+        currentFileName = filename;
         records = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), StandardCharsets.ISO_8859_1));
         String line;
@@ -86,7 +89,7 @@ public class FileManager {
 
         System.out.println(fileData);
 
-        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("obj.txt"), StandardCharsets.UTF_8));
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(currentFileName), StandardCharsets.UTF_8));
 
         bf.write(fileData);
         bf.flush();
