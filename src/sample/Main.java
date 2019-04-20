@@ -12,6 +12,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import sample.Model.FileUtils.FileManager;
+import sample.Model.FileUtils.FileParser;
 import sample.Model.StringUtils;
 
 import java.io.IOException;
@@ -24,7 +25,7 @@ public class Main extends Application {
     private Pane rootLayout;
     private TextField searchTextField;
     private ListView<String> datsListView;
-    private FileManager fileManager;
+    private FileParser fileParser;
     private TextArea objectsTextArea;
 
     public static void main(String[] args) {
@@ -35,6 +36,8 @@ public class Main extends Application {
     public void start(Stage primaryStage){
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Dats Workshop");
+
+        fileParser = new FileParser();
 
         initRootLayout();
 
@@ -63,12 +66,9 @@ public class Main extends Application {
 
     private void loadDatFiles(String filename) throws Exception {
 
-        fileManager = new FileManager();
-        fileManager.readFileAsListOfStrings(filename);
+        fileParser.parseObjects(filename);
 
-        fileManager.parseObjects();
-
-        objectsTextArea.setText(fileManager.getObjects().stream()
+        objectsTextArea.setText(fileParser.getObjects().stream()
                 .map(o -> o.verbose)
                 .collect(Collectors.joining()));
     }
@@ -98,7 +98,7 @@ public class Main extends Application {
 
         TextField searchTextField = (TextField) rootLayout.lookup("#searchTextField");
 
-        objectsTextArea.setText(fileManager.getObjects().stream()
+        objectsTextArea.setText(fileParser.getObjects().stream()
                 .map(o -> o.verbose)
                 .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText() + event.getText()))
                 .collect(Collectors.joining()));

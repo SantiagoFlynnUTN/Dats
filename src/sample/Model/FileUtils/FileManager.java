@@ -8,24 +8,15 @@ import java.util.stream.Collectors;
 
 public class FileManager {
 
-    private List<IndexedObj> objects;
     private List<String> records;
-    private List<String> fileHead;
-    private String currentFileName;
 
-    public class IndexedObj{
-        public String verbose;
-        public int priority;
-    }
 
     /**
      * Open and read a file, and return the lines in the file as a list of
      * Strings.
      */
-    public List<String> readFileAsListOfStrings(String filename) throws Exception
-    {
+    public List<String> readFileAsListOfStrings(String filename) throws Exception {
 
-        currentFileName = filename;
         records = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), StandardCharsets.UTF_8));
         String line;
@@ -38,65 +29,22 @@ public class FileManager {
         return records;
     }
 
-    public void parseObjects() throws Exception {
-
-        int i = 0;
-        boolean isReadingHeader = true;
-
-        String line = records.get(i);
-        objects = new ArrayList<>();
-        fileHead = new ArrayList<>();
-
-        while(line != null && i < records.size()){
-
-            if(line.contains("[")){
-
-                isReadingHeader = false;
-
-                IndexedObj object = new IndexedObj();
-                object.verbose = line;
-                i++;
-                line = i < records.size() ? records.get(i): null;
-
-                while(line != null && !line.contains("[")){
-                    object.verbose = object.verbose.concat("\n" + line);
-                    i++;
-                    line = i < records.size() ? records.get(i): null;
-                }
-
-                object.verbose = object.verbose.concat("\n");
-
-                objects.add(object);
-
-            } else if(isReadingHeader){
-                fileHead.add(line + "\n");
-                i++;
-                line = i < records.size() ? records.get(i): null;
-            } else {
-                i++;
-                line = i < records.size() ? records.get(i): null;
-            }
-        }
-
-        System.out.println(objects);
-        generateFileWithChanges();
-    }
-
-    public void generateFileWithChanges() throws IOException {
+    public void generateFileWithChanges(List<String> fileHead, List<FileParser.IndexedObj> objects, String fileName) throws IOException {
 
         String fileData = fileHead.stream().collect(Collectors.joining())
                 .concat(objects.stream().map(o -> o.verbose).collect(Collectors.joining()));
 
         System.out.println(fileData);
 
-        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(currentFileName), StandardCharsets.UTF_8));
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName), StandardCharsets.UTF_8));
 
         bf.write(fileData);
         bf.flush();
         bf.close();
     }
 
-    public List<IndexedObj> getObjects() {
-        return objects;
+
+    public List<String> getRecords() {
+        return records;
     }
 }
