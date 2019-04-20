@@ -64,7 +64,7 @@ public class FileManager {
                     line = i < records.size() ? records.get(i): null;
                 }
 
-                object.verbose = object.verbose.concat("\n\n");
+                object.verbose = object.verbose.concat("\n");
 
                 objects.add(object);
 
