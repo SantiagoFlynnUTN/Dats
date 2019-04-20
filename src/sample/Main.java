@@ -8,15 +8,17 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import sample.Model.FileUtils.FileManager;
 import sample.Model.FileUtils.FileParser;
+import sample.Model.IndexedObj;
 import sample.Model.StringUtils;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main extends Application {
 
@@ -66,7 +68,7 @@ public class Main extends Application {
 
     private void loadDatFiles(String filename) throws Exception {
 
-        fileParser.parseObjects(filename);
+        fileParser.parseObjectsFromFile(filename);
 
         objectsTextArea.setText(fileParser.getObjects().stream()
                 .map(o -> o.verbose)
@@ -79,10 +81,39 @@ public class Main extends Application {
         objectsTextArea = (TextArea) rootLayout.lookup("#objectsTextArea");
         datsListView = (ListView<String>) rootLayout.lookup("#datsListView");
 
-        searchTextField.setOnKeyPressed(this::onTextAreaKeyPressedEvent);
-
+        searchTextField.setOnKeyReleased(this::onTextAreaKeyPressedEvent);
+        objectsTextArea.setOnKeyReleased(this::onObjectsAreaChangeEvent);
         datsListView.getSelectionModel().selectedItemProperty().addListener(this::onDatsListItemClick);
     }
+
+    private void onObjectsAreaChangeEvent(KeyEvent keyEvent) {
+        //ver obj modificado
+
+        //obtengo los objetos filtrados por el search textview
+        List<String> objectsSplited = fileParser.parseObjectsFromDataStream(objectsTextArea.getText());
+
+        //Obtengo el objeto modificado dentro del object area
+        String modifiedObject = objectsSplited.stream().filter(o -> !fileParser.getObjects().contains(o))
+                .findFirst().get();
+
+        //obtengo el [ID] del objeto modificado
+        String objId = Arrays.stream(modifiedObject.split("\\n")).collect(Collectors.toList()).get(0);
+
+        //busco el objeto que debo reemplazar por el modificado
+        IndexedObj oldObj = fileParser.getObjects().stream().filter(o -> o.verbose.contains(objId)).findFirst().get();
+
+        //le cambio el valor modificado
+        oldObj.verbose = modifiedObject;
+
+        //busco el indice dentro de los objetos
+        int objIndex = fileParser.getObjects().indexOf(oldObj);
+
+        //seteo el objeto modificado en la lista de objetos y queda persistido el cambio
+        fileParser.getObjects().set(objIndex, oldObj);
+    }
+
+
+
 
     private void onDatsListItemClick(Observable observable) {
         String fileName = datsListView.getSelectionModel().getSelectedItem();
@@ -100,7 +131,9 @@ public class Main extends Application {
 
         objectsTextArea.setText(fileParser.getObjects().stream()
                 .map(o -> o.verbose)
-                .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText() + event.getText()))
+                .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText()))
                 .collect(Collectors.joining()));
     }
+
+
 }

@@ -1,5 +1,7 @@
 package sample.Model.FileUtils;
 
+import sample.Model.IndexedObj;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -29,7 +31,7 @@ public class FileManager {
         return records;
     }
 
-    public void generateFileWithChanges(List<String> fileHead, List<FileParser.IndexedObj> objects, String fileName) throws IOException {
+    public void generateFileWithChanges(List<String> fileHead, List<IndexedObj> objects, String fileName) throws IOException {
 
         String fileData = fileHead.stream().collect(Collectors.joining())
                 .concat(objects.stream().map(o -> o.verbose).collect(Collectors.joining()));
