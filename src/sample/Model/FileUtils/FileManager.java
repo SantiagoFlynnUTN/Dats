@@ -58,7 +58,7 @@ public class FileManager {
                 i++;
                 line = i < records.size() ? records.get(i): "";
 
-                while(line.length() > 0 && !line.contains("[")){
+                while(!line.contains("[") && !"".equals(line)){
                     object.verbose = object.verbose.concat("\n" + line);
                     i++;
                     line = i < records.size() ? records.get(i): "";
