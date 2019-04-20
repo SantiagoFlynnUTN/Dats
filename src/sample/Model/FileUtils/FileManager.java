@@ -27,7 +27,7 @@ public class FileManager {
 
         currentFileName = filename;
         records = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), StandardCharsets.ISO_8859_1));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), StandardCharsets.UTF_8));
         String line;
         while ((line = reader.readLine()) != null)
         {
@@ -56,12 +56,12 @@ public class FileManager {
                 IndexedObj object = new IndexedObj();
                 object.verbose = line;
                 i++;
-                line = i < records.size() ? records.get(i): "'endOfFile";
+                line = i < records.size() ? records.get(i): null;
 
-                while(!line.contains("[") && !"'endOfFile".equals(line)){
+                while(line != null && !line.contains("[")){
                     object.verbose = object.verbose.concat("\n" + line);
                     i++;
-                    line = i < records.size() ? records.get(i): "'endOfFile";
+                    line = i < records.size() ? records.get(i): null;
                 }
 
                 object.verbose = object.verbose.concat("\n\n");
@@ -71,10 +71,10 @@ public class FileManager {
             } else if(isReadingHeader){
                 fileHead.add(line + "\n");
                 i++;
-                line = i < records.size() ? records.get(i): "'endOfFile";
+                line = i < records.size() ? records.get(i): null;
             } else {
                 i++;
-                line = i < records.size() ? records.get(i): "'endOfFile";
+                line = i < records.size() ? records.get(i): null;
             }
         }
 
