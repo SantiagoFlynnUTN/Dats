@@ -2,10 +2,7 @@ package sample.Model.FileUtils;
 
 import sample.Model.IndexedObj;
 
-import java.io.BufferedWriter;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,13 +14,14 @@ public class FileParser {
     private List<IndexedObj> objects;
     private List<String> fileHead;
     private String currentFileName;
-    private FileManager fileManager;
 
+    private static final FileParser INSTANCE = new FileParser();
 
-    public FileParser(){
-        fileManager = new FileManager();
+    private FileParser() {}
+
+    public static FileParser getInstance() {
+        return INSTANCE;
     }
-
 
     public List<String> parseObjectsFromDataStream(String dataStream){
 
@@ -59,20 +57,21 @@ public class FileParser {
             }
         }
 
-        System.out.println(objects);
-
         return objects;
     }
 
-    public void parseObjectsFromFile(String filename) throws Exception {
+    public void parseObjectsFromFile(String filename) {
 
         int i = 0;
         boolean isReadingHeader = true;
 
         currentFileName = filename;
-        FileManager fileManager = new FileManager();
-        fileManager.readFileAsListOfStrings(filename);
-        List<String> records = fileManager.getRecords();
+        try {
+            FileManager.getInstance().readFileAsListOfStrings(filename);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        List<String> records = FileManager.getInstance().getRecords();
 
         String line = records.get(i);
         objects = new ArrayList<>();
@@ -108,14 +107,11 @@ public class FileParser {
                 line = i < records.size() ? records.get(i): null;
             }
         }
-
-        System.out.println(objects);
-
     }
 
     public void persistObjectsOnFile(){
         try {
-            fileManager.generateFileWithChanges(fileHead, objects, currentFileName);
+            FileManager.getInstance().generateFileWithChanges(fileHead, objects, currentFileName);
         } catch (IOException e) {
             e.printStackTrace();
         }

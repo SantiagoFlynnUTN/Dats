@@ -10,6 +10,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import sample.Controllers.AddNewObjectButtonController;
+import sample.Model.ContextGenerator;
 import sample.Model.FileUtils.FileParser;
 import sample.Model.IndexedObj;
 import sample.Model.StringUtils;
@@ -39,7 +41,7 @@ public class Main extends Application {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Dats Workshop");
 
-        fileParser = new FileParser();
+        fileParser = FileParser.getInstance();
 
         initRootLayout();
 
@@ -120,6 +122,8 @@ public class Main extends Application {
 
         try {
             loadDatFiles(fileName);
+            ContextGenerator cg = new ContextGenerator();
+            cg.generate(fileName, rootLayout);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -134,6 +138,5 @@ public class Main extends Application {
                 .filter(s -> StringUtils.compareIgnoreCaseAndSpecialCharacters(s, searchTextField.getText()))
                 .collect(Collectors.joining()));
     }
-
 
 }

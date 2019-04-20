@@ -40,11 +40,11 @@
       <ComboBox layoutX="200.0" layoutY="29.0" prefHeight="27.0" prefWidth="127.0" promptText="Filtrar por:" />
        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="200.0" layoutY="78.0">
          <image>
-            <Image url="https://tierrasdelsur.cc/imgmanual/bardo.JPG"
-                   backgroundLoading="true"/>
+            <Image backgroundLoading="true" url="https://tierrasdelsur.cc/imgmanual/bardo.JPG" />
          </image></ImageView>
 
        <Button layoutX="580.0" layoutY="29.0" mnemonicParsing="false" text="SIguiente" />
       <TextArea fx:id="objectsTextArea" layoutX="200.0" layoutY="187.0" prefHeight="511.0" prefWidth="456.0" />
+      <Button layoutX="679.0" layoutY="187.0" mnemonicParsing="false" text="Nuevo Item" fx:id="addNewItemButton"/>
    </children>
 </Pane>
