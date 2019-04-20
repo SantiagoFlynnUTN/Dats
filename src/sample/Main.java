@@ -87,13 +87,12 @@ public class Main extends Application {
     }
 
     private void onObjectsAreaChangeEvent(KeyEvent keyEvent) {
-        //ver obj modificado
 
         //obtengo los objetos filtrados por el search textview
         List<String> objectsSplited = fileParser.parseObjectsFromDataStream(objectsTextArea.getText());
 
         //Obtengo el objeto modificado dentro del object area
-        String modifiedObject = objectsSplited.stream().filter(o -> !fileParser.getObjects().contains(o))
+        String modifiedObject = objectsSplited.stream().filter(o -> !fileParser.getObjects().stream().map(o2 -> o2.verbose).collect(Collectors.toList()).contains(o))
                 .findFirst().get();
 
         //obtengo el [ID] del objeto modificado
@@ -110,9 +109,10 @@ public class Main extends Application {
 
         //seteo el objeto modificado en la lista de objetos y queda persistido el cambio
         fileParser.getObjects().set(objIndex, oldObj);
+
+        //reescribo el archivo con el objeto modificado
+        fileParser.persistObjectsOnFile();
     }
-
-
 
 
     private void onDatsListItemClick(Observable observable) {

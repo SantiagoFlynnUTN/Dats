@@ -111,7 +111,14 @@ public class FileParser {
 
         System.out.println(objects);
 
-        fileManager.generateFileWithChanges(fileHead, objects, currentFileName);
+    }
+
+    public void persistObjectsOnFile(){
+        try {
+            fileManager.generateFileWithChanges(fileHead, objects, currentFileName);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public List<IndexedObj> getObjects() {
