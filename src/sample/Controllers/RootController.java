@@ -31,5 +31,4 @@ public class RootController {
                 .filter(a -> a.getName().contains(".dat"))
                 .forEach(a -> observableList.add(a.getName()));
     }
-
 }

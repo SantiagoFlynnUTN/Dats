@@ -40,7 +40,6 @@ public class FileManager {
         int i = 0;
         boolean isReadingHeader = true;
 
-        readFileAsListOfStrings("Obj.dat");
         String line = records.get(i);
         objects = new ArrayList<>();
         fileHead = new ArrayList<>();
@@ -69,10 +68,10 @@ public class FileManager {
             } else if(isReadingHeader){
                 fileHead.add(line + "\n");
                 i++;
-                line = records.get(i);
+                line = i < records.size() ? records.get(i): "";
             } else {
                 i++;
-                line = records.get(i);
+                line = i < records.size() ? records.get(i): "";
             }
         }
 
@@ -86,14 +85,15 @@ public class FileManager {
                 .concat(objects.stream().map(o -> o.verbose).collect(Collectors.joining()));
 
         System.out.println(fileData);
-        FileOutputStream fos = new FileOutputStream("obj.txt");
-        fos.write(fileData.getBytes());
-        fos.flush();
-        fos.close();
+
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("obj.txt"), StandardCharsets.UTF_8));
+
+        bf.write(fileData);
+        bf.flush();
+        bf.close();
     }
 
     public List<IndexedObj> getObjects() {
         return objects;
     }
-
 }

@@ -40,7 +40,8 @@
       <ComboBox layoutX="200.0" layoutY="29.0" prefHeight="27.0" prefWidth="127.0" promptText="Filtrar por:" />
        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="200.0" layoutY="78.0">
          <image>
-            <Image url="@../../../../../handsomesquidward.jpg" />
+            <Image url="https://tierrasdelsur.cc/imgmanual/bardo.JPG"
+                   backgroundLoading="true"/>
          </image></ImageView>
 
        <Button layoutX="580.0" layoutY="29.0" mnemonicParsing="false" text="SIguiente" />
