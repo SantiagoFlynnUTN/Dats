@@ -1,4 +1,4 @@
-﻿' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ï»¿' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ' @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -48,7 +48,7 @@ PosAccion=0-0-0
 TileH=1
 TileW=1
 
-[DECOR2] ' Arbol Leña Ciudad 1
+[DECOR2] ' Arbol LeÃ±a Ciudad 1
 Name=Arbol 
 MaxHP=0
 Respawn=0
@@ -56,14 +56,14 @@ Value=1
 DecorGrh=3927-0-0-0-0
 Atacable=0
 Clave=0
-Objeto=	' ### OBJINDEX_LEÑA ###
+Objeto=	' ### OBJINDEX_LEÃA ###
 DecorType=2
 EstadoDefault=0
 PosAccion=0-0-0
 TileH=1
 TileW=1
 
-[DECOR3] ' Arbol Leña Ciudad 2
+[DECOR3] ' Arbol LeÃ±a Ciudad 2
 Name=Arbol
 MaxHP=0
 Respawn=0
@@ -71,14 +71,14 @@ Value=1
 DecorGrh=900-0-0-0-0
 Atacable=0
 Clave=0
-Objeto=	' ### OBJINDEX_LEÑA ###
+Objeto=	' ### OBJINDEX_LEÃA ###
 DecorType=2
 EstadoDefault=0
 PosAccion=0-0-0
 TileH=1
 TileW=1
 
-[DECOR4] ' Arbol Leña Ciudad 3
+[DECOR4] ' Arbol LeÃ±a Ciudad 3
 Name=Arbol
 MaxHP=0
 Respawn=0
@@ -86,7 +86,7 @@ Value=1
 DecorGrh=1316-0-0-0-0
 Atacable=0
 Clave=0
-Objeto=	' ### OBJINDEX_LEÑA ###
+Objeto=	' ### OBJINDEX_LEÃA ###
 DecorType=2
 EstadoDefault=0
 PosAccion=0-0-0

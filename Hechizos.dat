@@ -39,11 +39,11 @@ Libro=1239
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO2]
-Nombre=Destello M·gico
-Desc=Hechizo ofensivo que provoca 1 a 5 puntos de daÒo a la vÌctima.
+Nombre=Destello M√°gico
+Desc=Hechizo ofensivo que provoca 1 a 5 puntos de da√±o a la v√≠ctima.
 PalabrasMagicas=Ohl Vor Pek
-HechizeroMsg=Has lanzado destello m·gico sobre
-TargetMsg=lanzÛ destello m·gico sobre vos.
+HechizeroMsg=Has lanzado destello m√°gico sobre
+TargetMsg=lanz√≥ destello m√°gico sobre vos.
 Tipo=1
 WAV=16
 FXgrh=35
@@ -65,7 +65,7 @@ Libro=1211
 [HECHIZO3]
 Nombre=Curar Heridas Moderadas
 Desc=Hechizo de curacion moderado, restaura entre 20 y 25 puntos de salud.
-PalabrasMagicas=Cˆrp Sanc
+PalabrasMagicas=C√∂rp Sanc
 
 HechizeroMsg=Has sanado a
 TargetMsg=te ha curado algunas heridas moderadas.
@@ -122,7 +122,7 @@ Libro=1238
 [HECHIZO5]
 Nombre=Curar Heridas Mortales
 Desc=Curar heridas mortales, restaura entre 100 y 200 puntos de salud.
-PalabrasMagicas=Sen Corp¸s Sanctis
+PalabrasMagicas=Sen Corp√ºs Sanctis
 
 HechizeroMsg=Has sanado a
 TargetMsg=te ha curado algunas heridas.
@@ -151,12 +151,12 @@ Libro=1214
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO6]
-Nombre=Flecha M·gica
-Desc=Hechizo ofensivo magico que provoca de 7 a 14 puntos de daÒo a la victima.
+Nombre=Flecha M√°gica
+Desc=Hechizo ofensivo magico que provoca de 7 a 14 puntos de da√±o a la victima.
 PalabrasMagicas=Vax Pe'r
-HechizeroMsg=Has lanzado flecha m·gica sobre 
-TargetMsg=lanzÛ flecha m·gica sobre vos.
-PropioMsg=Has lanzado flecha m·gica sobre ti.
+HechizeroMsg=Has lanzado flecha m√°gica sobre 
+TargetMsg=lanz√≥ flecha m√°gica sobre vos.
+PropioMsg=Has lanzado flecha m√°gica sobre ti.
 Tipo=1
 WAV=19
 FXgrh=33
@@ -206,12 +206,12 @@ Libro=1225
 
 
 [HECHIZO8]
-Nombre=Fuego M·gico
-Desc=Hechizo ofensivo magico que provoca de 29 a 33 puntos de daÒo a la victima.
+Nombre=Fuego M√°gico
+Desc=Hechizo ofensivo magico que provoca de 29 a 33 puntos de da√±o a la victima.
 PalabrasMagicas=Vax In Tar
-HechizeroMsg=Has lanzado fuego m·gico sobre
-TargetMsg=lanzÛ fuego m·gico sobre vos.
-PropioMsg=Has lanzado fuego m·gico sobre ti.
+HechizeroMsg=Has lanzado fuego m√°gico sobre
+TargetMsg=lanz√≥ fuego m√°gico sobre vos.
+PropioMsg=Has lanzado fuego m√°gico sobre ti.
 Tipo=1
 WAV=16
 FXgrh=38
@@ -234,7 +234,7 @@ Libro=1240
 [HECHIZO9]
 Nombre=Inmovilizar
 Desc=Inmovilizas durante un corto periodo a la victima.
-PalabrasMagicas=ƒr Prop s'uo
+PalabrasMagicas=√Ñr Prop s'uo
 
 HechizeroMsg=Has paralizado a
 TargetMsg=te ha inmovilizado.
@@ -263,13 +263,13 @@ Libro=1208
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO10]
-Nombre=Remover par·lisis
+Nombre=Remover par√°lisis
 Desc=Remueves cualquier impedimiento al movimiento que hayas sufrido
 PalabrasMagicas=An Hoax Vorp
 
-HechizeroMsg=Le has removido la par·lisis a
-TargetMsg=te ha removido la par·lisis.
-PropioMsg=Te has removido la par·lisis.
+HechizeroMsg=Le has removido la par√°lisis a
+TargetMsg=te ha removido la par√°lisis.
+PropioMsg=Te has removido la par√°lisis.
 
 Tipo=2
 WAV=16
@@ -292,7 +292,7 @@ StaRequerido= 44
 [HECHIZO11]
 Nombre=Resucitar
 Desc=Vuelves a la vida a un espiritu caido.
-PalabrasMagicas=Ahil Kn‰ X‰r
+PalabrasMagicas=Ahil Kn√§ X√§r
 
 HechizeroMsg=Has resucitado a
 TargetMsg=te ha resucitado.
@@ -327,7 +327,7 @@ Libro=1237
 [HECHIZO12]
 Nombre=Manto de hierro
 Desc=Liberas tu mana, la cual se condensa y adquiere la dureza del metal.
-PalabrasMagicas=NYEL AYAN —GOL
+PalabrasMagicas=NYEL AYAN √ëGOL
 HechizeroMsg=Has lanzado manto de hierro sobre 
 TargetMsg=te ha lanzado manto de hierro.
 PropioMsg=Te has lanzado manto de hierro.
@@ -369,7 +369,7 @@ buff=1
 Nombre=Invisibilidad
 Desc=Te vuelves invisible al ojo de todos.
 HechizeroMsg=Has lanzado invisibilidad sobre
-TargetMsg=lanzÛ invisibilidad sobre vos.
+TargetMsg=lanz√≥ invisibilidad sobre vos.
 PropioMsg=Te has lanzado invisibilidad.
 Tipo=2
 WAV=77
@@ -392,10 +392,10 @@ Libro=1232
 
 [HECHIZO15]
 Nombre=Tormenta de Fuego
-Desc=Hechizo de daÒo que provoca de 35 a 41 puntos de daÒo
+Desc=Hechizo de da√±o que provoca de 35 a 41 puntos de da√±o
 PalabrasMagicas=En Vax On Tar
 HechizeroMsg=Has lanzado Tormenta de Fuego sobre
-TargetMsg=lanzÛ Tormenta de Fuego sobre vos.
+TargetMsg=lanz√≥ Tormenta de Fuego sobre vos.
 PropioMsg=Has lanzado Tormenta de fuego sobre ti.
 Tipo=1
 WAV=27
@@ -421,10 +421,10 @@ Libro=1210
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 [HECHIZO16]
 Nombre=Viento Huracanado
-Desc=Hechizo ofensivo que solo puede ser aprendido por bardos, causa de 80 a 83 puntos de daÒo a la victima
-PalabrasMagicas=Vorago VoragÓnÓs
+Desc=Hechizo ofensivo que solo puede ser aprendido por bardos, causa de 80 a 83 puntos de da√±o a la victima
+PalabrasMagicas=Vorago Vorag√Æn√Æs
 HechizeroMsg=Has lanzado Viento Huracanado sobre
-TargetMsg=lanzÛ Viento Huracanado sobre vos.
+TargetMsg=lanz√≥ Viento Huracanado sobre vos.
 PropioMsg=Has lanzado Un Huracan sobre ti.
 Tipo=1
 WAV=67
@@ -447,10 +447,10 @@ Libro=1223
 
 [HECHIZO17]
 Nombre=Insurrecion Sombria
-Desc=Hechizo ofensivo que solo puede ser aprendido por magos. Causa de 98 a 103 puntos de daÒo a la victima.
-PalabrasMagicas=Sombr¸s Insurrect
+Desc=Hechizo ofensivo que solo puede ser aprendido por magos. Causa de 98 a 103 puntos de da√±o a la victima.
+PalabrasMagicas=Sombr√ºs Insurrect
 HechizeroMsg=Has lanzado Insurrecion Sombria sobre
-TargetMsg=lanzÛ Insurrecion Sombria sobre ti.
+TargetMsg=lanz√≥ Insurrecion Sombria sobre ti.
 PropioMsg=Has lanzado Insurrecion Sombria sobre ti.
 Tipo=1
 WAV=66
@@ -552,7 +552,7 @@ Libro=1219
 
 [HECHIZO21]
 Nombre=Debilidad
-Desc=Reduce la fuerza de la vÌctima.
+Desc=Reduce la fuerza de la v√≠ctima.
 PalabrasMagicas=Xoom varp
 HechizeroMsg=Has lanzado Debilidad sobre 
 TargetMsg=ha lanzado Debilidad sobre ti.
@@ -578,11 +578,11 @@ StaRequerido= 6
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO22] 
-Nombre=R·faga Ardiente
-Desc=Hechizo ofensivo que solo puede ser aprendido por clerigos. Causa 80 a 84 puntos de daÒo a la victima.
-PalabrasMagicas= PhIra EcRƒY
+Nombre=R√°faga Ardiente
+Desc=Hechizo ofensivo que solo puede ser aprendido por clerigos. Causa 80 a 84 puntos de da√±o a la victima.
+PalabrasMagicas= PhIra EcR√ÑY
 HechizeroMsg=Has lanzado Rafaga Ardiente sobre
-TargetMsg=lanzÛ Rafaga Ardiente sobre ti.
+TargetMsg=lanz√≥ Rafaga Ardiente sobre ti.
 PropioMsg=Has lanzado Rafaga Ardiente sobre ti.
 Tipo=1
 WAV=74
@@ -604,12 +604,12 @@ Libro=1230
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO23]
-Nombre=Descarga ElÈctrica
-Desc=Hechizo de daÒo que provoca de 50 a 53 puntos de daÒo a la victima.
+Nombre=Descarga El√©ctrica
+Desc=Hechizo de da√±o que provoca de 50 a 53 puntos de da√±o a la victima.
 PalabrasMagicas=T'HY KOOOL
-HechizeroMsg=Has lanzado Descarga ElÈctrica sobre
-TargetMsg=lanzÛ Descarga ElÈctrica sobre ti.
-PropioMsg=Has lanzado Descarga ElÈctrica sobre ti.
+HechizeroMsg=Has lanzado Descarga El√©ctrica sobre
+TargetMsg=lanz√≥ Descarga El√©ctrica sobre ti.
+PropioMsg=Has lanzado Descarga El√©ctrica sobre ti.
 Tipo=1
 WAV=27
 FXgrh=39
@@ -633,9 +633,9 @@ StaRequerido= 80
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO24] 'No se usa
-Nombre=PrisiÛn GÈlida
-Desc=Hechizo ofensivo que solo puede ser aprendido por clerigos. Causa de 80 a 84 puntos de daÒo a la victima.
-PalabrasMagicas= Gelis CustˆdiaÍ
+Nombre=Prisi√≥n G√©lida
+Desc=Hechizo ofensivo que solo puede ser aprendido por clerigos. Causa de 80 a 84 puntos de da√±o a la victima.
+PalabrasMagicas= Gelis Cust√∂dia√™
 HechizeroMsg=Has Congelado a
 TargetMsg=te aprisiono en hielo.
 PropioMsg=Te has congelado.
@@ -658,12 +658,12 @@ Target=3
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO25]
-Nombre=ApocalÌpsis
-Desc=Hechizo ofensivo que solo puede ser aprendido por magos. Causa de 78 a 83 puntos de daÒo a la victima.
-PalabrasMagicas=Rahma NaÒarak O'al
-HechizeroMsg=Has lanzado ApocalÌpsis sobre
-TargetMsg=lanzÛ ApocalÌpsis sobre ti.
-PropioMsg=Has lanzado ApocalÌpsis sobre ti.
+Nombre=Apocal√≠psis
+Desc=Hechizo ofensivo que solo puede ser aprendido por magos. Causa de 78 a 83 puntos de da√±o a la victima.
+PalabrasMagicas=Rahma Na√±arak O'al
+HechizeroMsg=Has lanzado Apocal√≠psis sobre
+TargetMsg=lanz√≥ Apocal√≠psis sobre ti.
+PropioMsg=Has lanzado Apocal√≠psis sobre ti.
 Tipo=1
 WAV=27
 FXgrh=8
@@ -687,7 +687,7 @@ Libro=1218
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 [HECHIZO26]
 Nombre=Elemental de Fuego
-Desc=Invoca un elemental de fuego, que recibe y causa daÒo, solo puede ser aprendido por druidas.
+Desc=Invoca un elemental de fuego, que recibe y causa da√±o, solo puede ser aprendido por druidas.
 PalabrasMagicas=Fir Yur'rax
 HechizeroMsg=Has invocado un elemental de fuego.
 Tipo=4
@@ -735,7 +735,7 @@ Libro=1215
 
 [HECHIZO28]
 Nombre=Relampago
-Desc=Hechizo de daÒo causante de gran daÒo a la criatura.
+Desc=Hechizo de da√±o causante de gran da√±o a la criatura.
 PalabrasMagicas=ArLa It
 HechizeroMsg=Has lanzado Relampago sobre
 TargetMsg=
@@ -797,7 +797,7 @@ Nombre=Remover Invisibilidad
 Desc=Revela a todos los objetivos que no puede ser vistos.
 PalabrasMagicas=OHGK PATER BEX VISYBLI
 HechizeroMsg=Has lanzado remover invisibilidad
-TargetMsg=lanzÛ remover invisibilidad sobre vos.
+TargetMsg=lanz√≥ remover invisibilidad sobre vos.
 Tipo=2
 WAV=76
 FXgrh=0
@@ -846,12 +846,12 @@ Particula=43
 
 
 [HECHIZO32]
-Nombre=Llama de DragÛn
-Desc=Solo puede ser aprendido por los divinos asesinos 90 a 95 puntos de daÒo a la victima.
+Nombre=Llama de Drag√≥n
+Desc=Solo puede ser aprendido por los divinos asesinos 90 a 95 puntos de da√±o a la victima.
 PalabrasMagicas=Draggar Flamius
-HechizeroMsg=Has lanzado Llama de DragÛn sobre
-TargetMsg=lanzÛ Llama de DragÛn sobre ti.
-PropioMsg=Has lanzado Llama de DragÛn sobre ti.
+HechizeroMsg=Has lanzado Llama de Drag√≥n sobre
+TargetMsg=lanz√≥ Llama de Drag√≥n sobre ti.
+PropioMsg=Has lanzado Llama de Drag√≥n sobre ti.
 Tipo=1
 WAV=27
 FXgrh=9
@@ -869,10 +869,10 @@ StaRequerido= 67
 
 [HECHIZO33] 
 Nombre=Inferno
-Desc=Hechizo de daÒo que solo puede ser aprendido por asesinos, provoca de88 a 94 puntos de daÒo a la victima.
+Desc=Hechizo de da√±o que solo puede ser aprendido por asesinos, provoca de88 a 94 puntos de da√±o a la victima.
 PalabrasMagicas=Al in Fers
 HechizeroMsg=Has lanzado Inferno sobre
-TargetMsg=lanzÛ Inferno sobre ti.
+TargetMsg=lanz√≥ Inferno sobre ti.
 PropioMsg=Has lanzado Inferno sobre ti.
 Tipo=1
 WAV=65
@@ -897,12 +897,12 @@ Libro=1229
 
 [HECHIZO34]
 Nombre=Mimetismo
-Desc=Asimila moment·neamente tu apariencia a la del usuario a quien se lo lances.
-PalabrasMagicas=Cimim Ux MaÔo
+Desc=Asimila moment√°neamente tu apariencia a la del usuario a quien se lo lances.
+PalabrasMagicas=Cimim Ux Ma√Øo
 
 HechizeroMsg=Te has mimetizado con
 TargetMsg=se ha mimetizado contigo.
-PropioMsg=Generas una ilusiÛn de tu apariencia actual.
+PropioMsg=Generas una ilusi√≥n de tu apariencia actual.
 
 Tipo=2
 WAV=16
@@ -926,10 +926,10 @@ Libro=1233
 
 [HECHIZO35] 
 Nombre=Fuego Divino
-Desc=Hechizo de daÒo que solo puede ser aprendido por los paladines, causa de 85 a 93 puntos de daÒo a la victima.
+Desc=Hechizo de da√±o que solo puede ser aprendido por los paladines, causa de 85 a 93 puntos de da√±o a la victima.
 PalabrasMagicas= Sanctis Flemiu
 HechizeroMsg=Has lanzado Fuego Divino sobre
-TargetMsg=lanzÛ Fuego Divino sobre ti.
+TargetMsg=lanz√≥ Fuego Divino sobre ti.
 PropioMsg=Has lanzado Fuego Divino sobre ti.
 Tipo=1
 WAV=75
@@ -950,12 +950,12 @@ Libro=1217
 '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 [HECHIZO36]
-Nombre=MaldiciÛn
+Nombre=Maldici√≥n
 Desc=Maldice a la victima causandole perdida de fuerza como de agilidad
 PalabrasMagicas=Desmu Tempus
-HechizeroMsg=Has lanzado MaldiciÛn sobre 
-TargetMsg=ha lanzado MaldiciÛn sobre ti.
-PropioMsg=Has lanzado MaldiciÛn sobre ti.
+HechizeroMsg=Has lanzado Maldici√≥n sobre 
+TargetMsg=ha lanzado Maldici√≥n sobre ti.
+PropioMsg=Has lanzado Maldici√≥n sobre ti.
 Tipo=1
 WAV=84
 FXgrh=37
@@ -1010,9 +1010,9 @@ Libro=1227
 [HECHIZO38]
 Nombre=Burbuja Defensiva
 Desc=Burbuja protectora capas de aumentar notablemente la defensa fisica del objetivo.
-PalabrasMagicas=‹mx P'trect M‡
+PalabrasMagicas=√úmx P'trect M√†
 HechizeroMsg=Has lanzado Burbuja de Defensa sobre
-TargetMsg=lanzÛ Burbuja defensiva sobre ti.
+TargetMsg=lanz√≥ Burbuja defensiva sobre ti.
 PropioMsg=Has lanzado Burbuja defensiva sobre ti.
 
 Tipo=5
@@ -1034,10 +1034,10 @@ Libro=1213
 
 [HECHIZO39]
 Nombre=Ira de Fuego
-Desc=Hechizo de daÒo, que solo puede ser aprendido por magos, provoca de 90 a 93 puntos de daÒo a la victima.
-PalabrasMagicas=œgnis F˚r
+Desc=Hechizo de da√±o, que solo puede ser aprendido por magos, provoca de 90 a 93 puntos de da√±o a la victima.
+PalabrasMagicas=√ègnis F√ªr
 HechizeroMsg=Has lanzado Ira de Fuego sobre
-TargetMsg=lanzÛ Ira de Fuego sobre ti.
+TargetMsg=lanz√≥ Ira de Fuego sobre ti.
 PropioMsg=Has lanzado Ira de Fuego sobre ti.
 Tipo=1
 WAV=78
@@ -1064,7 +1064,7 @@ Libro=1228
 [HECHIZO40]
 Nombre=Curar Heridas Elemental
 Desc=Curar heridas graves, restaura entre 12 y 35 puntos de salud.
-PalabrasMagicas=Wata' Cˆrp Sanctis
+PalabrasMagicas=Wata' C√∂rp Sanctis
 
 HechizeroMsg=Has sanado a
 TargetMsg=te ha curado algunas heridas.
@@ -1093,10 +1093,10 @@ StaRequerido= 5
 
 [HECHIZO41]
 Nombre=Tormenta de Fuego de Elemental
-Desc=Causa 30 a 45 puntos de daÒo
+Desc=Causa 30 a 45 puntos de da√±o
 PalabrasMagicas=Fir' En Vax On Tar
 HechizeroMsg=Has lanzado Tormenta de Fuego sobre
-TargetMsg=lanzÛ Tormenta de Fuego sobre vos.
+TargetMsg=lanz√≥ Tormenta de Fuego sobre vos.
 PropioMsg=Has lanzado Tormenta de fuego sobre ti.
 Tipo=1
 WAV=27

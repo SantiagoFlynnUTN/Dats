@@ -11,7 +11,7 @@ OBJ1=378-1
 
 [PREMIO2]
 Nombre=Daga Envenenada
-Info=Daga empapada de veneno. Quien la posea podr· apuÒalar y envenenar a su victima.
+Info=Daga empapada de veneno. Quien la posea podr√° apu√±alar y envenenar a su victima.
 Valor=30
 Descuento=0
 NumObjs=1
@@ -19,7 +19,7 @@ OBJ1=504-1
 
 [PREMIO3]
 Nombre=Espada de las Almas
-Info=Espada m·gica forjada con las almas de cientos de guerreros. Posee un gran poder de ataque.
+Info=Espada m√°gica forjada con las almas de cientos de guerreros. Posee un gran poder de ataque.
 Valor=100
 Descuento=0
 NumObjs=1
@@ -27,23 +27,23 @@ OBJ1=380-1
 
 [PREMIO4]
 Nombre=Armadura Heroica
-Info=Armadura que perteneciÛ a uno de los heroes m·s memorables de la historia de estas tierras. Posee una excelente resistencia a los ataques fÌsicos.
+Info=Armadura que perteneci√≥ a uno de los heroes m√°s memorables de la historia de estas tierras. Posee una excelente resistencia a los ataques f√≠sicos.
 Valor=90
 Descuento=0
 NumObjs=1
 OBJ1=422-1
 
 [PREMIO5]
-Nombre=Armadura de CampeÛn (Bajos)
-Info=Armadura que perteneciÛ a uno de los guerreros enanos m·s temibles. Posee alta defensa contra los ataques fÌsicos.
+Nombre=Armadura de Campe√≥n (Bajos)
+Info=Armadura que perteneci√≥ a uno de los guerreros enanos m√°s temibles. Posee alta defensa contra los ataques f√≠sicos.
 Valor=140
 Descuento=0
 NumObjs=1
 OBJ1=425-1
 
 [PREMIO6]
-Nombre=Escudo de DragÛn
-Info=Escudo hecho con escamas del Gran DragÛn Rojo. Posee un poder de defensa exepcional.
+Nombre=Escudo de Drag√≥n
+Info=Escudo hecho con escamas del Gran Drag√≥n Rojo. Posee un poder de defensa exepcional.
 Valor=120
 Descuento=0
 NumObjs=1
@@ -59,7 +59,7 @@ OBJ1=379-1
 
 [PREMIO8]
 Nombre=Casco Oscuro
-Info=Casco forjado por guerreros de antaÒo en tiempos oscuros. Su resistencia a los ataques fÌsicos es muy alta.
+Info=Casco forjado por guerreros de anta√±o en tiempos oscuros. Su resistencia a los ataques f√≠sicos es muy alta.
 Valor=110
 Descuento=0
 NumObjs=1
@@ -68,7 +68,7 @@ OBJ1=370-1
 
 [PREMIO9]
 Nombre=Corona
-Info=Corona utilizada por los dioses en Èpocas remotas. Posee un enorme poder de resistencia m·gica.
+Info=Corona utilizada por los dioses en √©pocas remotas. Posee un enorme poder de resistencia m√°gica.
 Valor=150
 Descuento=0
 NumObjs=1
@@ -76,7 +76,7 @@ OBJ1=371-1
 
 [PREMIO10]
 Nombre=Espada del Balrog
-Info=Perteneciente al temible demonio Balrog. Es considerada la espada m·s poderosa que haya existido en este mundo. Su poder de ataque es devastador.
+Info=Perteneciente al temible demonio Balrog. Es considerada la espada m√°s poderosa que haya existido en este mundo. Su poder de ataque es devastador.
 Valor=140
 Descuento=0
 NumObjs=1
@@ -84,7 +84,7 @@ OBJ1=377-1
 
 [PREMIO11]
 Nombre=Daga Infernal
-Info=Forjada en las profundidades del infierno. Esta daga puede atravesar cualquier defensa y causar daÒo mortal a la victima (SÛlo Asesinos).
+Info=Forjada en las profundidades del infierno. Esta daga puede atravesar cualquier defensa y causar da√±o mortal a la victima (S√≥lo Asesinos).
 Valor=100
 Descuento=0
 NumObjs=1
@@ -92,7 +92,7 @@ OBJ1=386-1
 
 [PREMIO12]
 Nombre=Cetro de Archimago
-Info=PerteneciÛ a uno de los magos m·s poderosos que existieron. Puede aumentar enormemente el daÒo de los hechizos.
+Info=Perteneci√≥ a uno de los magos m√°s poderosos que existieron. Puede aumentar enormemente el da√±o de los hechizos.
 Valor=150
 Descuento=0
 NumObjs=1
@@ -101,7 +101,7 @@ OBJ1=395-1
 
 [PREMIO13]
 Nombre=Anillo de los Dioses
-Info=Anillo forjado por los dioses en tiempos remotos que le dar· a quien lo posee una increÌble resistencia a los ataques m·gicos.
+Info=Anillo forjado por los dioses en tiempos remotos que le dar√° a quien lo posee una incre√≠ble resistencia a los ataques m√°gicos.
 Valor=180
 Descuento=0
 NumObjs=1
@@ -109,8 +109,8 @@ OBJ1=358-1
 
 
 [PREMIO14]
-Nombre=Armadura de DragÛn Oscuro (Altos)
-Info=Armadura construida con las escamas del Gran DragÛn de la Oscuridad. Defender· a quien la use de casi cualquier ataque fÌsico.
+Nombre=Armadura de Drag√≥n Oscuro (Altos)
+Info=Armadura construida con las escamas del Gran Drag√≥n de la Oscuridad. Defender√° a quien la use de casi cualquier ataque f√≠sico.
 Valor=160
 Descuento=0
 NumObjs=1
@@ -118,8 +118,8 @@ OBJ1=416-1
 
 
 [PREMIO15]
-Nombre=Armadura de DragÛn Oscuro (Bajos)
-Info=Armadura construida con las escamas del Gran DragÛn de la Oscuridad. Defender· a quien la use de casi cualquier ataque fÌsico.
+Nombre=Armadura de Drag√≥n Oscuro (Bajos)
+Info=Armadura construida con las escamas del Gran Drag√≥n de la Oscuridad. Defender√° a quien la use de casi cualquier ataque f√≠sico.
 Valor=160
 Descuento=0
 NumObjs=1
@@ -136,8 +136,8 @@ OBJ1=384-1
 
 
 [PREMIO17]
-Nombre=T˙nica de Apocalipsis (Altos)
-Info=La t˙nica mas poderosa que la clase m·gica pueda usar.
+Nombre=T√∫nica de Apocalipsis (Altos)
+Info=La t√∫nica mas poderosa que la clase m√°gica pueda usar.
 Valor=200
 Descuento=0
 NumObjs=1
@@ -145,8 +145,8 @@ OBJ1=407-1
 
 
 [PREMIO18]
-Nombre=T˙nica de ApocalÌpsis (Bajos)
-Info=La t˙nica m·s poderosa que una clase m·gica pueda usar. Solamente la utilizan enanos y gnomos.
+Nombre=T√∫nica de Apocal√≠psis (Bajos)
+Info=La t√∫nica m√°s poderosa que una clase m√°gica pueda usar. Solamente la utilizan enanos y gnomos.
 Valor=200
 Descuento=0
 NumObjs=1
@@ -155,7 +155,7 @@ OBJ1=408-1
 
 [PREMIO19]
 Nombre=Manto Alado (Altos)
-Info=T˙nica forjada por los dioses en tiempos antiguos. Se dice que el que la use sera invencible.
+Info=T√∫nica forjada por los dioses en tiempos antiguos. Se dice que el que la use sera invencible.
 Valor=230
 Descuento=0
 NumObjs=1
@@ -164,7 +164,7 @@ OBJ1=459-1
 
 [PREMIO20]
 Nombre=Manto Alado (Bajos)
-Info=T˙nica hecha por los dioses en tiempos antiguos. Se dice que el que la use ser· invencible.
+Info=T√∫nica hecha por los dioses en tiempos antiguos. Se dice que el que la use ser√° invencible.
 Valor=230
 Descuento=0
 NumObjs=1
@@ -173,7 +173,7 @@ OBJ1=474-1
 
 [PREMIO21]
 Nombre=Pergamino del Regreso
-Info=Este pergamino contiene un hechizo que al usarlo te permitira regresar a tu ciudad de origen. SÛlo se puede utilizar una vez.
+Info=Este pergamino contiene un hechizo que al usarlo te permitira regresar a tu ciudad de origen. S√≥lo se puede utilizar una vez.
 Valor=5
 Descuento=0
 NumObjs=1
@@ -181,8 +181,8 @@ OBJ1=517-1
 
 
 [PREMIO22]
-Nombre=Laud M·gico
-Info=Este legendario Laud M·gico potencia los ataques de los Bardos.
+Nombre=Laud M√°gico
+Info=Este legendario Laud M√°gico potencia los ataques de los Bardos.
 Valor=65
 Descuento=0
 NumObjs=1
@@ -191,7 +191,7 @@ OBJ1=492-1
 
 [PREMIO23]
 Nombre=Pendiente del Sacrificio
-Info=Al portador de este pendiente no se le caeran los objetos al morir. SÛlo se puede utilizar una vez.
+Info=Al portador de este pendiente no se le caeran los objetos al morir. S√≥lo se puede utilizar una vez.
 Valor=120
 Descuento=0
 NumObjs=1
@@ -199,15 +199,15 @@ OBJ1=478-1
 
 [PREMIO24]
 Nombre=Carrito de Materiales
-Info=Utiliza este carrito con tu minero o leÒador para llevar tus objetos y no perderlos al morir (Debe estar EQUIPADO).
+Info=Utiliza este carrito con tu minero o le√±ador para llevar tus objetos y no perderlos al morir (Debe estar EQUIPADO).
 Valor=100
 Descuento=0
 NumObjs=1
 OBJ1=516-1
 
 [PREMIO25]
-Nombre=Acta de FundaciÛn
-Info=El acta de fundaciÛn te permitir· fundar tu propio clan. SÛlo se puede utilizar una vez.
+Nombre=Acta de Fundaci√≥n
+Info=El acta de fundaci√≥n te permitir√° fundar tu propio clan. S√≥lo se puede utilizar una vez.
 Valor=600
 Descuento=0
 NumObjs=1

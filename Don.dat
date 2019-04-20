@@ -1,8 +1,8 @@
 [Info]
 ' Nivel minimo para tener el DON
 MinLevelUser=20
-' Cuanto porcentaje de daño aumenta tener el DON
-PorcentajeDaño=50
-PorcentajeDañoNpc=100
+' Cuanto porcentaje de daÃ±o aumenta tener el DON
+PorcentajeDaÃ±o=50
+PorcentajeDaÃ±oNpc=100
 ' Cuantos online tiene que haber para que arranque a sortearse EL DON
 MinOnline=50

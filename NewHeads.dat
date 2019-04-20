@@ -49,7 +49,7 @@ OFFSET_DIBUJO=1
 OFFSET_OJOS=0
 RAZA=1
 GENERO=1
-DESC=Castaño ojos verdes
+DESC=CastaÃ±o ojos verdes
 [HEAD6]
 NORTH=126
 EAST=124
@@ -109,7 +109,7 @@ OFFSET_DIBUJO=4
 OFFSET_OJOS=0
 RAZA=5
 GENERO=1
-DESC=Pelo Corto Barba Castaño
+DESC=Pelo Corto Barba CastaÃ±o
 [HEAD12]
 NORTH=148
 EAST=150
@@ -119,7 +119,7 @@ OFFSET_DIBUJO=3
 OFFSET_OJOS=0
 RAZA=5
 GENERO=2
-DESC=Castaña ojos claros
+DESC=CastaÃ±a ojos claros
 [HEAD13]
 NORTH=153
 EAST=152
